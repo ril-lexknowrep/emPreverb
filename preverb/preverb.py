@@ -12,8 +12,6 @@ from word import Word
 from itertools import chain
 from more_itertools import split_at, windowed
 
-import sys
-
 ENV = 2 # search for [/Prev] in a -env..env environment of the [/V]
 
 VERB_POSTAG = '[/V]'
@@ -111,11 +109,6 @@ class Preverb:
         self.padding = [fakeword] * ENV
 
         self.compound_exists = 'compound' in fields
-#        self.compound_index = None
-#        if self.compound_exists:
-#            self.compound_index = field_names['compound']
-#        self.lemma_index = field_names['lemma']
-#        self.xpostag_index = field_names['xpostag']
         return fields
 
     def add_preverb(self, verb, preverb=None):
