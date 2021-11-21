@@ -13,7 +13,7 @@ doc#117	Hatalmasat ugrott előre, egész testével erőlködve, megfeszítve mag
 doc#136	- Tessék csak papizgatni, kisasszonyka! Föl\1 kell épülnie|1! 
 doc#148	Nem gazdagít, megdolgoztat, de meg\1 is adja|1 az ünnepet. 
 doc#149	Akkor Fehérlófia önkéntelenül magához ölelte És mintha nem is ő tenné megcsókolta Krisztina száját Sután ügyetlenül mert összekoccant a foguk Rögtön elengedte hátra\1 is lépett|1 tőle Zavarában el\2 sem búcsúzott|2 szaladt vissza\3 se nézve|3 Megcsókoltam ismételte ujjongva magában Megcsókoltam igen itt maradunk a hazában Együtt a hazában édes vagy édes édes 
-doc#160	Ezt persze el\1 lehetne nem-költői módon is mondani|1, de mennyivel nagyobb dolog, ha ez költői megfogalmazást kap. " 
+doc#160	Ezt persze el\4 lehetne nem-költői módon is mondani|4, de mennyivel nagyobb dolog, ha ez költői megfogalmazást kap. " 
 doc#180	Ottan aztán meg\1 sem állva|1? 
 doc#190	Akkor most el\1 fogja kaparni|1. 
 doc#191	Továbbá föl\1 fog kelni|1 a nap, a fű sárgásan izzani kezd, s a távolban a város fölött, az öttízes és az öthúszas fölött a kéményekből mint távozó nagy halak úsznak elő a koszosabbnál koszosabb lila felhők. 
@@ -27,7 +27,7 @@ doc#220	- Meg\1 akart torolni|1 valamit, de kizökkentettem a lelki egyensúlyá
 doc#229	- Hogy láttad, te locsifecsi? Be\1 volt kötve|1 a szemed! 
 doc#230	Féltettem is, s ki\1 akartam vetni|1 magamból minden mást, szégyenkezve gondoltam apám sokarcú életére... 
 doc#238	" Mutasd csak a szemüvegedet ", odanyúlt, el\1 akartam kapni|1 a fejem, azután mégsem mozdultam. 
-doc#249	Fölidézte magában Veron jobbjának barátságos szorítását, hangjának zengését, derűs szemének biztató csillámát és jó mosolyát, föl\0 a mély beszélgetéseket, amikor már azt hitte István, elmondott mindent, s Veron halkan kérdezni kezdett, aprók, szinte tőmondatosak voltak a kérdései, amelyekből azonban kiderült, hogy mégse mondott|1 István el\1 mindent, a kérdések s megjegyzések szavai át-\0 meg átjárták az elmondottak homályos zugait, s aztán Veron magyarázni kezdett, megmagyarázta: mit látott István, és miért látta, amit látott, olyannak, amilyennek. 
+doc#249	Fölidézte|1 magában Veron jobbjának barátságos szorítását, hangjának zengését, derűs szemének biztató csillámát és jó mosolyát, föl\1 a mély beszélgetéseket, amikor már azt hitte István, elmondott mindent, s Veron halkan kérdezni kezdett, aprók, szinte tőmondatosak voltak a kérdései, amelyekből azonban kiderült, hogy mégse mondott|2 István el\2 mindent, a kérdések s megjegyzések szavai át-\3 meg átjárták|3 az elmondottak homályos zugait, s aztán Veron magyarázni kezdett, megmagyarázta: mit látott István, és miért látta, amit látott, olyannak, amilyennek. 
 doc#264	Ilyen szarságért be\1 nem zárják|1. 
 doc#268	Lehetne például örülni annak, hogy milyen nagy tisztelői vagyunk a vallásnak, jelen esetben a mohamedán hitnek. Meg\1 lehetne kérdezni|1: egy ország megszállása és önvédelmi harca esetében csakugyan olyan lovagias képlet szerint folyik a játszma, hogy katona áll szemben katonával stb? 
 doc#269	Sz.: Engem azért egy kicsit megrázott előbb, amikor azt mondta, hogy a pszichológiai bizonyítás annak ellenében, hogy Petőfi Szibériában nyugodnék, nem fogadható|1 el\1. 
@@ -72,7 +72,7 @@ doc#468	-... ha meg kellett érteni: mi történik hirtelen bennem, fel\1 kellet
 doc#472	Figyeljünk|1 most oda\1 egy, látszólag, formai vonásra. 
 doc#478	- Na, ülj hamar a hátamra, estig vissza\1 kell érnem|1, mert este szolgálatba megyek. 
 doc#478	Ha valamit el\1 kell intézni|1 valahol, én maga helyett mindent elintézek. 
-doc#490	Vajon nem törülné|1 -e el\1 azt a magabiztos mozdulatát, mellyel a XX. századi Csák visszamutat ma a dunántúli város középkori történetére, vissza\0 a ködszerű múltra. 
+doc#490	Vajon nem törülné|1 -e el\1 azt a magabiztos mozdulatát, mellyel a XX. századi Csák visszamutat|2 ma a dunántúli város középkori történetére, vissza\2 a ködszerű múltra. 
 doc#491	Szinte bárhol fel\1 lehet ütni|1 a Válogatott versek kötetét, s bő ízelítő kínálkozik a tízes évek végéről a sebesen változó, bizarr, elrugaszkodott, nehezen vagy alig érthető képzetekből. 
 doc#494	Szeretsz?? kérdeztem a lánytól s vártam, hogy mondjon valamit, amitől ketté\1 hasadnak|1 a falak. 
 doc#500	Indulás|1 haza\1! 
@@ -141,8 +141,8 @@ doc#717	Már indul|1 is vissza\1.
 doc#720	Érdekes, hogy ezzel a levelezéssel együtt olvasva Berzsenyi költeményeit, azok egymást elragadóan gazdagítják és ki\1 is egészítik|1. 
 doc#728	Nyakát hátraszegte, derekát kifeszítette, mert ott érezte szívében azt az erőt, amely azt súgta neki, hogy nincs a hadnagynak olyan feltétele, amelyet most el\1 ne fogadna|1 boldogan. 
 doc#732	De más tekintetben is pazarló módon viselte magát, szólván is dagadozva, mintha meg\1 akarná venni|1 az egész Hargitát: 
-doc#733	Hazámban, a Székelyföldön fel\1 vannak háborodva|1. 
-doc#736	S így búslakodván érzetem csapkodásaiban, kedves anyám jutott eszembe, s el\1 is gondoltam|1, hogy bezzeg az ő kies kertjében más gyümölcs termik; s el\0 azt is, hogy az a gyümölcs most jobb volna nekem, mert anyám nem azt akarná, hogy én álljak helyt a bajban, hanem azt inkább, hogy az öröm állja meg mellettem a helyét. 
+doc#733	Hazámban, a Székelyföldön fel\2 vannak háborodva|2. 
+doc#736	S így búslakodván érzetem csapkodásaiban, kedves anyám jutott eszembe, s el\1 is gondoltam|1, hogy bezzeg az ő kies kertjében más gyümölcs termik; s el\1 azt is, hogy az a gyümölcs most jobb volna nekem, mert anyám nem azt akarná, hogy én álljak helyt a bajban, hanem azt inkább, hogy az öröm állja meg mellettem a helyét. 
 doc#738	De ahogy oldozta volna a cipőt, Mihályka elhúzta álmában a lábát; majd azután is elhúzta folyton, valahányszor az anyja le\1 akarta venni|1 róla a cipőt. 
 doc#739	Adjál csak ide pénzt: ne félj, mindjárt meg\2 fogja mondani|2 a véleményét a kántor úr. 
 doc#749	( Ez be\1 volt karikázva|1.) 
@@ -174,7 +174,7 @@ doc#901	Mivel ezt a módosító-javaslat-csomagot most kaptam meg, természetese
 doc#901	Tehát ezen a területen a felszíni tömegközlekedés korszerűsítését, az e hhez szükséges felszínrendbetételt, mindent meg\1 kellene csinálni|1. 
 doc#901	Tehát egy olyan felvetést tett az illető, amit valószínűleg vissza\1 fog vonni|1, mert csacsiság volt, nem tekintette át a jogszabál yokat. 
 doc#901	Az alkalmasság elbírálásába a jelenlegi használatba vevőt be\1 kell vonni|1. " 
-doc#901	El tud készülni, egy ekkora létesítménynek egy hónap alatt el\1 kell tudni készülni|1. 
+doc#901	El\2 tud készülni|2, egy ekkora létesítménynek egy hónap alatt el\1 kell tudni készülni|1. 
 doc#901	(Marsi Péter Pál: Miért, le\1 van zárva|1 a vita?) 
 doc#901	Megvártam, amíg egy kicsit csend lesz, mert a saját szavamat nem értem, ami nem olyan nagy baj, de a kérdésnek mégiscsak el\1 kell hangozni|1. 
 doc#901	Ha azt mondom, hogy 2-300 milliárd beruházásigényről van szó, és ehhez képest 3 milliárd kerül|1 ide be\1, akkor azt kell mondjam, hogy az aránytalan, ez így hiba. 
