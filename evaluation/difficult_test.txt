@@ -182,7 +182,6 @@ doc#2511	A veszélyes áruk szállítását végzőknek ezekre a veszélyekre fe
 doc#2512	Ezek a vélemények kétségtelenül tartalmaznak bizonyos részigazságot, anélkül azonban, hogy bele\1 mernének " menni|1 " a jelenlegi szabályozás által létrehozott helyzet igazi visszásságaiba. 
 doc#2515	A kísérleti funkciók (mint a HTTP-adatcsatornák (pipelining) engedélyezése) szintén az about: config-ból érhetők|1 el\1. 
 doc#2530	Így a programozónak kellett sok olyan sorral megtűzdelnie a kódjait, amelyek nem csak a helyet foglalták, de ormótlanná tették és le\1 is lassították|1 a program futását. 
-doc#2533	Az első feltevés azért nem cáfolható|1 meg \1, mert emléke az 1. századból maradt csak, amikor Szíriában volt, illetve a 2. század elejéről. 
 doc#2538	Állítása szerint csak így érhető|1 el\1 a célul kitűzött világbéke. 
 doc#2543	Ismeretlen okból Küklopsz teste immunis az optisugárra, akárcsak az öccse, Plazma által kibocsátott energiasugarára (bár mindkettő eltaszíthatja - hasonlóan egy ütés erejéhez, tehát így akár meg\1 is sérülhet|1). 
 doc#2543	Tartalék szemüvegre is szükség van, mert lehet, hogy egészségügyi okokból meg\1 kell szakítani|1 a lencse viselését. 
