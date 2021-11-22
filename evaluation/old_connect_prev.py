@@ -37,6 +37,8 @@ PREVERB_POSTAG = '[/Prev]'
 
 def main():
     """Main."""
+    header = next(sys.stdin).strip('\n')
+    print(header + '\tprevold\tprevclosest')
 
     words = stream_to_words(sys.stdin)
 
@@ -45,10 +47,10 @@ def main():
     window_size = 2 * ENV + 1
     center = ENV # index of central element in window
     padding = [[''] * CNT_FIELDS] * ENV
-    
+
     prevold_id = 0
     prevclosest_id = 0
-    
+
     for sentence in sentences:
 
         # old connect_prev baseline
@@ -61,7 +63,7 @@ def main():
             #     csak olyanra tegyünk IK-t, amin még nincs
             if central[SEPARATED] == 'pfx':
                 continue
-        
+
             if VERB_POSTAG in central[XPOSTAG]:
                 for position in PREV_POSITIONS:
                     environmental = window[center+position]
@@ -70,14 +72,14 @@ def main():
                         environmental[PREVOLD] = str(prevold_id)
                         prevold_id += 1
                         break
-        
-        
+
+
         # Recski (2011) baseline, but without connecting to the
         # verb directly to the right
         for i, central in enumerate(sentence):
             if central[XPOSTAG] == PREVERB_POSTAG:
                 left_closest, right_closest = None, None
-                
+
                 j = i - 1
                 while j >= 0:
                     other_token = sentence[j]
@@ -86,7 +88,7 @@ def main():
                             left_closest = j
                             break
                     j -= 1
-                
+
                 j = i + 2
                 while j < len(sentence):
                     other_token = sentence[j]
@@ -95,33 +97,33 @@ def main():
                             right_closest = j
                             break
                     j += 1
-                
+
                 if left_closest is None and right_closest is None:
                     continue
-                
+
                 if left_closest is None:
                     left_distance = np.inf
                 else:
                     left_distance = i - left_closest
-                
+
                 if right_closest is None:
                     right_distance = np.inf
                 else:
                     right_distance = right_closest - i
-                
+
                 if left_distance <= right_distance:
                     connected_index = left_closest
                 else:
                     connected_index = right_closest
-                
+
                 other_token = sentence[connected_index]
                 central[PREVCLOSEST] = str(prevclosest_id)
                 other_token[PREVCLOSEST] = str(prevclosest_id)
                 prevclosest_id += 1
-        
+
         for tok in sentence:
             print(word_to_line(tok))
-        
+
         print(EMPTYWORD)
 
 
