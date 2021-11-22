@@ -13,14 +13,14 @@ elkerülhetetlen	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|N
 totális	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	totális	12	amod:att	14	.
 civilizációs	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	civilizációs	13	amod:att	14	.
 összeomlás	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	összeomlás	14	nsubj	8	.
-.	"\r\n"	.	PUNCT	_	_	.	15	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	15	punct	3	.
 
 S	" "	.	CCONJ	_	_	s	1	cc	4	.
 le	" "	p3	ADV	_	Degree=Pos	le	2	compound:preverb	5	5
 is	" "	.	ADV	_	_	is	3	advmod:mode	4	.
 van	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	van	4	root	0	.
 írva	""	v3	ADV	_	VerbForm=Conv	írva	5	advmod:mode	4	5
-.	"\r\n"	.	PUNCT	_	_	.	6	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	6	punct	4	.
 
 Jaj	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	Jaj	1	root	0	.
 ,	" "	.	PUNCT	_	_	,	2	punct	1	.
@@ -33,7 +33,7 @@ ki	" "	p4	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person
 sem	" "	.	ADV	_	PronType=Neg	sem	9	advmod	10	.
 látszom	" "	v4	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	látszik	10	acl	5	.
 belőle	""	.	PRON	_	Case=Ill|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	belőle	11	nmod:obl	10	.
-.	"\r\n"	.	PUNCT	_	_	.	12	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	12	punct	1	.
 
 Idő	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Idő	1	nmod:att	2	.
 kérdése	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	kérdés	2	root	0	.
@@ -60,7 +60,7 @@ el	" "	p6	ADV	_	_	el	22	compound:preverb	24	24
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	23	acl	19	.
 jönnie.	""	v6	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	jönnie	24	xcomp	23	24
 .	""	.	PUNCT	_	_	.	25	punct	2	.
-.	"\r\n"	.	PUNCT	_	_	.	26	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	26	punct	2	.
 
 Menne	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	megy	1	root	0	.
 ő	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	ő	2	nsubj	1	.
@@ -82,7 +82,7 @@ szerve	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Per
 zési	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	zési	18	amod:att	19	.
 feladatai	" "	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	feladat	19	nsubj	20	.
 vannak	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	van	20	conj	1	.
-.	"\r\n"	.	PUNCT	_	_	.	21	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	21	punct	1	.
 
 A	" "	.	DET	_	Definite=Def|PronType=Art	a	1	det	2	.
 nézőt	" "	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	néző	2	obj	6	.
@@ -90,7 +90,7 @@ valahogy	" "	.	ADV	_	_	valahogy	3	advmod:mode	6	.
 meg	" "	p8	PART	_	_	meg	4	compound:preverb	6	6
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	5	root	0	.
 tartani	""	v8	VERB	_	VerbForm=Inf|Voice=Act	tart	6	xcomp	5	6
-.	"\r\n"	.	PUNCT	_	_	.	7	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	7	punct	5	.
 
 Melyhez	" "	.	PRON	_	Case=All|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Rel	melyhez	1	nmod:obl	6	.
 mintha	" "	.	SCONJ	_	_	mintha	2	mark	6	.
@@ -107,7 +107,7 @@ már	" "	.	ADV	_	_	már	12	advmod:tlocy	13	.
 létezni	" "	.	VERB	_	VerbForm=Inf|Voice=Act	létezik	13	xcomp	15	.
 sem	" "	.	ADV	_	PronType=Neg	sem	14	advmod	15	.
 tudnánk	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	tud	15	advcl	6	.
-.	"\r\n"	.	PUNCT	_	_	.	16	punct	6	.
+.	"\n"	.	PUNCT	_	_	.	16	punct	6	.
 
 Mondták	""	.	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	mond	1	root	0	.
 ,	" "	.	PUNCT	_	_	,	2	punct	1	.
@@ -115,7 +115,7 @@ hogy	" "	.	SCONJ	_	_	hogy	3	mark	5	.
 meg	" "	p10	PART	_	_	meg	4	compound:preverb	6	6
 van	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	van	5	ccomp:obj	1	.
 igézve	""	v10	ADV	_	VerbForm=Conv	igézve	6	advmod:mode	5	6
-.	"\r\n"	.	PUNCT	_	_	.	7	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	7	punct	1	.
 
 Előbb	" "	.	ADV	_	_	előbb	1	advmod:tlocy	4	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	2	det	3	.
@@ -129,7 +129,7 @@ később	" "	.	ADV	_	_	későn	9	advmod:tlocy	12	.
 be	" "	p11	ADV	_	Degree=Pos	be	10	compound:preverb	12	12
 is	" "	.	ADV	_	_	is	11	advmod:mode	9	.
 invitált	""	v11	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	invitál	12	conj	4	12
-.	"\r\n"	.	PUNCT	_	_	.	13	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	13	punct	4	.
 
 -	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	-	1	nsubj	10	.
 Vagyis	" "	.	CCONJ	_	_	vagyis	2	cc	1	.
@@ -146,7 +146,7 @@ semmisítenünk	""	v12	VERB	_	Number=Plur|Person=1|VerbForm=Inf|Voice=Act	semmis
 még	" "	.	ADV	_	_	még	13	advmod:tlocy	10	.
 mielőtt	" "	.	SCONJ	_	_	mielőtt	14	mark	15	.
 észrevennének	""	.	ADJ	_	Case=Dat|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	észrevenne	15	amod:obl	10	.
-.	"\r\n"	.	PUNCT	_	_	.	16	punct	10	.
+.	"\n"	.	PUNCT	_	_	.	16	punct	10	.
 
 És	" "	.	CCONJ	_	_	és	1	cc	7	.
 megint	" "	.	ADV	_	_	megint	2	advmod:tlocy	7	.
@@ -170,7 +170,7 @@ szerint	" "	.	ADP	_	_	szerint	19	case	18	.
 be	" "	p13	ADV	_	Degree=Pos	be	20	compound:preverb	22	22
 kellett	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	kell	21	conj	11	.
 következnie	""	v13	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	következik	22	xcomp	21	22
-.	"\r\n"	.	PUNCT	_	_	.	23	punct	7	.
+.	"\n"	.	PUNCT	_	_	.	23	punct	7	.
 
 Hatalmasat	" "	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	hatalmasat	1	obj	2	.
 ugrott	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	ugr	2	root	0	2
@@ -210,7 +210,7 @@ a	" "	.	DET	_	Definite=Def|PronType=Art	a	35	det	36	.
 játékot	" "	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	játék	36	obj	39	.
 végig	" "	p15	ADV	_	_	végig	37	compound:preverb	39	39
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	38	conj	25	.
-játszania.	"\r\n"	v15	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	játszik	39	xcomp	38	39
+játszania.	"\n"	v15	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	játszik	39	xcomp	38	39
 -	" "	.	PUNCT	_	_	-	40	punct	38	.
 Tessék	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	tessék	41	ccomp	38	.
 csak	" "	.	ADV	_	_	csak	42	advmod:mode	41	.
@@ -222,7 +222,7 @@ kisasszonyka	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Non
 Föl	" "	p16	ADV	_	Degree=Pos	Föl	1	compound:preverb	3	3
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	2	root	0	.
 épülnie	""	v16	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	épül	3	xcomp	2	3
-!	"\r\n"	.	PUNCT	_	_	!	4	punct	2	.
+!	"\n"	.	PUNCT	_	_	!	4	punct	2	.
 
 Nem	" "	.	ADV	_	PronType=Neg	nem	1	advmod	2	.
 gazdagít	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	gazdagít	2	root	0	.
@@ -235,7 +235,7 @@ is	" "	.	ADV	_	_	is	8	advmod:mode	9	.
 adja	" "	v17	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ad	9	conj	2	9
 az	" "	.	DET	_	Definite=Def|PronType=Art	az	10	det	11	.
 ünnepet	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	ünnep	11	obj	9	.
-.	"\r\n"	.	PUNCT	_	_	.	12	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	12	punct	2	.
 
 Akkor	" "	.	ADV	_	PronType=Dem	akkor	1	advmod:tlocy	5	.
 Fehérlófia	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Fehérlófia	2	nsubj	5	.
@@ -287,7 +287,7 @@ hazában	" "	.	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|P
 édes	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	édes	48	amod:att	51	.
 vagy	" "	.	CCONJ	_	_	vagy	49	cc	50	.
 édes	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	édes	50	conj	48	.
-édes	"\r\n"	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	édes	51	nsubj	55	.
+édes	"\n"	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	édes	51	nsubj	55	.
 Ezt	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	52	obj	59	.
 persze	" "	.	ADV	_	_	persze	53	advmod:mode	55	.
 el	" "	p21	ADV	_	_	el	54	compound:preverb	59	59
@@ -309,20 +309,20 @@ megfogalmazást	" "	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]
 kap	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kap	70	csubj	64	.
 .	" "	.	PUNCT	_	_	.	71	punct	55	.
 
-"	"\r\n"	.	PUNCT	_	_	"	1	punct	6	.
+"	"\n"	.	PUNCT	_	_	"	1	punct	6	.
 Ottan	" "	.	ADV	_	_	ottan	2	advmod:tlocy	6	.
 aztán	" "	.	ADV	_	_	aztán	3	advmod:tlocy	6	.
 meg	" "	p22	PART	_	_	meg	4	compound:preverb	6	6
 sem	" "	.	ADV	_	PronType=Neg	sem	5	advmod	6	.
 állva	""	v22	ADV	_	_	állva	6	root	0	6
-?	"\r\n"	.	PUNCT	_	_	?	7	punct	6	.
+?	"\n"	.	PUNCT	_	_	?	7	punct	6	.
 
 Akkor	" "	.	ADV	_	PronType=Dem	akkor	1	advmod:tlocy	5	.
 most	" "	.	ADV	_	_	most	2	advmod:tlocy	5	.
 el	" "	p23	ADV	_	_	el	3	compound:preverb	5	5
 fogja	" "	.	AUX	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	fog	4	aux	5	.
 kaparni	""	v23	VERB	_	VerbForm=Inf|Voice=Act	kapar	5	root	0	5
-.	"\r\n"	.	PUNCT	_	_	.	6	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	6	punct	5	.
 
 Továbbá	" "	.	CCONJ	_	_	továbbá	1	cc	4	.
 föl	" "	p24	ADV	_	Degree=Pos	föl	2	compound:preverb	4	4
@@ -363,7 +363,7 @@ koszosabbnál	" "	.	ADJ	_	Case=Ade|Degree=Cmp|Number=Sing|Number[psed]=None|Numb
 koszosabb	" "	.	ADJ	_	Case=Nom|Degree=Cmp|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	koszos	37	amod:att	39	.
 lila	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	lila	38	amod:att	39	.
 felhők	""	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	fél	39	nsubj	33	.
-.	"\r\n"	.	PUNCT	_	_	.	40	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	40	punct	3	.
 
 Nem	" "	.	ADV	_	PronType=Neg	nem	1	advmod	2	.
 ártott	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	árt	2	root	0	.
@@ -387,7 +387,7 @@ vendégek	" "	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|
 fogadására	" "	.	NOUN	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	fogadás	7	nmod:obl	8	.
 szánt	" "	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPast	szánt	8	amod:att	9	.
 szobába	""	.	NOUN	_	Case=Ill|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	szoba	9	nmod:obl	4	.
-.	"\r\n"	.	PUNCT	_	_	.	10	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	10	punct	4	.
 
 Később	" "	.	ADV	_	_	később	1	advmod:tlocy	2	.
 tudtam	" "	v26	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	tud	2	root	0	2
@@ -408,7 +408,7 @@ hanem	" "	.	CCONJ	_	_	hanem	16	cc	18	.
 halászati	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	halászati	17	amod:att	18	.
 iskolaközpont	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	iskolaközpont	18	conj	14	.
 is	""	.	CCONJ	_	_	is	19	cc	14	.
-.	"\r\n"	.	PUNCT	_	_	.	20	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	20	punct	2	.
 
 De	" "	.	CCONJ	_	_	de	1	cc	4	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	2	det	3	.
@@ -424,7 +424,7 @@ mégiscsak	" "	.	ADV	_	_	mégiscsak	11	advmod:mode	13	.
 be	" "	p27	ADV	_	Degree=Pos	be	12	compound:preverb	14	14
 kellett	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	kell	13	conj	4	.
 vallanunk	""	v27	VERB	_	Number=Plur|Person=3|VerbForm=Inf|Voice=Act	vall	14	xcomp	13	14
-.	"\r\n"	.	PUNCT	_	_	.	15	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	15	punct	4	.
 
 Gondoljuk	" "	v28	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	gondol	1	root	0	1
 csak	" "	.	ADV	_	_	csak	2	advmod:mode	1	.
@@ -461,7 +461,7 @@ az	" "	.	DET	_	Definite=Def|PronType=Art	az	32	det	33	.
 ő	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	ő	33	nsubj	35	.
 külön	" "	.	DET	_	Definite=Ind|PronType=Ind	kül	34	det	35	.
 dolguk	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Plur|Person[psor]=3	dolog	35	advcl	24	.
-.	"\r\n"	.	PUNCT	_	_	.	36	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	36	punct	1	.
 
 Az	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	az	1	nsubj	5	.
 például	" "	.	ADV	_	_	például	2	advmod:mode	5	.
@@ -504,7 +504,7 @@ vagy	" "	.	CCONJ	_	_	vagy	38	cc	39	.
 1956	""	.	NUM	_	Case=Nom|NumType=Card|Number=Sing	1956	39	conj	36	.
 ,	" "	.	PUNCT	_	_	,	40	punct	42	.
 illetve	" "	.	CCONJ	_	_	illetve	41	cc	42	.
-1968.	"\r\n"	.	ADJ	_	Case=Nom|NumType=Ord|Number=Sing	1968.	42	conj	39	.
+1968.	"\n"	.	ADJ	_	Case=Nom|NumType=Ord|Number=Sing	1968.	42	conj	39	.
 És	" "	.	CCONJ	_	_	és	43	cc	44	.
 már	" "	.	ADV	_	_	már	44	advmod:tlocy	45	.
 húzta	" "	v31	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	húz	45	acl	29	45
@@ -512,7 +512,7 @@ is	" "	.	ADV	_	_	is	46	advmod:mode	45	.
 fel	" "	p31	ADV	_	Degree=Pos	fel	47	compound:preverb	45	45
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	48	det	49	.
 gipszlábát	""	.	NOUN	_	Case=Acc|Number=Sing	gipszláb	49	obj	45	.
-.	"\r\n"	.	PUNCT	_	_	.	50	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	50	punct	5	.
 
 -	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	-	1	nmod:obl	4	.
 Meg	" "	p32	PART	_	_	meg	2	compound:preverb	4	4
@@ -525,7 +525,7 @@ kizökkentettem	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pa
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	9	det	11	.
 lelki	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	lelki	10	amod:att	11	.
 egyensúlyából	""	.	NOUN	_	Case=Ela|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	egyensúlya	11	nmod:obl	8	.
-!	"\r\n"	.	PUNCT	_	_	!	12	punct	8	.
+!	"\n"	.	PUNCT	_	_	!	12	punct	8	.
 -	" "	.	PUNCT	_	_	-	13	punct	8	.
 Hogy	" "	.	SCONJ	_	_	hogy	14	mark	15	.
 láttad	""	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	lát	15	advcl	8	.
@@ -539,7 +539,7 @@ volt	" "	.	AUX	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=
 kötve	" "	v33	ADV	_	VerbForm=Conv	kötve	3	root	0	3
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	4	det	5	.
 szemed	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=1	szemed	5	nsubj	3	.
-!	"\r\n"	.	PUNCT	_	_	!	6	punct	3	.
+!	"\n"	.	PUNCT	_	_	!	6	punct	3	.
 
 Féltettem	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	félt	1	root	0	.
 is	""	.	CCONJ	_	_	is	2	cc	1	.
@@ -559,7 +559,7 @@ sokarcú	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|P
 életére	""	.	NOUN	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	élet	16	nmod:obl	13	.
 .	""	.	PUNCT	_	_	.	17	punct	1	.
 .	""	.	PUNCT	_	_	.	18	punct	1	.
-.	"\r\n"	.	PUNCT	_	_	.	19	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	19	punct	1	.
 
 "	" "	.	PUNCT	_	_	"	1	root	0	.
 
@@ -580,7 +580,7 @@ fejem	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Perso
 azután	" "	.	ADV	_	PronType=Dem	azután	15	advmod:tlocy	17	.
 mégsem	" "	.	ADV	_	PronType=Neg	mégsem	16	advmod:mode	17	.
 mozdultam	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	mozdul	17	conj	1	.
-.	"\r\n"	.	PUNCT	_	_	.	18	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	18	punct	1	.
 
 Fölidézte	" "	v36	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	fölidéz	1	root	0	.
 magában	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs|Reflex=Yes	maga	2	nsubj	1	.
@@ -674,14 +674,14 @@ látott	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbFo
 olyannak	""	.	PRON	_	Case=Dat|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	olyan	90	nmod:obl	88	.
 ,	" "	.	PUNCT	_	_	,	91	punct	80	.
 amilyennek	""	.	PRON	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Rel	amilyen	92	nmod:obl	88	.
-.	"\r\n"	.	PUNCT	_	_	.	93	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	93	punct	1	.
 
 Ilyen	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	ilyen	1	amod:att	2	.
 szarságért	" "	.	NOUN	_	Case=Cau|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	szarság	2	nmod:obl	5	.
 be	" "	p39	ADV	_	Degree=Pos	be	3	compound:preverb	5	5
 nem	" "	.	ADV	_	PronType=Neg	nem	4	advmod	5	.
 zárják	""	v39	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	zár	5	root	0	5
-.	"\r\n"	.	PUNCT	_	_	.	6	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	6	punct	5	.
 
 Lehetne	" "	.	VERB	_	Definite=Ind|Mood=Cnd,Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	lehet	1	root	0	.
 például	" "	.	ADV	_	_	például	2	advmod:mode	1	.
@@ -729,7 +729,7 @@ katona	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Per
 szemben	" "	.	ADP	_	_	szemben	24	compound:preverb	23	23
 katonával	" "	.	NOUN	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	katona	25	nmod:obl	23	.
 stb	""	.	ADP	_	_	stb	26	case	25	.
-?	"\r\n"	.	PUNCT	_	_	?	27	punct	2	.
+?	"\n"	.	PUNCT	_	_	?	27	punct	2	.
 
 Sz.	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Sz.	1	root	0	.
 :	" "	.	PUNCT	_	_	:	2	punct	1	.
@@ -759,7 +759,7 @@ nyugodnék	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Ver
 nem	" "	.	ADV	_	PronType=Neg	nem	26	advmod	27	.
 fogadható	" "	v41	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	fogadható	27	conj	12	27
 el	""	p41	ADV	_	_	el	28	compound:preverb	27	27
-.	"\r\n"	.	PUNCT	_	_	.	29	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	29	punct	1	.
 
 Ilyen	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	ilyen	1	amod:att	3	.
 elméleti	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	elméleti	2	amod:att	3	.
@@ -795,7 +795,7 @@ is	" "	.	ADV	_	_	is	31	advmod:mode	32	.
 tartóztatták	" "	v42	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	tartózik	32	csubj	21	32
 izgatás	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	izgatás	33	nmod:att	34	.
 címén	""	.	NOUN	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	cím	34	nmod:obl	32	.
-.	"\r\n"	.	PUNCT	_	_	.	35	punct	11	.
+.	"\n"	.	PUNCT	_	_	.	35	punct	11	.
 
 Aki	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Rel	aki	1	nsubj	4	.
 valamely	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	valamely	2	amod:att	3	.
@@ -818,7 +818,7 @@ félelem	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|P
 és	" "	.	CCONJ	_	_	és	19	cc	20	.
 gyanakvás	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	gyanakvás	20	conj	15	.
 nélkül	""	.	ADP	_	_	nélkül	21	case	15	.
-.	"\r\n"	.	PUNCT	_	_	.	22	punct	7	.
+.	"\n"	.	PUNCT	_	_	.	22	punct	7	.
 
 Rákosiék	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Rákosiék	1	nmod:obl	5	.
 Marxtól	" "	.	PROPN	_	Case=Abl|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Marx	2	flat:name	1	.
@@ -847,7 +847,7 @@ reakcióssá	" "	.	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|Number[psed]=None|Numbe
 tegyék	""	.	VERB	_	Definite=Def|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	tegyék	25	advcl	19	.
 .	""	.	PUNCT	_	_	.	26	punct	5	.
 .	""	.	PUNCT	_	_	.	27	punct	5	.
-.	"\r\n"	.	PUNCT	_	_	.	28	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	28	punct	5	.
 
 Hogy	" "	.	SCONJ	_	_	hogy	1	mark	9	.
 ez	" "	.	DET	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	2	det	3	.
@@ -865,7 +865,7 @@ s	" "	.	CCONJ	_	_	s	12	cc	14	.
 búcsúztatják	" "	v45	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	búcsúztat	14	conj	9	14
 ma	" "	.	ADV	_	_	ma	15	advmod:tlocy	14	.
 el	""	p45	ADV	_	_	el	16	compound:preverb	14	14
-?	"\r\n"	.	PUNCT	_	_	?	17	punct	9	.
+?	"\n"	.	PUNCT	_	_	?	17	punct	9	.
 
 Érdekes	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	érdekes	1	amod:att	2	.
 írások	" "	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	írás	2	root	0	.
@@ -891,7 +891,7 @@ szavát	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Per
 ,	" "	.	PUNCT	_	_	,	8	punct	10	.
 Fokos	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Fokos	9	amod:att	10	.
 kolléga	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	kollég	10	nsubj	2	.
-!	"\r\n"	.	PUNCT	_	_	!	11	punct	2	.
+!	"\n"	.	PUNCT	_	_	!	11	punct	2	.
 
 Felhívást	" "	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	felhívás	1	obj	3	.
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	2	root	0	.
@@ -925,7 +925,7 @@ fel	" "	p47	ADV	_	Degree=Pos	fel	6	compound:preverb	8	8
 fog	" "	.	AUX	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	fog	7	aux	8	.
 figyelni	" "	v47	VERB	_	VerbForm=Inf|Voice=Act	figyel	8	root	0	8
 rá	""	.	PRON	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	rá	9	nmod:obl	8	.
-.	"\r\n"	.	PUNCT	_	_	.	10	punct	8	.
+.	"\n"	.	PUNCT	_	_	.	10	punct	8	.
 
 Pongrácz	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Pongrácz	1	nsubj	4	.
 Gergely	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Gergely	2	flat:name	1	.
@@ -942,7 +942,7 @@ meg	" "	p48	PART	_	_	meg	12	compound:preverb	14	14
 sem	" "	.	ADV	_	PronType=Neg	sem	13	advmod	14	.
 alakította	" "	v48	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	alakít	14	conj	4	14
 csoportját	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	csoport	15	obj	14	.
-.	"\r\n"	.	PUNCT	_	_	.	16	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	16	punct	4	.
 
 Taxi	""	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Taxi	1	root	0	.
 ,	" "	.	PUNCT	_	_	,	2	punct	3	.
@@ -1061,13 +1061,13 @@ szokta	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbFo
 mondani	" "	.	VERB	_	VerbForm=Inf|Voice=Act	mond	115	xcomp	114	.
 Kalácska	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Kalácska	116	nmod:att	117	.
 elvtárs	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	elvtárs	117	nsubj	114	.
-.	"\r\n"	.	PUNCT	_	_	.	118	punct	114	.
+.	"\n"	.	PUNCT	_	_	.	118	punct	114	.
 -	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	-	119	obl	121	.
 Át	" "	p50	ADP	_	_	Át	120	case	119	.
 vannak	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	van	121	csubj	114	.
 itatva.	""	v50	ADV	_	VerbForm=Conv	itatva.	122	advmod:mode	121	.
 .	""	.	PUNCT	_	_	.	123	punct	114	.
-.	"\r\n"	.	PUNCT	_	_	.	124	punct	114	.
+.	"\n"	.	PUNCT	_	_	.	124	punct	114	.
 
 Az	" "	.	DET	_	Definite=Def|PronType=Art	az	1	det	2	.
 emberek	" "	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	ember	2	nsubj	4	.
@@ -1092,14 +1092,14 @@ vágódjanak	" "	v51	VERB	_	Definite=Ind|Mood=Imp|Number=Plur|Person=3|Tense=Pre
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	21	det	23	.
 hatalmas	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	hatalmas	22	amod:att	23	.
 sártócsákban	""	.	NOUN	_	Case=Ine|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	sártócsák	23	nmod:obl	20	.
-.	"\r\n"	.	PUNCT	_	_	.	24	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	24	punct	4	.
 
 De	" "	.	CCONJ	_	_	de	1	cc	4	.
 csak	" "	.	ADV	_	_	csak	2	advmod:mode	5	.
 meg	" "	p52	PART	_	_	meg	3	compound:preverb	5	5
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	4	root	0	.
 találnunk	""	v52	VERB	_	Number=Plur|Person=1|VerbForm=Inf|Voice=Act	talál	5	xcomp	4	5
-.	"\r\n"	.	PUNCT	_	_	.	6	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	6	punct	4	.
 
 Vegye	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	vesz	1	root	0	1
 meg	" "	.	PART	_	_	meg	2	compound:preverb	1	1
@@ -1152,7 +1152,7 @@ avatkozás	" "	v53	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=No
 elve	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	elv	49	nmod:att	50	49
 alapján	""	.	NOUN	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	alap	50	nmod:obl	40	.
 )	""	.	PUNCT	_	_	)	51	punct	40	.
-.	"\r\n"	.	PUNCT	_	_	.	52	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	52	punct	1	.
 
 Nehezen	" "	.	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	nehéz	1	amod:mode	2	.
 képzelhető	" "	v54	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	képzelhető	2	root	0	2
@@ -1166,7 +1166,7 @@ mi	" "	.	PRON	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person=
 volt	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	van	10	conj	2	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	11	det	12	.
 formája	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	forma	12	nsubj	10	.
-?	"\r\n"	.	PUNCT	_	_	?	13	punct	2	.
+?	"\n"	.	PUNCT	_	_	?	13	punct	2	.
 
 Semmi	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Neg	semmi	1	nsubj	4	.
 olyat	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Ind	olyat	2	obj	4	.
@@ -1181,7 +1181,7 @@ is	" "	.	CCONJ	_	_	is	10	cc	9	.
 meg	" "	p55	PART	_	_	meg	11	compound:preverb	13	13
 ne	" "	.	VERB	_	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ne	12	ccomp:obj	4	.
 ismételhetnék	""	v55	VERB	_	Definite=Ind|Mood=Pot|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ismétel	13	xcomp	12	13
-.	"\r\n"	.	PUNCT	_	_	.	14	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	14	punct	4	.
 
 Nem	" "	.	ADV	_	PronType=Neg	nem	1	advmod	2	.
 akarnak	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	akar	2	root	0	.
@@ -1249,7 +1249,7 @@ az	" "	.	DET	_	Definite=Def|PronType=Art	az	63	det	64	.
 árulók	" "	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	áruló	64	obl	66	.
 közé	" "	.	ADP	_	_	közé	65	case	64	.
 taszította	""	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	taszít	66	acl	49	.
-.	"\r\n"	.	PUNCT	_	_	.	67	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	67	punct	2	.
 
 Lépek	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	lép	1	root	0	.
 s	" "	.	CCONJ	_	_	s	2	cc	3	.
@@ -1266,7 +1266,7 @@ be	" "	p57	ADV	_	Degree=Pos	be	7	compound:preverb	9	9
 nem	" "	.	ADV	_	PronType=Neg	nem	8	advmod	9	.
 tömik	" "	v57	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	tömik	9	advcl	2	9
 szájamat	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	száj	10	obj	9	.
-.	"\r\n"	.	PUNCT	_	_	.	11	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	11	punct	2	.
 
 Egyik-másik	" "	.	DET	_	Definite=Ind|PronType=Ind	egyik-másik	1	det	3	.
 annyi	" "	.	DET	_	Definite=Ind|PronType=Ind	annyi	2	det	3	.
@@ -1325,7 +1325,7 @@ a	" "	.	DET	_	Definite=Def|PronType=Art	a	54	det	55	.
 költőt	" "	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	költő	55	obj	56	.
 vonja	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	von	56	conj	24	56
 perbe	""	.	NOUN	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	per	57	compound:preverb	56	56
-.	"\r\n"	.	PUNCT	_	_	.	58	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	58	punct	2	.
 
 Egy	" "	.	DET	_	Definite=Ind|PronType=Art	egy	1	det	3	.
 portugál	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	portugál	2	amod:att	3	.
@@ -1374,7 +1374,7 @@ vagy	" "	.	CCONJ	_	_	vagy	44	cc	47	.
 kiváltképp	" "	.	ADV	_	_	kiváltképp	45	advmod:mode	42	.
 nem	" "	.	ADV	_	PronType=Neg	nem	46	advmod	47	.
 kapható	""	.	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kapható	47	conj	42	.
-.	"\r\n"	.	PUNCT	_	_	.	48	punct	16	.
+.	"\n"	.	PUNCT	_	_	.	48	punct	16	.
 
 Ti	" "	.	PRON	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	ti	1	nsubj	2	.
 fogjátok	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	fog	2	root	0	.
@@ -1403,7 +1403,7 @@ nem	" "	.	ADV	_	PronType=Neg	nem	23	advmod	24	.
 az	" "	.	DET	_	Definite=Def|PronType=Art	az	25	det	27	.
 újdonatúj	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	újdonatúj	26	amod:att	27	.
 tavaszt	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	tavasz	27	obj	16	.
-.	"\r\n"	.	PUNCT	_	_	.	28	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	28	punct	2	.
 
 De	" "	.	CCONJ	_	_	de	1	cc	4	.
 ez	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	2	nsubj	4	.
@@ -1430,7 +1430,7 @@ se	" "	.	ADV	_	PronType=Neg	se	22	compound:preverb	23	23
 álljon	" "	v63	VERB	_	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	áll	23	conj	13	23
 az	" "	.	DET	_	Definite=Def|PronType=Art	az	24	det	25	.
 íróasztaláig	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	íróasztal	25	nsubj	23	.
-.	"\r\n"	.	PUNCT	_	_	.	26	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	26	punct	4	.
 
 Mintha	" "	.	SCONJ	_	_	mintha	1	mark	3	.
 valakiket	" "	.	PRON	_	Case=Acc|Number=Plur|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	valakik	2	obj	3	.
@@ -1454,7 +1454,7 @@ szemmel	" "	.	NOUN	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Pe
 fel	" "	p64	ADV	_	Degree=Pos	fel	20	compound:preverb	22	22
 nem	" "	.	ADV	_	PronType=Neg	nem	21	advmod	22	.
 foghatók	""	v64	ADJ	_	Case=Nom|Degree=Pos|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	fogható	22	conj	16	22
-.	"\r\n"	.	PUNCT	_	_	.	23	punct	16	.
+.	"\n"	.	PUNCT	_	_	.	23	punct	16	.
 
 Anya	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	anya	1	nsubj	2	.
 jópofa	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	jópofa	2	root	0	.
@@ -1464,7 +1464,7 @@ volt	""	.	AUX	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=F
 Meg	" "	p65	PART	_	_	meg	1	compound:preverb	3	3
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	2	root	0	.
 hagyni	""	v65	VERB	_	VerbForm=Inf|Voice=Act	hagy	3	xcomp	2	3
-.	"\r\n"	.	PUNCT	_	_	.	4	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	4	punct	2	.
 
 Egyszerre	""	.	PRON	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	egyszer	1	root	0	.
 ...	" "	.	PUNCT	_	_	...	2	punct	3	.
@@ -1544,13 +1544,13 @@ napja	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Perso
 .	""	.	PUNCT	_	_	.	46	punct	1	.
 .	" "	.	PUNCT	_	_	.	47	punct	1	.
 
-"	"\r\n"	.	PUNCT	_	_	"	1	root	0	.
+"	"\n"	.	PUNCT	_	_	"	1	root	0	.
 
 Amit	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Rel	ami	1	obj	4	.
 fel	" "	p67	ADV	_	Degree=Pos	fel	2	compound:preverb	4	4
 lehet	" "	.	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	lesz	3	root	0	.
 ragasztani	""	v67	VERB	_	VerbForm=Inf|Voice=Act	ragaszt	4	xcomp	3	4
-.	"\r\n"	.	PUNCT	_	_	.	5	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	5	punct	3	.
 
 És	" "	.	CCONJ	_	_	és	1	cc	4	.
 hogy	" "	.	SCONJ	_	_	hogy	2	mark	4	.
@@ -1569,7 +1569,7 @@ valamimet	""	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|P
 kölcsönadja	""	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kölcsönad	15	conj	11	.
 .	""	.	PUNCT	_	_	.	16	punct	4	.
 .	""	.	PUNCT	_	_	.	17	punct	4	.
-.	"\r\n"	.	PUNCT	_	_	.	18	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	18	punct	4	.
 
 Nem	" "	.	ADV	_	PronType=Neg	nem	1	advmod	4	.
 is	" "	.	ADV	_	_	is	2	advmod:mode	4	.
@@ -1652,7 +1652,7 @@ lóhalálában	" "	.	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=
 elhagyták	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	el+hagy	14	advcl	4	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	15	det	16	.
 fürdőt	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	fürdő	16	obj	14	.
-.	"\r\n"	.	PUNCT	_	_	.	17	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	17	punct	4	.
 
 Hol	" "	.	ADV	_	PronType=Int	hol	1	advmod:locy	2	.
 elöl	""	.	ADV	_	_	elöl	2	root	0	.
@@ -1683,7 +1683,7 @@ látszik	" "	v71	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ve
 belőle	" "	.	PRON	_	Case=Ill|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	belőle	27	nmod:obl	26	.
 az	" "	.	DET	_	Definite=Def|PronType=Art	az	28	det	29	.
 ember	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	ember	29	nsubj	26	.
-.	"\r\n"	.	PUNCT	_	_	.	30	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	30	punct	2	.
 
 -	" "	.	PUNCT	_	_	-	1	punct	7	.
 Az	" "	.	DET	_	Definite=Def|PronType=Art	az	2	det	3	.
@@ -1694,7 +1694,7 @@ vannak	" "	.	AUX	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbFor
 építve	" "	v72	ADV	_	VerbForm=Conv	építve	7	root	0	7
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	8	det	9	.
 rendőrségre	""	.	NOUN	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	rendőrség	9	nmod:obl	7	.
-.	"\r\n"	.	PUNCT	_	_	.	10	punct	7	.
+.	"\n"	.	PUNCT	_	_	.	10	punct	7	.
 
 Most	" "	.	ADV	_	_	most	1	advmod:tlocy	2	.
 jön	" "	v73	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	jön	2	root	0	2
@@ -1707,7 +1707,7 @@ Mendezné	""	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|
 karján	" "	.	NOUN	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	kar	9	nmod:obl	10	.
 összehajtogatott	" "	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPast	összehajtogatott	10	amod:att	11	.
 takaró	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	takaró	11	nsubj	2	.
-.	"\r\n"	.	PUNCT	_	_	.	12	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	12	punct	2	.
 
 F.	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	F.	1	nmod:att	2	.
 sokáig	" "	.	NOUN	_	Case=Ter|Number=Plur|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	sok	2	nmod:obl	4	.
@@ -1744,7 +1744,7 @@ után	" "	.	ADP	_	_	után	32	case	31	.
 el	" "	p74	ADV	_	_	el	33	compound:preverb	35	35
 is	" "	.	CCONJ	_	_	is	34	cc	31	.
 fogadott	""	v74	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	fogad	35	acl	26	35
-.	"\r\n"	.	PUNCT	_	_	.	36	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	36	punct	4	.
 
 Azt	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	az	1	obj	3	.
 is	" "	.	CCONJ	_	_	is	2	cc	3	.
@@ -1756,7 +1756,7 @@ vásárol	" "	v75	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|V
 majd	" "	.	ADV	_	_	majd	8	advmod:tlocy	7	.
 be	" "	p75	ADV	_	Degree=Pos	be	9	compound:preverb	7	7
 szombaton	""	.	NOUN	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	szombat	10	nmod:obl	7	.
-.	"\r\n"	.	PUNCT	_	_	.	11	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	11	punct	3	.
 
 Aztán	" "	.	CCONJ	_	_	aztán	1	cc	3	.
 el	" "	p76	ADV	_	_	el	2	compound:preverb	5	5
@@ -1799,7 +1799,7 @@ szinte	""	.	ADV	_	_	szinte	38	advmod:mode	33	.
 :	" "	.	PUNCT	_	_	:	39	punct	33	.
 -	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	-	40	nsubj	41	.
 Elváltunk	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	el+válik	41	ccomp:obl	33	.
-.	"\r\n"	.	PUNCT	_	_	.	42	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	42	punct	3	.
 
 A	" "	.	DET	_	Definite=Def|PronType=Art	a	1	det	2	.
 ki	" "	p77	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Int	ki	2	nsubj	4	.
@@ -1828,7 +1828,7 @@ meg	" "	.	PART	_	_	meg	24	compound:preverb	23	23
 velük	" "	.	PRON	_	Case=Ins|Number=Plur|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	vele	25	nmod:obl	23	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	26	det	27	.
 színen	""	.	NOUN	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	szín	27	nmod:obl	23	.
-.	"\r\n"	.	PUNCT	_	_	.	28	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	28	punct	4	.
 
 Ide	" "	.	ADV	_	_	ide	1	advmod:locy	2	.
 esett	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	esik	2	root	0	.
@@ -1874,7 +1874,7 @@ mozdulatlanul	" "	.	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|Number[psed]=None|Numb
 szörnyű	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	szörnyű	31	amod:att	33	.
 nagy	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	nagy	32	amod:att	33	.
 kőtömbben	""	.	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	kőtöm	33	nmod:obl	27	.
-.	"\r\n"	.	PUNCT	_	_	.	34	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	34	punct	5	.
 
 Mint	" "	.	SCONJ	_	_	mint	1	mark	2	.
 egyike	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	egyike	2	nsubj	12	.
@@ -1912,7 +1912,7 @@ az	" "	.	DET	_	Definite=Def|PronType=Art	az	32	det	33	.
 hasított	" "	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPast	hasított	34	amod:att	36	.
 egynyelvű	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	egynyelvű	35	amod:att	36	.
 kultúránkból	""	.	NOUN	_	Case=Ela|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	kultúra	36	nmod:obl	29	.
-.	"\r\n"	.	PUNCT	_	_	.	37	punct	12	.
+.	"\n"	.	PUNCT	_	_	.	37	punct	12	.
 
 Most	" "	.	ADV	_	_	most	1	advmod:tlocy	15	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	2	det	5	.
@@ -1970,7 +1970,7 @@ ilyen	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]
 állomás	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	állomás	54	nsubj	52	.
 .	""	.	PUNCT	_	_	.	55	punct	15	.
 .	""	.	PUNCT	_	_	.	56	punct	15	.
-.	"\r\n"	.	PUNCT	_	_	.	57	punct	15	.
+.	"\n"	.	PUNCT	_	_	.	57	punct	15	.
 
 Csóka	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Csóka	1	nsubj	2	.
 talált	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	talál	2	root	0	.
@@ -1989,7 +1989,7 @@ lyuggatva	""	v81	ADV	_	VerbForm=Conv	lyuggatva	12	advmod:mode	11	.
 tele	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	tele	15	conj	2	.
 volt	" "	.	AUX	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	van	16	cop	15	.
 iszappal	""	.	NOUN	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	iszap	17	nmod:obl	15	.
-.	"\r\n"	.	PUNCT	_	_	.	18	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	18	punct	2	.
 -..	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	-..	19	conj	2	.
 .	" "	.	PUNCT	_	_	.	20	punct	2	.
 
@@ -2014,7 +2014,7 @@ nagyon	" "	.	ADV	_	_	nagyon	18	advmod:mode	20	.
 magamra	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=1|Person[psor]=None|PronType=Prs	magam	19	nsubj	20	.
 voltam	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	van	20	conj	12	.
 utalva	""	.	ADV	_	VerbForm=Conv	utalva	21	advmod:mode	20	.
-.	"\r\n"	.	PUNCT	_	_	.	22	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	22	punct	3	.
 
 Figyeljünk	" "	v83	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	figyel	1	root	0	.
 most	" "	.	ADV	_	_	most	2	advmod:tlocy	1	.
@@ -2025,7 +2025,7 @@ látszólag	""	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[
 ,	" "	.	PUNCT	_	_	,	7	punct	9	.
 formai	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	formai	8	amod:att	9	.
 vonásra	""	.	NOUN	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	vonás	9	nmod:obl	1	.
-.	"\r\n"	.	PUNCT	_	_	.	10	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	10	punct	1	.
 
 -	" "	.	PUNCT	_	_	-	1	punct	2	.
 Na	""	.	INTJ	_	_	na	2	advmod:mode	4	.
@@ -2044,7 +2044,7 @@ mert	" "	.	SCONJ	_	_	mert	14	mark	17	.
 este	" "	.	ADV	_	_	este	15	advmod:tlocy	17	.
 szolgálatba	" "	.	NOUN	_	Case=Ill|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	szolgálat	16	nmod:obl	17	.
 megyek	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	megy	17	advcl	11	.
-.	"\r\n"	.	PUNCT	_	_	.	18	punct	11	.
+.	"\n"	.	PUNCT	_	_	.	18	punct	11	.
 
 Ha	" "	.	SCONJ	_	_	ha	1	mark	4	.
 valamit	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	valamit	2	obj	5	.
@@ -2058,7 +2058,7 @@ maga	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Perso
 helyett	" "	.	ADP	_	_	helyett	10	case	9	.
 mindent	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Tot	minden	11	obj	12	.
 elintézek	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	elintez	12	conj	4	.
-.	"\r\n"	.	PUNCT	_	_	.	13	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	13	punct	4	.
 
 Vajon	" "	.	ADV	_	PronType=Int	vajon	1	advmod:locy	3	.
 nem	" "	.	ADV	_	PronType=Neg	nem	2	advmod	3	.
@@ -2087,7 +2087,7 @@ vissza	" "	p87	ADV	_	Degree=Pos	vissza	24	compound:preverb	27	27
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	25	det	27	.
 ködszerű	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	ködszerű	26	amod:att	27	.
 múltra	""	.	NOUN	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	múlt	27	appos	22	27
-.	"\r\n"	.	PUNCT	_	_	.	28	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	28	punct	3	.
 
 Szinte	" "	.	ADV	_	_	szinte	1	advmod:mode	2	.
 bárhol	" "	.	ADV	_	_	bárhol	2	advmod:mode	5	.
@@ -2120,7 +2120,7 @@ vagy	" "	.	CCONJ	_	_	vagy	28	cc	29	.
 alig	" "	.	ADV	_	_	alig	29	conj	27	.
 érthető	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	érthető	30	conj	21	.
 képzetekből	""	.	NOUN	_	Case=Ela|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	képzet	31	nmod:obl	14	.
-.	"\r\n"	.	PUNCT	_	_	.	32	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	32	punct	4	.
 
 Szeretsz	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	szeretsz	1	root	0	.
 ?	""	.	PUNCT	_	_	?	2	punct	1	.
@@ -2140,10 +2140,10 @@ ketté	" "	p89	ADV	_	_	ketté	15	advmod:mode	16	.
 hasadnak	" "	v89	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	hatad	16	advcl	11	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	17	det	18	.
 falak	""	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	fal	18	nsubj	16	.
-.	"\r\n"	.	PUNCT	_	_	.	19	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	19	punct	1	.
 
 Indulás	" "	v90	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	indulás	1	nmod:att	2	.
-haza!	"\r\n"	p90	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	haz	2	nsubj	3	.
+haza!	"\n"	p90	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	haz	2	nsubj	3	.
 -...	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	-...	3	advmod:mode	7	.
 ha	" "	.	SCONJ	_	_	ha	4	mark	7	.
 mégis	" "	.	ADV	_	_	mégis	5	advmod:mode	7	.
@@ -2151,7 +2151,7 @@ el	" "	p91	ADV	_	_	el	6	compound:preverb	8	8
 tudja	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	tud	7	root	0	.
 felejteni.	""	v91	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	felejt	8	xcomp	7	8
 .	""	.	PUNCT	_	_	.	9	punct	3	.
-.	"\r\n"	.	PUNCT	_	_	.	10	punct	7	.
+.	"\n"	.	PUNCT	_	_	.	10	punct	7	.
 
 Az	" "	.	DET	_	Definite=Def|PronType=Art	az	1	det	2	.
 ember	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	ember	2	nmod:att	3	.
@@ -2167,13 +2167,13 @@ hogy	" "	.	SCONJ	_	_	hogy	6	mark	9	.
 mást	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Ind	más	7	obj	9	.
 is	" "	.	CCONJ	_	_	is	8	cc	7	.
 lehet	""	.	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	lesz	9	ccomp:obj	3	.
-.	"\r\n"	.	PUNCT	_	_	.	10	punct	9	.
+.	"\n"	.	PUNCT	_	_	.	10	punct	9	.
 -	" "	.	PUNCT	_	_	-	11	punct	9	.
 Meg	" "	p93	PART	_	_	meg	12	compound:preverb	14	14
 lehet	" "	.	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	lesz	13	ccomp:obl	3	.
 dögölni	" "	v93	VERB	_	VerbForm=Inf|Voice=Act	dögöl	14	xcomp	13	14
 mellette	""	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	mellett	15	advmod:locy	14	.
-!	"\r\n"	.	PUNCT	_	_	!	16	punct	3	.
+!	"\n"	.	PUNCT	_	_	!	16	punct	3	.
 
 Az	" "	.	DET	_	Definite=Def|PronType=Art	az	1	det	4	.
 október	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	október	2	nmod:att	3	.
@@ -2197,7 +2197,7 @@ pontban	" "	.	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Pe
 rögzítették	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	rögzít	20	csubj	15	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	21	det	22	.
 tennivalókat	""	.	NOUN	_	Case=Acc|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	tennivaló	22	obj	20	.
-.	"\r\n"	.	PUNCT	_	_	.	23	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	23	punct	5	.
 
 Aki	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Rel	aki	1	nsubj	4	.
 veled	" "	.	PRON	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Person=1|Person[psor]=None|PronType=Prs	veled	2	nmod:obl	5	.
@@ -2205,7 +2205,7 @@ le	" "	p95	ADV	_	Degree=Pos	le	3	compound:preverb	5	5
 tudott	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	tud	4	root	0	.
 feküdni.	""	v95	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	feküd	5	xcomp	4	5
 .	""	.	PUNCT	_	_	.	6	punct	4	.
-.	"\r\n"	.	PUNCT	_	_	.	7	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	7	punct	4	.
 
 Nagy	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Nagy	1	root	0	.
 Imre	""	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Imre	2	flat:name	1	.
@@ -2295,7 +2295,7 @@ szakadtak	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|Ver
 el	" "	.	ADV	_	_	el	86	compound:preverb	85	85
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	87	det	88	.
 hazától	""	.	NOUN	_	Case=Abl|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	haz	88	nmod:obl	85	.
-.	"\r\n"	.	PUNCT	_	_	.	89	punct	67	.
+.	"\n"	.	PUNCT	_	_	.	89	punct	67	.
 
 És	" "	.	CCONJ	_	_	és	1	cc	3	.
 különösképpen	" "	.	ADV	_	_	különösképpen	2	advmod:mode	3	.
@@ -2318,7 +2318,7 @@ hangjukat	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Plur|P
 amikor	" "	.	ADV	_	PronType=Rel	amikor	19	advmod:tlocy	21	.
 ő	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	ő	20	nsubj	21	.
 lapult	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	lapul	21	advcl	14	.
-.	"\r\n"	.	PUNCT	_	_	.	22	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	22	punct	3	.
 
 Kuczka	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Kuczka	1	nsubj	9	.
 és	" "	.	CCONJ	_	_	és	2	flat:name	1	.
@@ -2395,7 +2395,7 @@ szemmel	" "	.	NOUN	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Pe
 járták	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	jár	73	advcl	62	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	74	det	75	.
 világot	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	világ	75	obj	73	.
-.	"\r\n"	.	PUNCT	_	_	.	76	punct	9	.
+.	"\n"	.	PUNCT	_	_	.	76	punct	9	.
 
 Ezt	" "	.	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Dem	ez	1	obj	14	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	2	det	4	.
@@ -2462,7 +2462,7 @@ a	" "	.	DET	_	Definite=Def|PronType=Art	a	62	det	63	.
 demokrácia	" "	.	NOUN	_	Case=Nom|Number=Sing	demokrácia	63	nmod:att	64	.
 viszonyát	" "	.	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	viszony	64	conj	60	.
 illetően	""	.	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|VerbForm=PartPres	illető	65	obl	54	.
-.	"\r\n"	.	PUNCT	_	_	.	66	punct	14	.
+.	"\n"	.	PUNCT	_	_	.	66	punct	14	.
 
 Ha	" "	.	SCONJ	_	_	ha	1	mark	3	.
 mocskosan	" "	.	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	mocskos	2	amod:mode	3	.
@@ -2476,7 +2476,7 @@ kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	10	det	12	.
 magunk	" "	.	PRON	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	maga	11	nmod:att	12	.
 történelmét	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	történelem	12	obj	9	.
-.	"\r\n"	.	PUNCT	_	_	.	13	punct	8	.
+.	"\n"	.	PUNCT	_	_	.	13	punct	8	.
 
 Teljes	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	teljes	1	amod:att	2	.
 objektivitása	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	objektivitás	2	nsubj	5	.
@@ -2490,7 +2490,7 @@ tisztaságában	" "	.	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]
 nem	" "	.	ADV	_	PronType=Neg	nem	10	advmod	11	.
 bányászható	" "	v102	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	bányászható	11	conj	5	11
 ki	""	p102	ADV	_	Degree=Pos	ki	12	compound:preverb	11	11
-.	"\r\n"	.	PUNCT	_	_	.	13	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	13	punct	5	.
 
 Szóval	""	.	INTJ	_	_	szóval	1	advmod:mode	6	.
 ,	" "	.	PUNCT	_	_	,	2	punct	6	.
@@ -2516,7 +2516,7 @@ semmit	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Per
 se	" "	.	ADV	_	PronType=Neg	se	22	advmod:to	23	.
 kínáltam	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	kínál	23	conj	6	.
 ezért	""	.	ADV	_	PronType=Dem	ezért	24	advmod:mode	23	.
-.	"\r\n"	.	PUNCT	_	_	.	25	punct	6	.
+.	"\n"	.	PUNCT	_	_	.	25	punct	6	.
 
 De	" "	.	CCONJ	_	_	de	1	cc	3	.
 nem	" "	.	ADV	_	PronType=Neg	nem	2	advmod	3	.
@@ -2538,7 +2538,7 @@ sután	""	.	ADV	_	_	sután	17	advmod:mode	16	.
 ,	" "	.	PUNCT	_	_	,	18	punct	16	.
 szemlesütve	" "	.	ADV	_	VerbForm=Conv	szemlesütve	19	advmod:mode	20	.
 csinálta	""	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	csinál	20	advcl	10	.
-.	"\r\n"	.	PUNCT	_	_	.	21	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	21	punct	3	.
 
 A	" "	.	DET	_	Definite=Def|PronType=Art	a	1	det	3	.
 belső	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	belső	2	amod:att	3	.
@@ -2557,7 +2557,7 @@ egy	" "	.	DET	_	Definite=Ind|PronType=Art	egy	14	det	15	.
 szögesdróttal	" "	.	NOUN	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	szögesdróttal	15	nmod:obl	16	.
 biztosított	" "	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPast	biztosított	16	amod:att	17	.
 vasajtón	""	.	NOUN	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	vasajtó	17	nmod:obl	12	.
-.	"\r\n"	.	PUNCT	_	_	.	18	punct	11	.
+.	"\n"	.	PUNCT	_	_	.	18	punct	11	.
 
 Most	" "	.	ADV	_	_	most	1	advmod:tlocy	3	.
 először	" "	.	ADV	_	_	először	2	advmod:mode	3	.
@@ -2576,7 +2576,7 @@ esni	" "	v106	VERB	_	VerbForm=Inf|Voice=Act	esik	14	xcomp	13	14
 hirtelen	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	hirtelen	15	amod:att	17	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	16	det	17	.
 hőmérséklete	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	hőmérséklet	17	obl	14	.
-.	"\r\n"	.	PUNCT	_	_	.	18	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	18	punct	3	.
 
 Inkább	" "	.	ADV	_	_	inkább	1	advmod:tlocy	5	.
 majd	" "	.	ADV	_	_	majd	2	advmod:tlocy	5	.
@@ -2596,7 +2596,7 @@ hogy	" "	.	SCONJ	_	_	hogy	15	mark	17	.
 nem	" "	.	ADV	_	PronType=Neg	nem	16	advmod	17	.
 éri	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ér	17	advcl	11	.
 meglepetés	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	meglepetés	18	nsubj	17	.
-.	"\r\n"	.	PUNCT	_	_	.	19	punct	17	.
+.	"\n"	.	PUNCT	_	_	.	19	punct	17	.
 -	" "	.	SCONJ	_	_	-	20	cc	22	.
 Itt	" "	.	ADV	_	PronType=Dem	itt	21	advmod:locy	23	.
 akarsz	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	akarsz	22	conj	11	.
@@ -2620,7 +2620,7 @@ melegebb	" "	.	ADJ	_	Case=Nom|Degree=Cmp|Number=Sing|Number[psed]=None|Number[ps
 helyiség	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	helyiség	40	obl	42	.
 után	" "	.	ADP	_	_	után	41	case	40	.
 kutasson	""	.	VERB	_	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kutat	42	advcl	33	.
-.	"\r\n"	.	PUNCT	_	_	.	43	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	43	punct	5	.
 
 Éreztem	""	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	érez	1	root	0	.
 ,	" "	.	PUNCT	_	_	,	2	punct	1	.
@@ -2629,14 +2629,14 @@ meg	" "	p109	PART	_	_	meg	4	compound:preverb	6	6
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	5	advcl	1	.
 kapaszkodnom	" "	v109	VERB	_	Number=Sing|Person=1|VerbForm=Inf|Voice=Act	kapaszkodik	6	xcomp	5	6
 valamiben	""	.	PRON	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	valami	7	nmod:obl	6	.
-.	"\r\n"	.	PUNCT	_	_	.	8	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	8	punct	5	.
 -	" "	.	DET	_	Definite=Def|PronType=Art	-	9	det	10	.
 Semmibe	""	.	PRON	_	Case=Ill|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	semmi	10	nmod:obl	6	.
 ,	" "	.	PUNCT	_	_	,	11	punct	5	.
 csak	" "	.	ADV	_	_	csak	12	advmod:mode	14	.
 be	" "	p110	ADV	_	Degree=Pos	be	13	compound:preverb	15	15
 kellene	" "	.	VERB	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	14	conj	1	.
-táplálni.	"\r\n"	v110	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	táplál	15	xcomp	14	15
+táplálni.	"\n"	v110	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	táplál	15	xcomp	14	15
 -	" "	.	DET	_	Definite=Def|PronType=Art	-	16	det	17	.
 Eleinte	" "	.	NOUN	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	eleint	17	nmod:obl	15	.
 még	" "	.	ADV	_	_	még	18	advmod:tlocy	23	.
@@ -2676,7 +2676,7 @@ a	" "	.	DET	_	Definite=Def|PronType=Art	a	51	det	52	.
 boltban	" "	.	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	bolt	52	nmod:obl	54	.
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	53	advcl	38	.
 megvásárolniuk	""	.	VERB	_	Number=Plur|Person=3|VerbForm=Inf|Voice=Act	meg+vásárol	54	xcomp	53	.
-.	"\r\n"	.	PUNCT	_	_	.	55	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	55	punct	1	.
 
 Tudtam	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	tud	1	root	0	.
 róla	""	.	PRON	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	róla	2	nmod:obl	1	.
@@ -2728,7 +2728,7 @@ jöjjenek	" "	.	VERB	_	Definite=Ind|Mood=Imp|Number=Plur|Person=3|Tense=Pres|Ver
 el	" "	.	ADV	_	_	el	48	compound:preverb	49	49
 segíteni	" "	.	VERB	_	VerbForm=Inf|Voice=Act	segít	49	xcomp	47	49
 neki	""	.	PRON	_	Case=Dat|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	ő	50	nmod:obl	49	.
-.	"\r\n"	.	PUNCT	_	_	.	51	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	51	punct	1	.
 
 -	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	-	1	nsubj	14	.
 Ezt	" "	.	DET	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	2	det	4	.
@@ -2756,7 +2756,7 @@ tapasztalt	" "	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|
 öreg	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	öreg	24	amod:att	26	.
 környezetvédő	" "	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	környezetvédő	25	amod:att	26	.
 szakember	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	szakember	26	appos	19	.
-.	"\r\n"	.	PUNCT	_	_	.	27	punct	18	.
+.	"\n"	.	PUNCT	_	_	.	27	punct	18	.
 
 Mivel	" "	.	SCONJ	_	_	mivel	1	mark	2	.
 tudtam	""	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	tud	2	advcl	11	.
@@ -2775,7 +2775,7 @@ előzni	""	v114	VERB	_	VerbForm=Inf|Voice=Act	előz	12	xcomp	11	12
 jelentkeztem	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	jelentkezik	15	ccomp:obl	11	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	16	det	17	.
 Légierőhöz	""	.	PROPN	_	Case=All|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Légierő	17	nmod:obl	15	.
-.	"\r\n"	.	PUNCT	_	_	.	18	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	18	punct	2	.
 
 Arcán	" "	.	ADV	_	_	arcán	1	advmod:mode	4	.
 elszánt	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	elszánt	2	amod:att	3	.
@@ -2796,7 +2796,7 @@ mindent	""	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Per
 ami	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Rel	ami	17	nsubj	19	.
 tőle	" "	.	PRON	_	Case=Abl|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	tőle	18	nmod:obl	19	.
 telik	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	telik	19	acl	15	.
-.	"\r\n"	.	PUNCT	_	_	.	20	punct	19	.
+.	"\n"	.	PUNCT	_	_	.	20	punct	19	.
 -	" "	.	PUNCT	_	_	-	21	punct	19	.
 És	" "	.	CCONJ	_	_	és	22	cc	23	.
 te	" "	.	VERB	_	Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	te	23	conj	19	.
@@ -2807,7 +2807,7 @@ Verdalóba?	" "	.	PROPN	_	Case=Ill|Number=Sing|Number[psed]=None|Number[psor]=No
 -	" "	.	PUNCT	_	_	-	28	punct	25	.
 kérdeztem	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	kérdez	29	conj	4	.
 hitetlenül	""	.	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	hitetlen	30	amod:mode	29	.
-.	"\r\n"	.	PUNCT	_	_	.	31	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	31	punct	4	.
 
 Feltűnően	" "	.	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	feltűnő	1	amod:mode	2	.
 öltözködő	""	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	öltözködő	2	amod:att	6	.
@@ -2880,7 +2880,7 @@ akarja	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbFo
 hívni	" "	v118	VERB	_	VerbForm=Inf|Voice=Act	hív	36	xcomp	35	36
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	37	det	38	.
 figyelmét	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	figyelem	38	obj	36	.
-.	"\r\n"	.	PUNCT	_	_	.	39	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	39	punct	2	.
 
 A	" "	.	DET	_	Definite=Def|PronType=Art	a	1	det	2	.
 szakítás	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	szakítás	2	obl	4	.
@@ -2907,7 +2907,7 @@ akarta	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbFo
 kerülni	" "	v119	VERB	_	VerbForm=Inf|Voice=Act	kerül	23	xcomp	22	23
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	24	det	25	.
 botrányt	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	botrány	25	obj	23	.
-.	"\r\n"	.	PUNCT	_	_	.	26	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	26	punct	4	.
 
 "	" "	.	PUNCT	_	_	"	1	punct	8	.
 A	" "	.	DET	_	Definite=Def|PronType=Art	a	2	det	3	.
@@ -2940,7 +2940,7 @@ felsőbb	" "	.	ADJ	_	Case=Nom|Degree=Cmp|Number=Sing|Number[psed]=None|Number[ps
 akaratnak	""	.	NOUN	_	Case=Dat|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	akarat	29	nmod:obl	26	.
 .	" "	.	PUNCT	_	_	.	30	punct	8	.
 
-"	"\r\n"	.	PUNCT	_	_	"	1	punct	5	.
+"	"\n"	.	PUNCT	_	_	"	1	punct	5	.
 Egészen	" "	.	ADV	_	_	egészen	2	advmod:mode	5	.
 el	" "	p121	ADV	_	_	el	3	compound:preverb	5	5
 is	" "	.	ADV	_	_	is	4	advmod:mode	5	.
@@ -2948,7 +2948,7 @@ feledtem	" "	v121	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|V
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	6	det	8	.
 kedves	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	kedves	7	amod:att	8	.
 édesapát	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	édesapa	8	obj	5	.
-.	"\r\n"	.	PUNCT	_	_	.	9	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	9	punct	5	.
 
 Olyan	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	olyan	1	amod:att	2	.
 embert	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	ember	2	root	0	.
@@ -2978,7 +2978,7 @@ vagy	" "	.	CCONJ	_	_	vagy	25	cc	26	.
 megoldódott	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	meg+oldódik	26	conj	22	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	27	det	28	.
 viszály	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	viszály	28	nsubj	26	.
-.	"\r\n"	.	PUNCT	_	_	.	29	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	29	punct	2	.
 
 Ott	" "	.	ADV	_	PronType=Dem	ott	1	advmod:locy	11	.
 az	" "	.	DET	_	Definite=Def|PronType=Art	az	2	det	3	.
@@ -2991,7 +2991,7 @@ nyílik	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbFo
 ki	" "	p123	ADV	_	Degree=Pos	ki	9	compound:preverb	11	11
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	10	root	0	.
 nyitni	""	v123	VERB	_	VerbForm=Inf|Voice=Act	nyit	11	xcomp	10	11
-.	"\r\n"	.	PUNCT	_	_	.	12	punct	10	.
+.	"\n"	.	PUNCT	_	_	.	12	punct	10	.
 
 De	" "	.	CCONJ	_	_	de	1	cc	5	.
 hiszen	" "	.	CCONJ	_	_	hiszen	2	cc	5	.
@@ -3003,7 +3003,7 @@ repedve	""	v124	ADV	_	VerbForm=Conv	repedve	6	advmod:mode	5	6
 folyik	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	folyik	8	conj	5	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	9	det	10	.
 petróleum	""	.	NOUN	_	Case=Del|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	petróleum	10	nmod:obl	8	.
-.	"\r\n"	.	PUNCT	_	_	.	11	punct	8	.
+.	"\n"	.	PUNCT	_	_	.	11	punct	8	.
 
 Nem	" "	.	ADV	_	PronType=Neg	nem	1	advmod	2	.
 akarom	""	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	akar	2	root	0	.
@@ -3023,7 +3023,7 @@ hozzá	" "	p125	PRON	_	Case=All|Number=Sing|Number[psed]=None|Number[psor]=None|
 az	" "	.	DET	_	Definite=Def|PronType=Art	az	16	det	17	.
 ujját	" "	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	új	17	obj	18	.
 fölemelve	""	.	ADV	_	VerbForm=Conv	fölemelve	18	advmod:mode	13	.
-.	"\r\n"	.	PUNCT	_	_	.	19	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	19	punct	2	.
 
 Tizenkét	" "	.	NUM	_	Case=Nom|NumType=Card|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	tizenkét	1	nummod	2	.
 évig	" "	.	NOUN	_	Case=Ter|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	év	2	nmod:obl	5	.
@@ -3033,7 +3033,7 @@ néztem	" "	v126	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|Ve
 más	" "	.	DET	_	Definite=Ind|PronType=Ind	más	6	det	8	.
 nőnemű	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	nőnemű	7	amod:att	8	.
 lényre	""	.	NOUN	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	lény	8	nmod:obl	5	.
-.	"\r\n"	.	PUNCT	_	_	.	9	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	9	punct	5	.
 
 De	" "	.	CCONJ	_	_	de	1	cc	11	.
 ezen	" "	.	DET	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	2	det	4	.
@@ -3079,7 +3079,7 @@ bennem	""	.	PRON	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Pers
 az	" "	.	DET	_	Definite=Def|PronType=Art	az	42	det	43	.
 abnormalitásom	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	abnormalitásom	43	nsubj	49	.
 "	""	.	PUNCT	_	_	"	44	punct	43	.
-.	"\r\n"	.	PUNCT	_	_	.	45	punct	49	.
+.	"\n"	.	PUNCT	_	_	.	45	punct	49	.
 -	" "	.	PUNCT	_	_	-	46	punct	49	.
 Azért	" "	.	ADV	_	PronType=Dem	azért	47	advmod:mode	49	.
 el	" "	p128	ADV	_	_	el	48	compound:preverb	49	49
@@ -3111,7 +3111,7 @@ térdű	""	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor
 ,	" "	.	PUNCT	_	_	,	74	punct	76	.
 reszkető	" "	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	reszkető	75	amod:att	76	.
 figura	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	figura	76	nsubj	69	.
-.	"\r\n"	.	PUNCT	_	_	.	77	punct	35	.
+.	"\n"	.	PUNCT	_	_	.	77	punct	35	.
 
 Ott	" "	.	ADV	_	PronType=Dem	ott	1	advmod:locy	2	.
 élek	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	él	2	root	0	.
@@ -3156,7 +3156,7 @@ halottunk	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Plur|
 nem	" "	.	ADV	_	PronType=Neg	nem	41	advmod	42	.
 halt	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	hal	42	csubj	33	42
 meg	""	.	PART	_	_	meg	43	compound:preverb	42	42
-.	"\r\n"	.	PUNCT	_	_	.	44	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	44	punct	2	.
 
 Nem	" "	.	ADV	_	PronType=Neg	nem	1	advmod	2	.
 jutott	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	jut	2	root	0	.
@@ -3180,7 +3180,7 @@ meg	" "	p132	PART	_	_	meg	19	compound:preverb	21	21
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	20	ccomp	14	.
 halnunk	" "	v132	VERB	_	Number=Plur|Person=1|VerbForm=Inf|Voice=Act	hal	21	xcomp	20	21
 hozzá	""	.	PRON	_	Case=All|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	ő	22	nmod:obl	21	.
-.	"\r\n"	.	PUNCT	_	_	.	23	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	23	punct	2	.
 
 Ebben	" "	.	DET	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	1	det	4	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	2	det	4	.
@@ -3190,7 +3190,7 @@ el	" "	p133	ADV	_	_	el	5	compound:preverb	7	7
 se	" "	.	ADV	_	PronType=Neg	se	6	advmod:locy	7	.
 látunk	" "	v133	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	lát	7	root	0	7
 odáig	""	.	ADV	_	PronType=Tot	odáig	8	advmod:to	7	.
-.	"\r\n"	.	PUNCT	_	_	.	9	punct	7	.
+.	"\n"	.	PUNCT	_	_	.	9	punct	7	.
 
 Akárhogy	" "	.	ADV	_	PronType=Dem	akárhogy	1	advmod:mode	3	.
 is	" "	.	ADV	_	_	is	2	advmod:mode	3	.
@@ -3214,7 +3214,7 @@ de	" "	.	CCONJ	_	_	de	19	cc	22	.
 meg	" "	p134	PART	_	_	meg	20	compound:preverb	22	22
 nem	" "	.	ADV	_	PronType=Neg	nem	21	advmod	22	.
 nyugodtam	""	v134	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	nyugodik	22	conj	14	22
-.	"\r\n"	.	PUNCT	_	_	.	23	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	23	punct	3	.
 
 Egyszerű	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	egyszerű	1	amod:att	2	.
 vágásokkal	""	.	NOUN	_	Case=Ins|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	vágás	2	nmod:obl	13	.
@@ -3252,7 +3252,7 @@ pusztulásának	" "	.	NOUN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]
 képét	" "	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	kép	34	obj	35	.
 -	" "	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	-	35	amod:att	36	.
 makettből	""	.	NOUN	_	Case=Ela|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	makett	36	nmod:obl	14	.
-.	"\r\n"	.	PUNCT	_	_	.	37	punct	13	.
+.	"\n"	.	PUNCT	_	_	.	37	punct	13	.
 
 A	" "	.	DET	_	Definite=Def|PronType=Art	a	1	det	3	.
 gyógynövény	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	gyógynövény	2	nmod:att	3	.
@@ -3287,7 +3287,7 @@ a	" "	.	DET	_	Definite=Def|PronType=Art	a	30	det	31	.
 titkát	" "	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	titka	31	obj	33	.
 sem	" "	.	CCONJ	_	_	sem	32	cc	33	.
 fedtem	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	fed	33	conj	26	.
-föl.	"\r\n"	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	föl.	34	nsubj	33	.
+föl.	"\n"	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	föl.	34	nsubj	33	.
 -	" "	.	PUNCT	_	_	-	35	punct	36	.
 Semmit	""	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Neg	semmi	36	obj	33	.
 !	" "	.	PUNCT	_	_	!	37	punct	11	.
@@ -3309,7 +3309,7 @@ ott	""	.	ADV	_	PronType=Dem	ott	13	advmod:locy	16	.
 nem	" "	.	ADV	_	PronType=Neg	nem	15	advmod	16	.
 törődnek	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	törőd	16	conj	2	.
 véle	""	.	PRON	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	vele	17	nmod:obl	16	.
-.	"\r\n"	.	PUNCT	_	_	.	18	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	18	punct	2	.
 
 Ettől	" "	.	PRON	_	Case=Abl|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	1	nmod:obl	3	.
 sem	" "	.	ADV	_	PronType=Neg	sem	2	advmod	3	.
@@ -3366,7 +3366,7 @@ kedvemre	" "	.	ADV	_	_	kedvemre	52	advmod:mode	55	.
 mint	" "	.	SCONJ	_	_	mint	53	mark	54	.
 ellenemre	" "	.	NOUN	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	ellenem	54	nmod:obl	55	.
 van	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	van	55	acl	22	.
-.	"\r\n"	.	PUNCT	_	_	.	56	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	56	punct	3	.
 
 Nehezen	" "	.	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	nehéz	1	amod:mode	3	.
 tudom	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	tud	2	root	0	.
@@ -3395,7 +3395,7 @@ meg	""	p139	PART	_	_	meg	24	compound:preverb	22	22
 ,	" "	.	PUNCT	_	_	,	25	punct	22	.
 amit	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Rel	ami	26	obj	27	.
 áhít	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	áhít	27	ccomp:obj	22	.
-.	"\r\n"	.	PUNCT	_	_	.	28	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	28	punct	2	.
 
 Ram	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Ram	1	nmod:att	2	.
 lelkében	" "	.	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	lelke	2	nmod:obl	3	.
@@ -3411,14 +3411,14 @@ vélte	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbFo
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	12	det	13	.
 Mesternek	" "	.	PROPN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Mester	13	nmod:att	14	.
 ideáját	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	idea	14	obj	10	.
-.	"\r\n"	.	PUNCT	_	_	.	15	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	15	punct	3	.
 
 Leszúrlak	""	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Leszúrlak	1	root	0	.
 ,	" "	.	PUNCT	_	_	,	2	punct	1	.
 ha	" "	.	SCONJ	_	_	ha	3	mark	5	.
 meg	" "	p141	PART	_	_	meg	4	compound:preverb	6	6
 akarsz	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	akarsz	5	acl	1	.
-lógni.	"\r\n"	v141	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	lógnik	6	xcomp	5	6
+lógni.	"\n"	v141	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	lógnik	6	xcomp	5	6
 -	" "	.	PUNCT	_	_	-	7	punct	11	.
 Ez	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	8	nsubj	11	.
 egy	" "	.	DET	_	Definite=Ind|PronType=Art	egy	9	det	11	.
@@ -3445,7 +3445,7 @@ le	" "	p142	ADV	_	Degree=Pos	le	29	compound:preverb	31	31
 is	" "	.	ADV	_	_	is	30	advmod:mode	31	.
 tartóztattak	" "	v142	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	tartózik	31	ccomp:obl	20	31
 volna	""	.	AUX	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|Voice=Act	volna	32	aux	31	.
-.	"\r\n"	.	PUNCT	_	_	.	33	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	33	punct	1	.
 
 Addig	" "	.	ADV	_	PronType=Dem	addig	1	advmod:tto	7	.
 is	" "	.	ADV	_	_	is	2	advmod:mode	5	.
@@ -3477,19 +3477,19 @@ feladatukat	" "	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Plu
 miért	" "	.	ADV	_	PronType=Int	miért	28	advmod:mode	30	.
 nem	" "	.	ADV	_	PronType=Neg	nem	29	advmod	30	.
 teljesítik	""	.	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	teljesít	30	advcl	22	.
-.	"\r\n"	.	PUNCT	_	_	.	31	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	31	punct	5	.
 
 Az	" "	.	DET	_	Definite=Def|PronType=Art	az	1	det	2	.
 ilyesmihez	" "	.	PRON	_	Case=All|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	ilyesmi	2	nmod:obl	5	.
 pedig	" "	.	CCONJ	_	_	pedig	3	cc	5	.
 hozzá	" "	p144	PRON	_	Case=All|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	ő	4	nmod:obl	5	.
 voltam	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	van	5	root	0	.
-szokva.	"\r\n"	v144	PUNCT	_	_	szokva.	6	punct	5	.
+szokva.	"\n"	v144	PUNCT	_	_	szokva.	6	punct	5	.
 
 Vásárlók	" "	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	vásárló	1	nsubj	2	.
 mind	" "	.	ADV	_	PronType=Tot	mind	2	root	0	2
 el	""	p0	ADV	_	_	el	3	compound:preverb	2	2
-.	"\r\n"	.	PUNCT	_	_	.	4	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	4	punct	2	.
 
 Panaszolta	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	panaszol	1	root	0	.
 is	" "	.	CCONJ	_	_	is	2	cc	1	.
@@ -3519,7 +3519,7 @@ csillant	" "	v145	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|V
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	26	det	27	.
 szeme	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	szem	27	nsubj	25	.
 !	" "	.	PUNCT	_	_	!	28	punct	25	.
-"	"\r\n"	.	PUNCT	_	_	"	29	punct	25	.
+"	"\n"	.	PUNCT	_	_	"	29	punct	25	.
 Hogy	" "	.	SCONJ	_	_	hogy	30	mark	31	.
 menekűlt	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	menekűl	31	advcl	25	.
 az	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	az	32	nsubj	35	.
@@ -3609,7 +3609,7 @@ kék	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=
 szilvaszem	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	szilvaszem	7	nsubj	2	.
 .	""	.	PUNCT	_	_	.	8	punct	2	.
 .	""	.	PUNCT	_	_	.	9	punct	2	.
-.	"\r\n"	.	PUNCT	_	_	.	10	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	10	punct	2	.
 
 Amata	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Amata	1	nsubj	2	.
 megemberelhette	" "	.	VERB	_	Definite=Def|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	meg+emberel	2	root	0	.
@@ -3649,7 +3649,7 @@ ha	" "	.	SCONJ	_	_	ha	35	mark	37	.
 világbirodalom	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	világbirodalom	36	nmod:att	37	.
 ura	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	úr	37	advcl	32	.
 lesz	""	.	AUX	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	lesz	38	cop	37	.
-.	"\r\n"	.	PUNCT	_	_	.	39	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	39	punct	2	.
 
 Az	" "	.	DET	_	Definite=Def|PronType=Art	az	1	det	2	.
 őrrel	" "	.	NOUN	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	őr	2	nmod:obl	4	.
@@ -3679,7 +3679,7 @@ a	" "	.	DET	_	Definite=Def|PronType=Art	a	25	det	26	.
 képeket	" "	.	NOUN	_	Case=Acc|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	kép	26	obj	22	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	27	det	28	.
 kapun	""	.	NOUN	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	kap	28	nmod:obl	22	.
-.	"\r\n"	.	PUNCT	_	_	.	29	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	29	punct	4	.
 
 Elmondtam	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	el+mond	1	root	0	.
 már	""	.	ADV	_	_	már	2	advmod:mode	1	.
@@ -3731,7 +3731,7 @@ együtt	" "	.	ADP	_	_	együtt	47	case	46	.
 elhagyta	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	el+hagy	48	advcl	36	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	49	det	50	.
 várost	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	város	50	obj	48	.
-.	"\r\n"	.	PUNCT	_	_	.	51	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	51	punct	1	.
 
 Megint	" "	.	ADV	_	_	megint	1	advmod:mode	5	.
 azt	" "	.	DET	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	az	2	det	4	.
@@ -3766,7 +3766,7 @@ utaltan	" "	.	ADJ	_	Case=Ess|Number=Sing|Number[psed]=None|Number[psor]=None|Per
 voltaképpen	" "	.	ADV	_	_	voltaképpen	31	advmod:mode	29	.
 milyen	" "	.	DET	_	Definite=Def|PronType=Int	milyen	32	det	33	.
 árván	""	.	NOUN	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	árva	33	nmod:obl	29	.
-.	"\r\n"	.	PUNCT	_	_	.	34	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	34	punct	5	.
 
 Hát	" "	.	ADV	_	_	hát	1	advmod:mode	3	.
 oda	" "	.	ADV	_	Degree=Pos|PronType=Dem	oda	2	advmod:locy	3	.
@@ -3804,7 +3804,7 @@ munkát	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Per
 pepecselhet	" "	.	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	pepecsel	34	conj	3	.
 vele	" "	.	PRON	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	vele	35	nmod:obl	34	.
 otthon	""	.	ADV	_	_	otthon	36	advmod:mode	34	.
-.	"\r\n"	.	PUNCT	_	_	.	37	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	37	punct	3	.
 
 Késő	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	késő	1	amod:att	2	.
 délután	" "	.	ADV	_	_	délután	2	advmod:tlocy	5	.
@@ -3837,7 +3837,7 @@ emlékkel	" "	.	NOUN	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	29	conj	24	.
 majd	" "	.	ADV	_	_	majd	30	advmod:tlocy	31	.
 megküzdenie	""	.	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	meg+küzd	31	xcomp	29	31
-.	"\r\n"	.	PUNCT	_	_	.	32	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	32	punct	5	.
 
 Komolyan	" "	.	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	komolyan	1	amod:mode	2	.
 beszélgetni	""	.	VERB	_	VerbForm=Inf|Voice=Act	beszélget	2	root	0	.
@@ -3884,7 +3884,7 @@ szolgálata	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sin
 meg	" "	p155	PART	_	_	meg	43	compound:preverb	45	45
 nem	" "	.	ADV	_	PronType=Neg	nem	44	advmod	45	.
 kezdődik	""	v155	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kezdődik	45	csubj	38	45
-.	"\r\n"	.	PUNCT	_	_	.	46	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	46	punct	2	.
 
 Addig	" "	.	ADV	_	PronType=Dem	addig	1	advmod:locy	2	.
 körmöl	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	körmöl	2	root	0	.
@@ -3901,12 +3901,12 @@ nem	" "	.	ADV	_	PronType=Neg	nem	12	advmod	13	.
 hozzák	" "	v156	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	hoz	13	advcl	2	.
 az	" "	.	DET	_	Definite=Def|PronType=Art	az	14	det	15	.
 álmosságot	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	álmosság	15	obj	13	.
-.	"\r\n"	.	PUNCT	_	_	.	16	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	16	punct	2	.
 
 Már	" "	.	ADV	_	_	már	1	advmod:tlocy	2	.
 indul	" "	v157	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	indul	2	root	0	.
 is	" "	.	CCONJ	_	_	is	3	cc	2	.
-vissza.	"\r\n"	p157	PUNCT	_	_	vissza.	4	punct	2	.
+vissza.	"\n"	p157	PUNCT	_	_	vissza.	4	punct	2	.
 
 Érdekes	""	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	érdekes	1	root	0	.
 ,	" "	.	PUNCT	_	_	,	2	punct	1	.
@@ -3927,7 +3927,7 @@ gazdagítják	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres
 ki	" "	p158	ADV	_	Degree=Pos	ki	17	compound:preverb	19	19
 is	" "	.	ADV	_	_	is	18	advmod:mode	19	.
 egészítik	""	v158	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	eg+észít	19	conj	15	19
-.	"\r\n"	.	PUNCT	_	_	.	20	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	20	punct	1	.
 
 Nyakát	" "	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	nyaka	1	obj	2	.
 hátraszegte	""	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	hátraszeg	2	root	0	.
@@ -3961,7 +3961,7 @@ el	" "	p159	ADV	_	_	el	29	compound:preverb	31	31
 ne	" "	.	VERB	_	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ne	30	acl	25	.
 fogadna	" "	v159	VERB	_	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	fogad	31	xcomp	30	31
 boldogan	""	.	ADV	_	_	boldogan	32	advmod:mode	31	.
-.	"\r\n"	.	PUNCT	_	_	.	33	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	33	punct	2	.
 
 De	" "	.	CCONJ	_	_	de	1	cc	7	.
 más	" "	.	DET	_	Definite=Ind|PronType=Ind	más	2	det	3	.
@@ -3983,7 +3983,7 @@ venni	" "	v160	VERB	_	VerbForm=Inf|Voice=Act	vesz	17	xcomp	16	17
 az	" "	.	DET	_	Definite=Def|PronType=Art	az	18	det	20	.
 egész	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	egész	19	amod:att	20	.
 Hargitát	""	.	PROPN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Hargita	20	obj	17	.
-:	"\r\n"	.	PUNCT	_	_	:	21	punct	17	.
+:	"\n"	.	PUNCT	_	_	:	21	punct	17	.
 Hazámban	""	.	PROPN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Hazámban	22	nmod:obl	17	.
 ,	" "	.	PUNCT	_	_	,	23	punct	27	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	24	det	25	.
@@ -3991,7 +3991,7 @@ Székelyföldön	" "	.	PROPN	_	Case=Sup|Number=Sing|Number[psed]=None|Number[pso
 fel	" "	p161	ADV	_	Degree=Pos	fel	26	compound:preverb	28	28
 vannak	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	van	27	csubj	22	.
 háborodva	""	v161	ADV	_	VerbForm=Conv	háborodva	28	advmod:mode	27	28
-.	"\r\n"	.	PUNCT	_	_	.	29	punct	7	.
+.	"\n"	.	PUNCT	_	_	.	29	punct	7	.
 
 S	" "	.	CCONJ	_	_	s	1	cc	9	.
 így	" "	.	ADV	_	PronType=Dem	így	2	advmod:mode	3	.
@@ -4058,7 +4058,7 @@ meg	" "	.	PART	_	_	meg	62	compound:preverb	61	61
 mellettem	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=1|Person[psor]=None|PronType=Prs	mellett	63	advmod:mode	61	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	64	det	65	.
 helyét	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	hely	65	obj	61	.
-.	"\r\n"	.	PUNCT	_	_	.	66	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	66	punct	3	.
 
 De	" "	.	CCONJ	_	_	de	1	cc	3	.
 ahogy	" "	.	ADV	_	PronType=Rel	ahogy	2	advmod:mode	3	.
@@ -4088,7 +4088,7 @@ venni	" "	v164	VERB	_	VerbForm=Inf|Voice=Act	vesz	25	xcomp	24	25
 róla	" "	.	PRON	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	róla	26	nmod:obl	25	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	27	det	28	.
 cipőt	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	cipő	28	obj	25	.
-.	"\r\n"	.	PUNCT	_	_	.	29	punct	9	.
+.	"\n"	.	PUNCT	_	_	.	29	punct	9	.
 
 Adjál	" "	.	VERB	_	Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	ad	1	root	0	.
 csak	" "	.	ADV	_	_	csak	2	advmod:mode	1	.
@@ -4107,14 +4107,14 @@ véleményét	" "	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=S
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	15	det	17	.
 kántor	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	kántor	16	amod:att	17	.
 úr	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=1	úr	17	nsubj	12	.
-.	"\r\n"	.	PUNCT	_	_	.	18	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	18	punct	1	.
 
 (	" "	.	PUNCT	_	_	(	1	punct	5	.
 Ez	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	2	nsubj	5	.
 be	" "	p166	ADV	_	Degree=Pos	be	3	compound:preverb	5	5
 volt	" "	.	AUX	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	van	4	cop	5	.
 karikázva.	""	v166	ADV	_	VerbForm=Conv	karikázva.	5	root	0	5
-)	"\r\n"	.	PUNCT	_	_	)	6	punct	5	.
+)	"\n"	.	PUNCT	_	_	)	6	punct	5	.
 Másolt	""	.	PROPN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Másolt	7	obj	5	.
 :	" "	.	PUNCT	_	_	:	8	punct	5	.
 "	" "	.	PUNCT	_	_	"	9	punct	13	.
@@ -4153,7 +4153,7 @@ baj	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	23	det	25	.
 második	" "	.	ADJ	_	Case=Nom|NumType=Ord|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	második	24	amod:att	25	.
 hely	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	hely	25	nsubj	22	.
-.	"\r\n"	.	PUNCT	_	_	.	26	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	26	punct	1	.
 
 Ha	" "	.	SCONJ	_	_	ha	1	mark	4	.
 meg	" "	p168	PART	_	_	meg	2	compound:preverb	4	4
@@ -4168,7 +4168,7 @@ ha	" "	.	SCONJ	_	_	ha	10	mark	13	.
 rá	" "	p169	PRON	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	rá	11	nmod:obl	13	.
 is	" "	.	ADV	_	_	is	12	advmod:mode	11	.
 fázol	""	v169	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	fázol	13	acl	7	.
-.	"\r\n"	.	PUNCT	_	_	.	14	punct	13	.
+.	"\n"	.	PUNCT	_	_	.	14	punct	13	.
 
 De	" "	.	CCONJ	_	_	de	1	cc	4	.
 Jucika	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Jucika	2	nsubj	4	.
@@ -4177,7 +4177,7 @@ kapja	" "	v170	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Verb
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	5	det	6	.
 kezét	" "	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	kéz	6	obj	4	.
 el	""	p170	ADV	_	_	el	7	compound:preverb	4	4
-.	"\r\n"	.	PUNCT	_	_	.	8	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	8	punct	4	.
 
 Már	" "	.	ADV	_	_	már	1	advmod:tlocy	4	.
 ki	" "	p171	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Ind	ki	2	nsubj	4	.
@@ -4187,14 +4187,14 @@ derült	" "	v171	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ve
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	6	det	7	.
 képünk	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Plur|Person[psor]=1	kép	7	nsubj	4	.
 Rózsikával	""	.	PROPN	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Rózsika	8	nmod:obl	4	.
-.	"\r\n"	.	PUNCT	_	_	.	9	punct	10	.
+.	"\n"	.	PUNCT	_	_	.	9	punct	10	.
 -	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	-	10	conj	4	10
 Meg	""	p0	PART	_	_	meg	11	compound:preverb	10	10
 ,	" "	.	PUNCT	_	_	,	12	punct	13	.
 drágám	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=1	drág	13	nsubj	10	.
 !	" "	.	PUNCT	_	_	!	14	punct	4	.
 
-Meg!	"\r\n"	p0	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Meg!	1	nsubj	5	.
+Meg!	"\n"	p0	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Meg!	1	nsubj	5	.
 még	" "	.	ADV	_	_	még	2	advmod:tlocy	5	.
 egyszer	" "	.	ADV	_	_	egyszer	3	advmod:tlocy	5	.
 sem	" "	.	ADV	_	PronType=Neg	sem	4	advmod	5	.
@@ -4339,7 +4339,7 @@ olvashattuk	" "	.	VERB	_	Definite=Def|Mood=Pot|Number=Plur|Person=1|Tense=Past|V
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	143	det	145	.
 magyar	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	magyar	144	amod:att	145	.
 szó-ban	""	.	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	szó	145	nmod:obl	142	.
-:	"\r\n"	.	PUNCT	_	_	:	146	punct	142	.
+:	"\n"	.	PUNCT	_	_	:	146	punct	142	.
 Állva	" "	.	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	állva	147	amod:att	148	.
 alvók	""	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	alvó	148	nsubj	142	.
 .	" "	.	PUNCT	_	_	.	149	punct	5	.
@@ -4351,7 +4351,7 @@ függesztve	""	v174	ADV	_	VerbForm=Conv	függesztve	3	advmod:mode	2	3
 mint	" "	.	SCONJ	_	_	mint	5	mark	7	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	6	det	7	.
 lampionok	""	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	lampion	7	nsubj	2	.
-.	"\r\n"	.	PUNCT	_	_	.	8	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	8	punct	2	.
 
 Tulajdonképpen	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Tulajdonképp	1	root	0	.
 ,	" "	.	PUNCT	_	_	,	2	punct	1	.
@@ -4370,7 +4370,7 @@ cseperednek	" "	v175	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pre
 képzeletük	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Plur|Person[psor]=3	képzelet	15	nsubj	18	.
 el	" "	p176	ADV	_	_	el	16	compound:preverb	18	18
 nem	" "	.	ADV	_	PronType=Neg	nem	17	advmod	18	.
-romlik.	"\r\n"	v176	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	romlik	18	conj	6	18
+romlik.	"\n"	v176	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	romlik	18	conj	6	18
 [2	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	[2	19	nsubj	18	.
 ]	" "	.	PUNCT	_	_	]	20	punct	1	.
 
@@ -4391,7 +4391,7 @@ kölcsönösség	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor
 feltételei	" "	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	feltétel	15	conj	11	.
 között	" "	.	ADP	_	_	között	16	case	11	.
 adhatók	" "	v177	ADJ	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	adható	17	root	0	.
-ki.	"\r\n"	p177	ADV	_	_	ki.	18	advmod:mode	17	.
+ki.	"\n"	p177	ADV	_	_	ki.	18	advmod:mode	17	.
 [4	""	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	[4	19	conj	17	.
 ]	" "	.	PUNCT	_	_	]	20	punct	17	.
 
@@ -4424,7 +4424,7 @@ tenni	" "	v179	VERB	_	VerbForm=Inf|Voice=Act	tesz	26	xcomp	25	26
 Románia	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Románia	27	nmod:att	29	.
 Hivatalos	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	hivatalos	28	amod:att	29	.
 Közlönyében	""	.	PROPN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=None	Közlöny	29	nmod:obl	26	.
-.	"\r\n"	.	PUNCT	_	_	.	30	punct	9	.
+.	"\n"	.	PUNCT	_	_	.	30	punct	9	.
 
 Figyelemmel	" "	.	NOUN	_	Case=Ins|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	figyelem	1	root	0	.
 arra	""	.	PRON	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	az	2	nmod:obl	1	.
@@ -4488,7 +4488,7 @@ döntésekhez	" "	.	NOUN	_	Case=All|Number=Plur|Number[psed]=None|Number[psor]=N
 milyen	" "	.	DET	_	Definite=Def|PronType=Int	milyen	60	det	61	.
 jogkövetkezmény	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	jogkövetkezmény	61	nsubj	62	.
 fűződik	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	fűződik	62	advcl	44	.
-.	"\r\n"	.	PUNCT	_	_	.	63	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	63	punct	1	.
 
 Sokszor	" "	.	ADV	_	_	sokszor	1	advmod:mode	3	.
 mereven	" "	.	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	mereven	2	amod:mode	3	.
@@ -4521,7 +4521,7 @@ ki	" "	p182	ADV	_	Degree=Pos	ki	28	compound:preverb	27	27
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	29	det	30	.
 családból	" "	.	NOUN	_	Case=Ela|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	család	30	nmod:obl	27	.
 "	""	.	PUNCT	_	_	"	31	punct	10	.
-.	"\r\n"	.	PUNCT	_	_	.	32	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	32	punct	3	.
 
 Békéscsabát	" "	.	PROPN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Békéscsaba	1	obj	4	.
 fel	" "	p183	ADV	_	Degree=Pos	fel	2	compound:preverb	4	4
@@ -4545,7 +4545,7 @@ egyik	" "	.	DET	_	Definite=Def|PronType=Ind	egyik	19	det	21	.
 legalsó	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	legalsó	20	amod:att	21	.
 szinten	" "	.	NOUN	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	szint	21	nmod:obl	11	.
 is	""	.	CCONJ	_	_	is	22	cc	21	.
-.	"\r\n"	.	PUNCT	_	_	.	23	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	23	punct	3	.
 
 Én	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=1|Person[psor]=None|PronType=Prs	én	1	nsubj	3	.
 azt	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	az	2	obj	3	.
@@ -4593,7 +4593,7 @@ tárgyköre	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sin
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	44	det	46	.
 bizottsági	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	bizottsági	45	amod:att	46	.
 véleményalkotásnak	""	.	NOUN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	véleményalkotás	46	nmod:att	43	.
-.	"\r\n"	.	PUNCT	_	_	.	47	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	47	punct	3	.
 
 Úgy	" "	.	ADV	_	PronType=Dem	úgy	1	advmod:mode	2	.
 tudom	""	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	tud	2	root	0	.
@@ -4634,7 +4634,7 @@ van	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=
 -e	" "	.	ADV	_	PronType=Int	-e	11	advmod:que	10	.
 ilyen	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	ilyen	12	amod:att	13	.
 nyilatkozat	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	nyilatkozat	13	nsubj	10	.
-.	"\r\n"	.	PUNCT	_	_	.	14	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	14	punct	2	.
 
 Ezeket	" "	.	DET	_	Case=Acc|Number=Plur|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	1	det	3	.
 az	" "	.	DET	_	Definite=Def|PronType=Art	az	2	det	3	.
@@ -4654,7 +4654,7 @@ százalék	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None
 értékben	" "	.	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	érték	16	nmod:obl	17	.
 történt	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	történik	17	conj	7	17
 meg	""	.	PART	_	_	meg	18	compound:preverb	17	17
-.	"\r\n"	.	PUNCT	_	_	.	19	punct	7	.
+.	"\n"	.	PUNCT	_	_	.	19	punct	7	.
 
 A	" "	.	DET	_	Definite=Def|PronType=Art	a	1	det	2	.
 kihívásokról	" "	.	NOUN	_	Case=Del|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	kihívás	2	nmod:obl	5	.
@@ -4697,7 +4697,7 @@ az	" "	.	DET	_	Definite=Def|PronType=Art	az	38	det	39	.
 Általános	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Általános	39	nmod:att	41	.
 Rendezési	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Rendezési	40	flat:name	39	.
 Tervet	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	terv	41	obj	37	.
-.	"\r\n"	.	PUNCT	_	_	.	42	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	42	punct	4	.
 
 Lehetőleg	" "	.	ADJ	_	Case=Ess|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	lehető	1	amod:mode	4	.
 el	" "	p188	ADV	_	_	el	2	compound:preverb	4	4
@@ -4743,7 +4743,7 @@ előrejutni	" "	.	VERB	_	VerbForm=Inf|Voice=Act	előrejut	41	xcomp	39	41
 ebben	" "	.	DET	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	42	det	44	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	43	det	44	.
 kérdésben	""	.	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	kérdés	44	nmod:obl	41	.
-.	"\r\n"	.	PUNCT	_	_	.	45	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	45	punct	3	.
 
 Azt	""	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	az	1	obj	17	.
 ,	" "	.	PUNCT	_	_	,	2	punct	1	.
@@ -4771,7 +4771,7 @@ van	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=F
 ,	" "	.	PUNCT	_	_	,	24	punct	23	.
 amikor	" "	.	ADV	_	PronType=Rel	amikor	25	advmod:tlocy	23	.
 nem	""	.	ADV	_	PronType=Neg	nem	26	advmod	23	.
-.	"\r\n"	.	PUNCT	_	_	.	27	punct	17	.
+.	"\n"	.	PUNCT	_	_	.	27	punct	17	.
 
 Kettő	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ket	1	root	0	.
 :	" "	.	PUNCT	_	_	:	2	punct	1	.
@@ -4801,7 +4801,7 @@ most	" "	.	ADV	_	_	most	25	advmod:tlocy	27	.
 nem	" "	.	ADV	_	PronType=Neg	nem	26	advmod	27	.
 áll	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	áll	27	conj	9	27
 fenn	""	.	ADV	_	_	fenn	28	compound:preverb	27	27
-.	"\r\n"	.	PUNCT	_	_	.	29	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	29	punct	1	.
 
 Azt	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	az	1	obj	5	.
 is	" "	.	CCONJ	_	_	is	2	cc	4	.
@@ -4859,7 +4859,7 @@ egy	" "	.	NUM	_	Case=Nom|NumType=Card|Number=Sing|Number[psed]=None|Number[psor]
 irányba	" "	.	NOUN	_	Case=Ill|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	irány	54	nmod:obl	56	.
 tudunk	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	tud	55	conj	29	.
 menetelni	""	.	VERB	_	VerbForm=Inf|Voice=Act	menetel	56	xcomp	55	.
-.	"\r\n"	.	PUNCT	_	_	.	57	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	57	punct	4	.
 
 De	" "	.	CCONJ	_	_	de	1	cc	5	.
 ha	" "	.	SCONJ	_	_	ha	2	mark	5	.
@@ -4898,7 +4898,7 @@ közösségbe	""	.	NOUN	_	Case=Ill|Number=Sing|Number[psed]=None|Number[psor]=No
 ,	" "	.	PUNCT	_	_	,	35	punct	31	.
 új	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	új	36	amod:att	37	.
 iskolába	""	.	NOUN	_	Case=Ill|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	iskola	37	nmod:obl	32	.
-.	"\r\n"	.	PUNCT	_	_	.	38	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	38	punct	5	.
 
 Az	" "	.	DET	_	Definite=Def|PronType=Art	az	1	det	4	.
 első	" "	.	ADJ	_	Case=Nom|NumType=Ord|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	első	2	amod:att	4	.
@@ -4919,7 +4919,7 @@ elénk	""	.	ADV	_	Degree=Pos	elénk	14	compound:preverb	13	13
 fel	" "	p193	ADV	_	Degree=Pos	fel	17	compound:preverb	19	19
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	18	conj	13	.
 olvasnom	""	v193	VERB	_	Number=Sing|Person=1|VerbForm=Inf|Voice=Act	olvas	19	xcomp	18	19
-.	"\r\n"	.	PUNCT	_	_	.	20	punct	8	.
+.	"\n"	.	PUNCT	_	_	.	20	punct	8	.
 
 Egyet	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	egyét	1	obj	5	.
 nagyon	" "	.	ADV	_	_	nagyon	2	advmod:mode	3	.
@@ -4938,7 +4938,7 @@ a	" "	.	DET	_	Definite=Def|PronType=Art	a	14	det	16	.
 kormányzó	" "	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	kormányzó	15	amod:att	16	.
 pártok	" "	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	párt	16	obl	13	.
 közé	""	.	ADP	_	_	közé	17	case	16	.
-.	"\r\n"	.	PUNCT	_	_	.	18	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	18	punct	5	.
 
 Mivel	" "	.	SCONJ	_	_	mivel	1	mark	6	.
 ezt	" "	.	DET	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	2	det	4	.
@@ -4958,7 +4958,7 @@ ez	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=
 ilyenkor	" "	.	ADV	_	PronType=Dem	ilyenkor	16	advmod:locy	18	.
 szokott	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	szok	17	ccomp:obl	11	.
 lenni	""	.	VERB	_	VerbForm=Inf|Voice=Act	lesz	18	xcomp	17	.
-.	"\r\n"	.	PUNCT	_	_	.	19	punct	11	.
+.	"\n"	.	PUNCT	_	_	.	19	punct	11	.
 
 Tehát	" "	.	CCONJ	_	_	tehát	1	cc	18	.
 ezen	" "	.	DET	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	2	det	4	.
@@ -4979,7 +4979,7 @@ mindent	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Pe
 meg	" "	p196	PART	_	_	meg	17	compound:preverb	19	19
 kellene	" "	.	VERB	_	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	18	root	0	.
 csinálni	""	v196	VERB	_	VerbForm=Inf|Voice=Act	csinál	19	xcomp	18	19
-.	"\r\n"	.	PUNCT	_	_	.	20	punct	18	.
+.	"\n"	.	PUNCT	_	_	.	20	punct	18	.
 
 Tehát	" "	.	CCONJ	_	_	tehát	1	cc	5	.
 egy	" "	.	DET	_	Definite=Ind|PronType=Art	egy	2	det	4	.
@@ -5005,7 +5005,7 @@ tekintette	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|Ve
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	22	det	24	.
 jogszabál	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	jogszabál	23	amod:att	24	.
 yokat	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	yok	24	obj	20	.
-.	"\r\n"	.	PUNCT	_	_	.	25	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	25	punct	5	.
 
 Az	" "	.	DET	_	Definite=Def|PronType=Art	az	1	det	2	.
 alkalmasság	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	alkalmasság	2	nmod:att	3	.
@@ -5018,7 +5018,7 @@ be	" "	p198	ADV	_	Degree=Pos	be	8	compound:preverb	10	10
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	9	root	0	.
 vonni.	" "	v198	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	von	10	xcomp	9	10
 
-"	"\r\n"	.	PUNCT	_	_	"	1	punct	3	.
+"	"\n"	.	PUNCT	_	_	"	1	punct	3	.
 El	" "	p199	ADV	_	_	el	2	compound:preverb	4	4
 tud	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	tud	3	root	0	.
 készülni	""	v199	VERB	_	VerbForm=Inf|Voice=Act	készül	4	xcomp	3	4
@@ -5032,7 +5032,7 @@ alatt	" "	.	ADP	_	_	alatt	11	case	10	.
 el	" "	p200	ADV	_	_	el	12	compound:preverb	14	14
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	13	conj	3	.
 tudni	" "	.	VERB	_	VerbForm=Inf|Voice=Act	tud	14	xcomp	13	14
-készülni.	"\r\n"	v200	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	készül	15	xcomp	13	.
+készülni.	"\n"	v200	VERB	_	Number=Sing|Person=3|VerbForm=Inf|Voice=Act	készül	15	xcomp	13	.
 (	""	.	PUNCT	_	_	(	16	punct	17	.
 Marsi	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Marsi	17	nsubj	13	.
 Péter	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Péter	18	flat:name	17	.
@@ -5046,7 +5046,7 @@ zárva	" "	v201	ADV	_	VerbForm=Conv	zárva	25	advmod:mode	24	25
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	26	det	27	.
 vita	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	vita	27	nsubj	24	.
 ?	""	.	PUNCT	_	_	?	28	punct	3	.
-)	"\r\n"	.	PUNCT	_	_	)	29	punct	3	.
+)	"\n"	.	PUNCT	_	_	)	29	punct	3	.
 
 Megvártam	""	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	meg+vár	1	root	0	.
 ,	" "	.	PUNCT	_	_	,	2	punct	1	.
@@ -5076,7 +5076,7 @@ mégiscsak	" "	.	ADV	_	_	mégiscsak	25	advmod:mode	27	.
 el	" "	p202	ADV	_	_	el	26	compound:preverb	28	28
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	27	conj	20	.
 hangozni	""	v202	VERB	_	VerbForm=Inf|Voice=Act	hangoz	28	xcomp	27	28
-.	"\r\n"	.	PUNCT	_	_	.	29	punct	1	.
+.	"\n"	.	PUNCT	_	_	.	29	punct	1	.
 
 Ha	" "	.	SCONJ	_	_	ha	1	mark	3	.
 azt	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	az	2	obj	3	.
@@ -5110,7 +5110,7 @@ aránytalan	""	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[
 ez	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	30	nsubj	32	.
 így	" "	.	ADV	_	PronType=Dem	így	31	advmod:mode	32	.
 hiba	""	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	hiba	32	conj	28	.
-.	"\r\n"	.	PUNCT	_	_	.	33	punct	23	.
+.	"\n"	.	PUNCT	_	_	.	33	punct	23	.
 
 Az	" "	.	DET	_	Definite=Def|PronType=Art	az	1	det	3	.
 elnyert	" "	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPast	elnyert	2	amod:att	3	.
@@ -5122,16 +5122,16 @@ meghirdetett	" "	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Non
 tervpályázatok	" "	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	tervpályázat	8	nmod:att	9	.
 céljára	" "	.	NOUN	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	célja	9	nmod:obl	10	.
 használható	" "	v204	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	használható	10	root	0	.
-fel.	"\r\n"	p204	PUNCT	_	_	fel.	11	punct	10	.
+fel.	"\n"	p204	PUNCT	_	_	fel.	11	punct	10	.
 
 *	" "	.	PUNCT	_	_	*	1	punct	5	.
 Vissza	" "	p0	ADV	_	Degree=Pos	vissza	2	compound:preverb	5	5
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	3	det	4	.
-tartalomjegyzékhez	"\r\n"	.	NOUN	_	Case=All|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	tartalomjegyzék	4	nmod:obl	5	.
+tartalomjegyzékhez	"\n"	.	NOUN	_	Case=All|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	tartalomjegyzék	4	nmod:obl	5	.
 Ú	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	ú	5	root	0	5
 vissza	" "	p0	ADV	_	Degree=Pos	vissza	6	compound:preverb	5	5
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	7	det	8	.
-címlaphoz	"\r\n"	.	NOUN	_	Case=All|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	címlap	8	nmod:obl	5	.
+címlaphoz	"\n"	.	NOUN	_	Case=All|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	címlap	8	nmod:obl	5	.
 (	""	.	PUNCT	_	_	(	9	punct	10	.
 1	""	.	NUM	_	Case=Nom|NumType=Card|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	1	10	parataxis	5	.
 )	" "	.	PUNCT	_	_	)	11	punct	5	.
@@ -5156,7 +5156,7 @@ helyen	" "	.	NOUN	_	Case=Sup|Number=Sing|Number[psed]=None|Number[psor]=None|Per
 fel	" "	p205	ADV	_	Degree=Pos	fel	18	compound:preverb	20	20
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	19	conj	4	.
 tüntetni	""	v205	VERB	_	VerbForm=Inf|Voice=Act	tüntet	20	xcomp	19	20
-.	"\r\n"	.	PUNCT	_	_	.	21	punct	4	.
+.	"\n"	.	PUNCT	_	_	.	21	punct	4	.
 
 Az	" "	.	DET	_	Definite=Def|PronType=Art	az	1	det	2	.
 erőmű	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	erőmű	2	nmod:att	4	.
@@ -5179,7 +5179,7 @@ alatt	" "	.	ADP	_	_	alatt	18	case	17	.
 hogyan	" "	.	ADV	_	PronType=Int	hogyan	19	advmod:mode	20	.
 valósítható	" "	v206	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	valósít	20	csubj	7	20
 meg	""	p206	PART	_	_	meg	21	compound:preverb	20	20
-:	"\r\n"	.	PUNCT	_	_	:	22	punct	20	.
+:	"\n"	.	PUNCT	_	_	:	22	punct	20	.
 A	" "	.	DET	_	Definite=Def|PronType=Art	a	23	det	25	.
 felsorolt	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	felsorolt	24	amod:att	25	.
 megoldásoknak	" "	.	NOUN	_	Case=Dat|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	megoldás	25	nmod:obl	28	.
@@ -5194,7 +5194,7 @@ rend	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Perso
 kialakítására	" "	.	NOUN	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	kialakítás	34	nmod:obl	35	.
 vonatkozó	" "	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	vonatkozó	35	amod:att	36	.
 jogszabálynak	""	.	NOUN	_	Case=Dat|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	jogszabály	36	nmod:obl	28	.
-.	"\r\n"	.	PUNCT	_	_	.	37	punct	7	.
+.	"\n"	.	PUNCT	_	_	.	37	punct	7	.
 
 Ha	" "	.	SCONJ	_	_	ha	1	mark	6	.
 tulajdonos	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	tulajdonos	2	nmod:att	3	.
@@ -5223,7 +5223,7 @@ díjfizetési	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Numb
 kötelezettségébe	" "	.	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	kötelezettség	25	nmod:obl	27	.
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	26	conj	6	.
 betudni	""	.	VERB	_	VerbForm=Inf|Voice=Act	betudik	27	xcomp	26	.
-.	"\r\n"	.	PUNCT	_	_	.	28	punct	6	.
+.	"\n"	.	PUNCT	_	_	.	28	punct	6	.
 
 (	""	.	PUNCT	_	_	(	1	punct	2	.
 11	""	.	NUM	_	Case=Nom|NumType=Card|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	11	2	root	0	.
@@ -5234,7 +5234,7 @@ vonaljegyek	" "	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=Non
 vissza	" "	p209	ADV	_	Degree=Pos	vissza	3	compound:preverb	5	5
 nem	" "	.	ADV	_	PronType=Neg	nem	4	advmod	5	.
 válthatók	""	v209	ADJ	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	váltható	5	root	0	5
-.	"\r\n"	.	PUNCT	_	_	.	6	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	6	punct	5	.
 
 Ezek	" "	.	PRON	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Dem	ez	1	nsubj	5	.
 mind-mind	" "	.	ADV	_	_	mind-mind	2	advmod:mode	3	.
@@ -5263,7 +5263,7 @@ szakszerűen	" "	.	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|Number[psed]=None|Numbe
 végig	" "	p210	ADV	_	_	végig	25	compound:preverb	27	27
 tudja	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	tud	26	acl	19	.
 követni	""	v210	VERB	_	VerbForm=Inf|Voice=Act	követ	27	xcomp	26	27
-.	"\r\n"	.	PUNCT	_	_	.	28	punct	5	.
+.	"\n"	.	PUNCT	_	_	.	28	punct	5	.
 
 Vajon	" "	.	ADV	_	PronType=Int	vajon	1	advmod:locy	2	.
 indokolt	" "	.	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	indokolt	2	root	0	.
@@ -5290,7 +5290,7 @@ tartani	""	v211	VERB	_	VerbForm=Inf|Voice=Act	tart	22	xcomp	21	22
 ,	" "	.	PUNCT	_	_	,	23	punct	21	.
 amit	" "	.	PRON	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Rel	ami	24	obj	25	.
 bejelentettek	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	be+jelent	25	advcl	21	.
-?	"\r\n"	.	PUNCT	_	_	?	26	punct	2	.
+?	"\n"	.	PUNCT	_	_	?	26	punct	2	.
 
 A	" "	.	DET	_	Definite=Def|PronType=Art	a	1	det	2	.
 történelemben	" "	.	NOUN	_	Case=Ine|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	történelem	2	nmod:obl	6	.
@@ -5309,7 +5309,7 @@ viseljük	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Ver
 gondokat	" "	.	NOUN	_	Case=Acc|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	gond	15	obj	16	.
 okozó	" "	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	okozó	16	amod:att	17	.
 terhét	""	.	NOUN	_	Case=Acc|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	tereh	17	obj	14	.
-.	"\r\n"	.	PUNCT	_	_	.	18	punct	9	.
+.	"\n"	.	PUNCT	_	_	.	18	punct	9	.
 
 Mi	" "	.	PRON	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person=1|Person[psor]=None|PronType=Prs	mi	1	nsubj	3	.
 nem	" "	.	ADV	_	PronType=Neg	nem	2	advmod	3	.
@@ -5356,7 +5356,7 @@ a	" "	.	DET	_	Definite=Def|PronType=Art	a	31	det	34	.
 Szobi	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Szobi	32	nmod:att	34	.
 szörp	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	szörp	33	flat:name	32	.
 családnak	""	.	NOUN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	család	34	nmod:obl	30	.
-.	"\r\n"	.	PUNCT	_	_	.	35	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	35	punct	2	.
 
 Tudomásunk	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Plur|Person[psor]=1	tudomás	1	nsubj	2	.
 van	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	van	2	root	0	.
@@ -5374,7 +5374,7 @@ támadni	" "	v214	VERB	_	VerbForm=Inf|Voice=Act	támad	13	xcomp	12	13
 az	" "	.	DET	_	Definite=Def|PronType=Art	az	14	det	15	.
 Alkotmánybíróság	" "	.	PROPN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	Alkotmánybíróság	15	obl	13	.
 előtt	""	.	ADP	_	_	előtt	16	case	15	.
-.	"\r\n"	.	PUNCT	_	_	.	17	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	17	punct	2	.
 
 Én	" "	.	PRON	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person=1|Person[psor]=None|PronType=Prs	én	1	nsubj	3	.
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	2	det	3	.
@@ -5439,7 +5439,7 @@ mellett	" "	.	ADP	_	_	mellett	60	case	59	.
 is	" "	.	CCONJ	_	_	is	61	cc	59	.
 eredményesen	" "	.	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	eredményes	62	amod:mode	63	.
 tevékenykedhessen	""	.	VERB	_	Definite=Ind|Mood=Cnd,Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	tevékenykedik	63	acl	49	.
-.	"\r\n"	.	PUNCT	_	_	.	64	punct	9	.
+.	"\n"	.	PUNCT	_	_	.	64	punct	9	.
 
 Mert	" "	.	SCONJ	_	_	mert	1	mark	5	.
 ha	" "	.	SCONJ	_	_	ha	2	mark	5	.
@@ -5474,7 +5474,7 @@ vinni	""	v219	VERB	_	VerbForm=Inf|Voice=Act	visz	30	xcomp	29	.
 ,	" "	.	PUNCT	_	_	,	31	punct	29	.
 lehet	" "	.	VERB	_	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	lesz	32	conj	21	.
 hasznosítani	""	.	VERB	_	VerbForm=Inf|Voice=Act	hasznosít	33	xcomp	32	33
-.	"\r\n"	.	PUNCT	_	_	.	34	punct	17	.
+.	"\n"	.	PUNCT	_	_	.	34	punct	17	.
 
 Az	" "	.	DET	_	Definite=Def|PronType=Art	az	1	det	2	.
 önkormányzat	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	önkormányzat	2	nmod:att	3	.
@@ -5523,7 +5523,7 @@ változásokkal	" "	.	NOUN	_	Case=Ins|Number=Plur|Number[psed]=None|Number[psor]
 a	" "	.	DET	_	Definite=Def|PronType=Art	a	45	det	46	.
 rendszer	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	rendszer	46	nsubj	47	.
 működtethető	""	.	ADJ	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None|VerbForm=PartPres	működtethető	47	acl	40	.
-.	"\r\n"	.	PUNCT	_	_	.	48	punct	8	.
+.	"\n"	.	PUNCT	_	_	.	48	punct	8	.
 
 Ugyanakkor	" "	.	ADV	_	PronType=Dem	ugyanakkor	1	advmod:tlocy	3	.
 rá	" "	p223	PRON	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person=3|Person[psor]=None|PronType=Prs	rá	2	nmod:obl	5	.
@@ -5575,7 +5575,7 @@ egy	" "	.	DET	_	Definite=Ind|PronType=Art	egy	46	det	48	.
 büntetőkódex	" "	.	NOUN	_	Case=Nom|Number=Plur|Number[psed]=None|Number[psor]=None|Person[psor]=None	büntetőkódex	48	nsubj	49	.
 kerüljön	" "	.	VERB	_	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kerül	49	advcl	40	.
 megalkotásra	""	.	NOUN	_	Case=Sub|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	megalkotás	50	nmod:obl	49	.
-.	"\r\n"	.	PUNCT	_	_	.	51	punct	3	.
+.	"\n"	.	PUNCT	_	_	.	51	punct	3	.
 
 Emberarcúvá	" "	.	ADJ	_	Case=Ess|Degree=Pos|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	emberarcú	1	amod:mode	3	.
 kell	" "	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	kell	2	root	0	.
@@ -5604,7 +5604,7 @@ az	" "	.	DET	_	Definite=Def|PronType=Art	az	24	det	25	.
 emberiségnek	" "	.	NOUN	_	Case=Gen|Number=Sing|Number[psed]=None|Number[psor]=None|Person[psor]=None	emberiség	25	nmod:att	26	.
 szüksége	" "	.	NOUN	_	Case=Nom|Number=Sing|Number[psed]=None|Number[psor]=Sing|Person[psor]=3	szükség	26	nsubj	27	.
 van	""	.	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	van	27	advcl	15	.
-.	"\r\n"	.	PUNCT	_	_	.	28	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	28	punct	2	.
 
 Most	" "	.	ADV	_	_	most	1	advmod:tlocy	2	.
 közlöm	" "	.	VERB	_	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	közl	2	root	0	.
@@ -5670,7 +5670,7 @@ vissza	" "	p228	ADV	_	Degree=Pos	vissza	61	compound:preverb	63	63
 nem	" "	.	ADV	_	PronType=Neg	nem	62	advmod	63	.
 térítendő	" "	v228	ADJ	_	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	térítendő	63	amod:att	64	63
 támogatás	""	.	NOUN	_	Case=Nom|Number=Sing	támogatás	64	nsubj	59	.
-.	"\r\n"	.	PUNCT	_	_	.	65	punct	2	.
+.	"\n"	.	PUNCT	_	_	.	65	punct	2	.
 
 
 
