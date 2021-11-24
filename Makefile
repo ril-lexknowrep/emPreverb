@@ -17,6 +17,7 @@ FILE=11341_prev
 INFILE=$I/$(FILE).tsv
 OUTFILE=$O/$(FILE).preverb
 
+.PHONY: connect_preverbs connect_preverbs_no_compound evaluate
 
 # compound field is usually added by `compound` module
 # and this module alters its value;
@@ -27,3 +28,6 @@ connect_preverbs:
 
 connect_preverbs_no_compound:
 	cat $(INFILE) | python3 $(MODULE) > $(OUTFILE).no_compound
+
+evaluate:
+	cd eval_anon && $(SHELL) evaluate.sh
