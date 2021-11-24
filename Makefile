@@ -12,10 +12,10 @@ MODULE=preverb
 # ===== MAIN STUFF
 
 
-FILE=11341.prev
+FILE=11341_prev
 
-INFILE=$I/$(FILE)
-OUTFILE=$O/$(FILE).out
+INFILE=$I/$(FILE).tsv
+OUTFILE=$O/$(FILE).preverb
 
 
 # compound field is usually added by `compound` module
