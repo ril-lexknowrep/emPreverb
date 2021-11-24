@@ -27,8 +27,3 @@ class Word(SimpleNamespace):
         """Return tsv format representation of word object."""
         return '\t'.join(self.__dict__.values())
 
-
-def stream_to_word_objects(stream):
-    """Process stream containing tsv format stripped lines."""
-    for line in stream:
-        yield Word(line.split('\t'))
