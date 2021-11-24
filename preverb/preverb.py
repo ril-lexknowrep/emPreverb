@@ -17,7 +17,13 @@ ENV = 2 # search for [/Prev] in a -env..env environment of the [/V]
 VERB_POSTAG = '[/V]'
 PREVERB_POSTAG = '[/Prev]'
 ADVERB_POSTAG = '[/Adv]'
-
+ADJECTIVE_POSTAG = '[/Adj]'
+QUESTION_PARTICLE_POSTAG = '[/QPtcl]'
+MODAL_PARTICIPLE_MORPHEME = '[_ModPtcp/Adj]'
+PERFECT_PARTICIPLE_MORPHEME = '[_PerfPtcp/Adj]'
+IMPERFECT_PARTICIPLE_MORPHEME = '[_ImpfPtcp/Adj]'
+ADVERBIAL_PARTICIPLE_MORPHEME = '[_AdvPtcp/Adv]'
+FUTURE_PARTICIPLE_MORPHEME = '[_FutPtcp/Adj]'
 
 class Preverb:
     '''Required by xtsv.'''
@@ -57,9 +63,17 @@ class Preverb:
             central = window[self.center]                   # ..c..
             right = window[self.center:]                    # ..cde
 
-            if (central.xpostag.startswith(VERB_POSTAG)
+            if ((central.xpostag.startswith(VERB_POSTAG)
                     and VERB_POSTAG in central.anas  # is it a verb according to anas?
-                    and central.form != "volna"):
+                    and central.form != "volna")
+                or
+                (central.xpostag in ('[/Adj][Nom]', '[/Adj][Pl][Nom]', '[/Adj][Dat]')
+                    and MODAL_PARTICIPLE_MORPHEME in central.anas)
+                or
+                (central.xpostag == ADVERB_POSTAG
+                    and (ADVERBIAL_PARTICIPLE_MORPHEME in central.anas   # Kalivoda (2021: 64-6)
+                         or FUTURE_PARTICIPLE_MORPHEME in central.anas)) # Kalivoda (2021: 68-9)
+               ):
 
                 # Case 1: already contains a preverb
                 if (PREVERB_POSTAG in central.anas and
@@ -80,6 +94,7 @@ class Preverb:
                 # rágja is szét, rágta volna szét, tépi hirtelen szét
                 elif (right[2].xpostag == PREVERB_POSTAG and
                         (right[1].xpostag.startswith(ADVERB_POSTAG)
+                         or right[1].xpostag == QUESTION_PARTICLE_POSTAG
                          or right[1].form == 'volna')
                       ):
                     self.add_preverb(central, right[2])
@@ -87,6 +102,14 @@ class Preverb:
                 # Doesn't have a preverb
                 else:
                     pass
+
+            elif (central.xpostag.startswith(ADJECTIVE_POSTAG)
+                    and (PERFECT_PARTICIPLE_MORPHEME in central.anas
+                         or IMPERFECT_PARTICIPLE_MORPHEME in central.anas)
+                    and left[2].xpostag == PREVERB_POSTAG
+                    and left[1].form in ('nem', 'sem', 'is')):
+                # Kalivoda (2021: 69-71)
+                self.add_preverb(central, left[2])
 
             # should be collected before printing
             # because left[2] can change if it is a preverb!
