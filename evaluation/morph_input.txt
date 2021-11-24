@@ -5147,9 +5147,9 @@ túl	" "	.
 jól	" "	.
 látható	" "	.
 helyen	" "	.
-fel	" "	p1
+fel	" "	p2
 kell	" "	.
-tüntetni	" "	v1
+tüntetni	" "	v2
 .	"\n"	.
 
 Az	" "	.
@@ -5177,9 +5177,9 @@ meg	" "	p1
 A	" "	.
 felsorolt	" "	.
 megoldásoknak	" "	.
-meg	" "	p1
+meg	" "	p2
 kell	" "	.
-felelni	" "	v1
+felelni	" "	v2
 a	" "	.
 mindenkor	" "	.
 érvényes	" "	.
@@ -6682,9 +6682,9 @@ Amennyiben	" "	.
 a	" "	.
 szövetkezetnél	" "	.
 a	" "	.
-fel	" "	p1
+fel	" "	p2
 nem	" "	.
-osztható	" "	v1
+osztható	" "	v2
 szövetkezeti	" "	.
 vagyon	" "	.
 a	" "	.
@@ -6961,9 +6961,9 @@ EUR.1	" "	.
 szállítási	" "	.
 bizonyítványt	" "	.
 és	" "	.
-meg	" "	p1
+meg	" "	p2
 kell	" "	.
-jelölnie	" "	v1
+jelölnie	" "	v2
 ennek	" "	.
 okait	""	.
 .	"\n"	.
@@ -7503,45 +7503,6 @@ maga	" "	.
 mindenhatóságáról	""	.
 .	"\n"	.
 
-Nem	" "	.
-közhelyezek	" "	.
-többet	""	.
-,	" "	.
-hiszen	" "	.
-ha	" "	.
-a	" "	.
-humor	" "	.
--bár	" "	.
-kissé	" "	.
-ironikus	" "	.
-és	" "	.
-cinizmusba	" "	.
-hajló	" "	.
--	" "	.
-oldala	" "	.
-felöl	" "	.
-közelítem	" "	.
-meg	" "	.
-hozzászólásaidat	""	.
-,	" "	.
-akkor	" "	.
-kimondottan	" "	.
-szórakoztatóak	""	.
-,	" "	.
-bár	" "	.
-le	" "	p1
-sem	" "	.
-tagdhatod	" "	v1
-,	" "	.
-a	" "	.
-humor	" "	.
-keretei	" "	.
-közé	" "	.
-tartalmat	" "	.
-is	" "	.
-viszel	""	.
-.	"\n"	.
-
 Tehét	" "	.
 feltéve	""	.
 ,	" "	.
@@ -7767,11 +7728,11 @@ nézve	" "	.
 nem	" "	.
 hiszem	" "	.
 hogy	" "	.
-fel	" "	p1
+fel	" "	p2
 lehet	" "	.
 ezt	" "	.
 példaként	" "	.
-hozni	" "	v1
+hozni	" "	v2
 .	"\n"	.
 terembura-ragi	" "	.
 úgy	" "	.
@@ -7824,9 +7785,9 @@ identitászavart	" "	.
 is	""	.
 ,	" "	.
 de	" "	.
-vissza	" "	p1
+vissza	" "	p3
 lehet	" "	.
-venni	" "	v1
+venni	" "	v3
 az	" "	.
 arcból	""	.
 .	"\n"	.
@@ -8666,9 +8627,9 @@ meg	" "	p1
 :-(	" "	.
 Az	" "	.
 egyikük	" "	.
-át	" "	p1
+át	" "	p3
 akarta	" "	.
-festeni	" "	v1
+festeni	" "	v3
 a	" "	.
 hajam.	"\n"	.
 Mert	" "	.

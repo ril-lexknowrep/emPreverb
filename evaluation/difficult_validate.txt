@@ -181,9 +181,9 @@ doc#901	Ha azt mondom, hogy 2-300 milliárd beruházásigényről van szó, és 
 doc#902	Az elnyert támogatás kizárólag a tárgyévben meghirdetett tervpályázatok céljára használható|1 fel\1. 
 doc#906	* Vissza\0 a tartalomjegyzékhez 
 doc#910	Ú vissza\0 a címlaphoz 
-doc#912	(1) Minden sírhelytábla számát jelzőoszlopon, a sírhelysorok és sírhelyek számát pedig a sorokon túl jól látható helyen fel\1 kell tüntetni|1. 
+doc#912	(1) Minden sírhelytábla számát jelzőoszlopon, a sírhelysorok és sírhelyek számát pedig a sorokon túl jól látható helyen fel\2 kell tüntetni|2. 
 doc#912	Az erőmű építés vonatkozásában megvizsgálandó annak lehetősége is, hogy a beruházás több lépcsőben, 3 év alatt hogyan valósítható|1 meg\1: 
-doc#912	A felsorolt megoldásoknak meg\1 kell felelni|1 a mindenkor érvényes forgalmi rend kialakítására vonatkozó jogszabálynak. 
+doc#912	A felsorolt megoldásoknak meg\2 kell felelni|2 a mindenkor érvényes forgalmi rend kialakítására vonatkozó jogszabálynak. 
 doc#912	Ha tulajdonos túlszámlázást megállapító kifogása helytálló, a többletösszeget és időarányos kamatait tulajdonos részére vissza\1 kell fizetni|1, vagy kérésére azt az esedékes díjfizetési kötelezettségébe kell betudni. 
 doc#912	(11) A vonaljegyek vissza\1 nem válthatók|1. 
 doc#918	Ezek mind-mind eltérő szabályokkal bonyolódnak, s ember legyen a talpán, akár felszámoló, akár bíró az illető, aki ezt folyamatában szakszerűen végig\1 tudja követni|1. 
@@ -222,14 +222,14 @@ doc#918	Két olyan kérdés van, amiért a kormány előterjesztését el\1 lehe
 doc#918	Aztán kiderült, hogy ez az egyetértés mégsem volt olyan teljes, hogy Győriványi Sándornak csak oda volt gépelve a neve, de nem írta alá - tehát ez a konszenzus nem volt annyira felhőtlen, mint ahogy az az előadó beszédéből kitünt. Meg\2 kell mondanom|2, nagyon örültem annak, hogy ez a konszenzus nem volt annyira teljes. 
 doc#918	Ugyanakkor teljesen nyilvánvaló mindenki számára, hogy a szövetkezet kifelé tényleg versenyhelyzetben van - no, nem az, aki meg\1 fogja kapni|1 adott esetben a kormánydöntésnek megfelelően ezeket az élelmiszer-feldolgozó üzemeket, tehát nem azok, akik most a termelők, hanem versenyhelyzetben fog dolgozni továbbra is ez az élelmiszer- feldolgozó. 
 doc#919	4. Az előző korlátozások figyelembevételével számított tőkéből le\1 kell vonni|1: 
-doc#919	Amennyiben a szövetkezetnél a fel\1 nem osztható|1 szövetkezeti vagyon a jegyzett tőkében szerepel, a törvény hatálybalépését követő 180 napon belül gondoskodni kell annak a jegyzett tőke leszállításával a lekötött tartalékba helyezéséről. 
+doc#919	Amennyiben a szövetkezetnél a fel\2 nem osztható|2 szövetkezeti vagyon a jegyzett tőkében szerepel, a törvény hatálybalépését követő 180 napon belül gondoskodni kell annak a jegyzett tőke leszállításával a lekötött tartalékba helyezéséről. 
 doc#919	16. Minden tervbe vett karbantartó tevékenységet az általános és részletes megsemmisítési tervben meg\1 kell határozni|1. 
 doc#919	(4) A forintadósság devizaadósságra történő átalakítása során az Állami Számvevőszéknek (a továbbiakban: ÁSZ) folyamatosan meg\1 kell küldeni|1 az adósságcserére vonatkozó dokumentumokat, illetve ellenjegyzés céljából a hitelszerződéseket. 
 doc#919	6. Amennyiben az egyik Szerződő Államban illetőséggel bíró társaság nyereséget vagy jövedelmet élvez a másik Szerződő Államból, úgy ez a másik Állam nem adóztathatja meg a társaság által fizetett osztalékot, kivéve, ha az osztalékot ebben a másik Államban illetőséggel bíró személynek fizetik, vagy ha az az érdekeltség, mely után az osztalékot fizetik, ténylegesen ebben a másik Államban lévő telephelyhez vagy állandó bázishoz tartozik, sem pedig a társaság fel\1 nem osztott|1 nyereségét nem vetheti a társaság fel\2 nem osztott|2 nyeresége után kivetett adó alá, még akkor sem, ha a kifizetett osztalék vagy a fel\3 nem osztott|3 nyereség egészben vagy részben ebben a másik Államban elért nyereségből vagy jövedelemből áll. 
 doc#919	Ha a fellebbezési eljárás tárgyának értéke pénzben nem állapítható|1 meg\1, a fellebbezés illetéke 2000 forint. " 
 doc#919	(2) Ugyanazon fegyelemsértésért több fenyítés nem szabható|1 ki\1, és egyik fenyítés a másikkal nem kapcsolható|2 össze\2. 
 doc#919	(3) A területi szerveket 1996. április 30. napjáig létre\1 kell hozni|1, a kamarának pedig 1996. június 30. napjáig kell megalakulni. 
-doc#919	- igazolnia kell, hogy a szóban forgó termékre a kivitel alkalmával nem adtak ki EUR.1 szállítási bizonyítványt és meg\1 kell jelölnie|1 ennek okait. 
+doc#919	- igazolnia kell, hogy a szóban forgó termékre a kivitel alkalmával nem adtak ki EUR.1 szállítási bizonyítványt és meg\2 kell jelölnie|2 ennek okait. 
 doc#919	(2) A fegyver nélküli katonai, illetve a polgári szolgálat teljesítésére vonatkozó engedély iránti kérelmet el\1 kell utasítani|1, ha a körülményekből a lelkiismereti okra való hivatkozás alaptalansága megállapítható. 
 doc#919	(2) Az ajándéksorsolás megrendezését a sorsolás megkezdése előtt legalább 10 nappal be\1 kell jelenteni|1 az SZF-hez. 
 doc#942	A Miniszteri Kabinet 2001. december 28-án kelt, 1767 számú határozata 2 pontjának értelmében, a 15, illetve ennél több dolgozót foglalkoztató vállalatokat a rokkantbiztosító Tb-alap megyei osztályán jegyzékbe veszik, ezért legkésőbb 2005. február 1-ig be\1 kell nyújtaniuk|1 a rokkantak munkába való elhelyezéséről és foglalkoztatásáról szóló jelentést a 10-II I számú (éves) űrlapon. 
@@ -258,8 +258,8 @@ doc#978	Satya, ezt meg\1 kellene ám indokolnod|1, méghozzá alaposan.
 doc#978	A kedvencem az a hely, ahol ki\1 van írva|1: a szaunában a fürdőruha viselése kötelező. 
 doc#979	Nos, ezt kis odafigyeléssel szerintem sokkal meg\1 lehetne gyorsítani|1. 
 doc#979	Az esetek többségében a válaszban szereplő szám mindig meg\1 tudtam számolni|1 két ujjamon ;-) Viszont tapasztaltam azt is, hogy sokan a légitársaságnak rónak fel egy csomó olyan dolgot, amiről abszolúte nem tehetnek (pl. felszálláskor liftezett a gép, hülye pilóta ;-)) 
-doc#979	Szerintem is jól döntöttek, de a kevésbé durva helyzetekre nézve nem hiszem hogy fel\1 lehet ezt példaként hozni|1. 
-doc#980	terembura-ragi úgy sorolod ezeket a faszságokat, mintha legalábbis te intézted volna, hogy odaát ilyen jó élet legyen. ne felejcsd el lécci, hogy a készbe menekültél át, az USÁ-ban már minden megvolt előtted. tiszteljük egyébként a fogadott hazád iránti szeretedet, és megértjük az identitászavart is, de vissza\1 lehet venni|1 az arcból. 
+doc#979	Szerintem is jól döntöttek, de a kevésbé durva helyzetekre nézve nem hiszem hogy fel\2 lehet ezt példaként hozni|2. 
+doc#980	terembura-ragi úgy sorolod ezeket a faszságokat, mintha legalábbis te intézted volna, hogy odaát ilyen jó élet legyen. ne felejcsd el lécci, hogy a készbe menekültél át, az USÁ-ban már minden megvolt előtted. tiszteljük egyébként a fogadott hazád iránti szeretedet, és megértjük az identitászavart is, de vissza\3 lehet venni|3 az arcból. 
 doc#980	Pedig ecceri nem mondott|1 nekem ellent\1. 
 doc#980	Esetleg ki\1 lehetne próbálni|1 egér formájú kurzorral is... 
 doc#980	Köszi! (nem fognak átcseszni? nem bírnám elviselni... vagyis: a műsorkiírásból ki\1 fog derülni|1? 
@@ -295,7 +295,7 @@ doc#986	Sajnos én azt olvastam egy F1-es fórumon, hogy Hill annyira elszontyol
 doc#986	Ha VB akar lenni, akkor nagyon össze\1 kell kapnia|1 magát, mert egy-két vezetői vagy boxbeli baki, és akár Frentzen, Irvine és Coulthard is megelőzheti. 
 doc#987	Írod: " Tehát ott lehet vita közöttünk, hogy jól csinálják -e, illetve kellő eréllyel lépnek|1 -e fel\1 ellenük. 
 doc#987	Egyébként mindkettőjüket sokkolta a bejelentésem, hogy én igen... és izgatottan várják, hogy vajon tényleg nem gondolom|1 -e meg\1. 
-doc#987	:-( Az egyikük át\1 akarta festeni|1 a hajam. 
+doc#987	:-( Az egyikük át\3 akarta festeni|3 a hajam. 
 doc#988	Mert mindez szép (még igaz is lehet), de azért mégiscsak hozzá\1 járulhatott|1 a riport elkészültéhez az is, hogy a műsoridőt meg\2 kell tölteni|2, lehetőleg olyasmivel amira a néző felkapja a fejét, és jó ha mutatunk is neki valamit, hogy ne felejtse el a szemét a képernyőn tartani. 
 doc#988	Megadtad a neved? Be\1 ne szarjak|1 a meghatottságtól! 
 doc#988	Jelenleg ha valamit akarsz [ez az emberek jelentős része számára hosszab, rövidebb kiadványok, prezentációk elkészítését jelenti] akkor meg\1 kell vásárolnod|1 egy monstre szoftvert úgy jó 100 eFt-ért. 
