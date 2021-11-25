@@ -40,7 +40,9 @@ NEWMINORVER="$(MAJOR).$$(( $(MINOR)+1 )).0"
 NEWPATCHVER="$(MAJOR).$(MINOR).$$(( $(PATCH)+1 ))"
 
 all: clean venv build install test
-	@echo "$(GREEN)The package is succesfully installed into the virtualenv ($(VENVDIR)) and all tests are OK!$(NOCOLOR)"
+	@echo
+	@echo "$(GREEN)Package $(MODULE) is successfully installed into venv and all tests are OK! :)$(NOCOLOR)"
+	@echo
 
 install-dep-packages:
 	@echo "Installing needed packages from Aptfile..."
@@ -52,7 +54,9 @@ install-dep-packages:
 		(sudo -E apt-get update && \
 		sudo -E apt-get -yq --no-install-suggests --no-install-recommends $(travis_apt_get_options) install \
 			`cat $(CURDIR)/Aptfile`))
-	@echo "$(GREEN)Needed packages are succesfully installed!$(NOCOLOR)"
+	@echo
+	@echo "$(GREEN)2/5 Needed packages are successfully installed!$(NOCOLOR)"
+	@echo
 .PHONY: install-dep-packages
 
 venv:
@@ -61,7 +65,9 @@ venv:
 	@$(PYTHON) -m venv $(VENVDIR)
 	@$(VENVPIP) install wheel
 	@$(VENVPIP) install -r requirements-dev.txt
-	@echo "$(GREEN)Virtualenv is succesfully created!$(NOCOLOR)"
+	@echo
+	@echo "$(GREEN)1/5 Virtualenv is successfully created!$(NOCOLOR)"
+	@echo
 .PHONY: venv
 
 build: install-dep-packages venv __extra-deps
@@ -70,13 +76,17 @@ build: install-dep-packages venv __extra-deps
 		(echo -e "$(RED)dist/*.whl dist/*.tar.gz files exists.\nPlease use 'make clean' before build!$(NOCOLOR)"; \
 		exit 1)
 	@$(VENVPYTHON) setup.py sdist bdist_wheel
-	@echo "$(GREEN)Package is succesfully built!$(NOCOLOR)"
+	@echo
+	@echo "$(GREEN)3/5 Package $(MODULE) is successfully built!$(NOCOLOR)"
+	@echo
 .PHONY: build
 
 install: build
 	@echo "Installing package to user..."
 	$(VENVPIP) install --upgrade dist/*.whl
-	@echo "$(GREEN)Package is succesfully installed!$(NOCOLOR)"
+	@echo
+	@echo "$(GREEN)4/5 Package $(MODULE) is successfully installed!$(NOCOLOR)"
+	@echo
 .PHONY: install
 
 test:
@@ -89,8 +99,8 @@ test:
 		time (cd /tmp && $(VENVPYTHON) -m $(MODULE) $(MODULE_PARAMS) -i $${test_input} | \
 		diff -sy --suppress-common-lines - $${test_output} 2>&1 | head -n100) || r=$($$r+$$?); \
 	done; \
-	[[ $$r == 0 ]] && echo "$(GREEN)The test was completed successfully!$(NOCOLOR)" || exit $$r
-	@echo "Comparing GIT TAG (\"$(TRAVIS_TAG)\") with pacakge version (\"v$(OLDVER)\")..."
+	[[ $$r == 0 ]] && echo && echo "$(GREEN)5/5 The test was completed successfully!$(NOCOLOR)" && echo || exit $$r
+	@echo "Comparing GIT TAG (\"$(TRAVIS_TAG)\") with package version (\"v$(OLDVER)\")..."
 	@[[ "$(TRAVIS_TAG)" == "v$(OLDVER)" || "$(TRAVIS_TAG)" == "" ]] && \
 	  echo "$(GREEN)OK!$(NOCOLOR)" || \
 	  (echo "$(RED)Versions do not match!$(NOCOLOR)"; exit 1)
@@ -99,7 +109,7 @@ test:
 uninstall:
 	@echo "Uninstalling..."
 	@[[ ! -d "$(VENVDIR)" || -z $$($(VENVPIP) list | grep -w $(MODULE)) ]] || $(VENVPIP) uninstall -y $(MODULE)
-	@echo "$(GREEN)The package was uninstalled successfully!$(NOCOLOR)"
+	@echo "$(GREEN)Package $(MODULE) was uninstalled successfully!$(NOCOLOR)"
 .PHONY: uninstall
 
 clean: __clean-extra-deps

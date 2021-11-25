@@ -74,17 +74,22 @@ class EmPreverb:
         Required by xtsv.
         Initialise the module.
         """
-        # Tudom, hogy ezeket elvileg a source_fields és a target_fields
-        # adná át, de nem látom be, hogy miért kellene fájlok között ugrálnom,
-        # hogy megtudjam, mik a használt mezők, ezért csak azért is így
-        # inicializálom őket.
-        self.source_fields = {'anas', 'xpostag', 'lemma'}
-        self.target_fields = ['separated', 'previd']
+
+        # Field names for xtsv (the code below is mandatory for an xtsv module)
+        if source_fields is None:
+            source_fields = set()
+
+        if target_fields is None:
+            target_fields = []
+
+        self.source_fields = source_fields
+        self.target_fields = target_fields
+
         self.prev_id = 0
         self.window_size = 2 * ENV + 1
         self.center = ENV # index of central element in window
 
-    def process_sentence(self, sen, _):
+    def process_sentence(self, sen, field_names):
         """
         Required by xtsv.
         Process one sentence per function call.
@@ -209,6 +214,10 @@ class EmPreverb:
         :return: the list of the initialised feature classes as required for
                 process_sentence
         """
+        # Ciki ez, hogy oda-vissza megvan benne a hozzárendelés,
+        # azaz 'form': 0 és 0: 'form' is van benne. XXX
+        # Ez nagyon fura, és zavaró! Miért kell így? XXX
+        # Valszeg, hogy oda-vissza tudjunk vele konvertálni. XXX
         column_count = len(field_names) // 2
         fields = [field_names[i] for i in range(column_count)]
 
@@ -217,7 +226,9 @@ class EmPreverb:
         self.padding = [fakeword] * ENV
 
         self.compound_exists = 'compound' in fields
-        return fields
+
+        #return fields -- nem is használta fel semmire a process_sentence()-ben! :)
+        return field_names
 
     def add_preverb(self, verb, preverb=None):
         """Update *verb* with info from *preverb*."""

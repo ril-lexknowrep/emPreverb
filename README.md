@@ -32,7 +32,7 @@ in `dist/emdummy-*-py3-none-any.whl`;
 The Python package can be installed anywhere by direct path:
 
 ```bash
-pip install path/to/emdummy-*-py3-none-any.whl
+pip install ./dist/emPreverb-*-py3-none-any.whl
 ```
 
 ## Testing
