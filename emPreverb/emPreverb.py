@@ -7,37 +7,26 @@ token to which they belong.
 """
 
 # =====
-# hekk:
-# betettem inkább ide, mert nemtom, hogy a setup.py -vel hogy kéne
-# a főfő modul mellett egy másikat is -- a word.py-t -- installálni :)
-
-"""
-Class representing words.
-"""
+# betettem inkább ide a word.py tartalmát,
+# (mert nemtom, hogy a setup.py -vel hogy kéne a főfő modul mellett
+#  egy másikat is -- a word.py-t -- installálni)
+# úgyis az a cél, hogy ezt az egész Word dolgot kiszórjam! :) XXX
+#
+# bár Noémi is pont effélét csinál itt:
+# https://github.com/vadno/emzero/blob/master/emzero/emzero.py#L124
+# token = {k: tok[v] for k, v in field_names.items()}
 
 from types import SimpleNamespace
 
 class Word(SimpleNamespace):
-    """Represent emtsv columns as object attributes"""
-
+    """Represent word: emtsv columns as object attributes"""
     features = []
-
-    @classmethod
-    def header(cls):
-        """Return tsv format column headers"""
-        return '\t'.join(cls.features)
-
     def __init__(self, args):
         """Construct word object from list of emtsv feature values"""
         if len(args) != len(self.features):
             raise RuntimeError(f"{len(self.features)} features expected, "
                                + f"{len(args)} provided")
-
         super().__init__(**dict(zip(self.features, args)))
-
-    def __str__(self):
-        """Return tsv format representation of word object."""
-        return '\t'.join(self.__dict__.values())
 # =====
 
 import json
@@ -205,7 +194,7 @@ class EmPreverb:
             # because left[2] can change if it is a preverb!
             processed.append(central)
 
-        return [str(word).split('\t') for word in processed]
+        return [list(word.__dict__.values()) for word in processed]
 
     def prepare_fields(self, field_names):
         """
@@ -218,6 +207,7 @@ class EmPreverb:
         # azaz 'form': 0 és 0: 'form' is van benne. XXX
         # Ez nagyon fura, és zavaró! Miért kell így? XXX
         # Valszeg, hogy oda-vissza tudjunk vele konvertálni. XXX
+        # -> Igen, és ezt nagyon le kell írni az emdummy-ban! XXX
         column_count = len(field_names) // 2
         fields = [field_names[i] for i in range(column_count)]
 
