@@ -74,7 +74,7 @@ class EmPreverb:
         self.window_size = 2 * ENV + 1
         self.center = ENV # index of central element in window
 
-    def process_sentence(self, sen, field_names):
+    def process_sentence(self, sen, _):
         """
         Required by xtsv.
         Process one sentence per function call.
@@ -209,13 +209,13 @@ class EmPreverb:
         # -> Igen, és ezt nagyon le kell írni az emdummy-ban! XXX
 
         field_names = {k: v for k, v in field_names.items() if isinstance(k, str)}
+        # target fields are also present!
 
-        # XXX hú, ebben már a target field-ek is bennevannak mégiscsak?!
-        # XXX és ha az input field-ek között szerepel target field, akkor összezavarodik!
+        # XXX ha az input field-ek között szerepel target field, akkor összezavarodik!
         # -> ez nem általános probléma? ha igen: csináljak xtsv issút belőle!
 
         # set Word.features for the whole script
-        # XXX what is the general solution for this?
+        # XXX best practice for this?
         Word.features = field_names.keys()
 
         fakeword = Word([''] * len(Word.features))
@@ -223,7 +223,8 @@ class EmPreverb:
 
         self.compound_exists = 'compound' in Word.features
 
-        return field_names
+        # nothing to return -- all are noted in Word
+        return None
 
     def add_preverb(self, verb, preverb=None):
         """Update *verb* with info from *preverb*."""

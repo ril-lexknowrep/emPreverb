@@ -37,19 +37,20 @@
 
 #### https://raw.githubusercontent.com/vadno/emzero/master/emzero/emzero.py
 
-    # XXX only the '"form" -> 0' direction
+    # all fields in the '"form" -> 0' direction
     def prepare_fields(self, field_names):
         return {k: v for k, v in field_names.items() if isinstance(k, str)}, field_names['id']
 
 #### https://raw.githubusercontent.com/nytud/emIOBUtils/master/emIOBUtils/emIOBUtils.py
 
-    # XXX hack to handle any input fields
+    # hack to handle any input fields
     def prepare_fields(self, field_names):
         return [field_names[next(iter(self.source_fields))]]
 
 ==========
 
-# TODO maybe its not a good idea to hard-wire here the name of the features
+# XXX maybe it is not a good idea to hardcode here the name of the features -- INDEED!
+# a solution: take all input fields
 
 #### https://raw.githubusercontent.com/nytud/emmorphpy/master/emmorphpy/emmorphpy.py
 #### https://raw.githubusercontent.com/nytud/hunspellpy/master/hunspellpy/hunspellpy.py
