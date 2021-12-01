@@ -6,33 +6,13 @@ An emtsv module to connect preverbs to the verb or verb-derivative
 token to which they belong.
 """
 
-# =====
-# betettem inkább ide a word.py tartalmát,
-# (mert nemtom, hogy a setup.py -vel hogy kéne a főfő modul mellett
-#  egy másikat is -- a word.py-t -- installálni)
-# úgyis az a cél, hogy ezt az egész Word dolgot kiszórjam! :) XXX
-#
-# bár Noémi is pont effélét csinál itt:
-# https://github.com/vadno/emzero/blob/master/emzero/emzero.py#L124
-# token = {k: tok[v] for k, v in field_names.items()}
-
-from types import SimpleNamespace
-
-class Word(SimpleNamespace):
-    """Represent word: emtsv columns as object attributes"""
-    features = []
-    def __init__(self, args):
-        """Construct word object from list of emtsv feature values"""
-        if len(args) != len(self.features):
-            raise RuntimeError(f"{len(self.features)} features expected, "
-                               + f"{len(args)} provided")
-        super().__init__(**dict(zip(self.features, args)))
-# =====
-
 import json
 
 from itertools import chain
 from more_itertools import split_at, windowed
+
+from types import SimpleNamespace
+
 
 ENV = 3 # search for [/Prev] in a -env..env environment of the [/V]
 
@@ -53,6 +33,22 @@ ADVERBIAL_PARTICIPLE_MORPHEME = '[_AdvPtcp/Adv]'
 FUTURE_PARTICIPLE_MORPHEME = '[_FutPtcp/Adj]'
 GERUND_MORPHEME = '[_Ger/N]'
 CONTRAST_PARTICLES = ['ám', 'viszont', 'azonban'] # [/Cnj]
+
+
+class Word(SimpleNamespace):
+    """
+    Convenience class to access predefined word features as attributes.
+    Set Word.features = ... before using this class!
+    """
+    features = []
+    def __init__(self, vals):
+        if len(vals) != len(self.features):
+            raise RuntimeError(
+                f"{len(self.features)} values expected, {len(vals)} provided")
+        super().__init__(**dict(zip(self.features, vals)))
+
+    def as_list(self): # XXX best practice? can I define list(...) for this class?
+        return self.__dict__.values()
 
 
 class EmPreverb:
@@ -85,7 +81,10 @@ class EmPreverb:
         :return: sen object augmented with output field values for each token
         """
 
-        word_objects = [Word(tok + ['', '']) for tok in sen]
+        word_objects = (Word(
+            tok + [''] * len(self.target_fields) # add empty target fields
+        ) for tok in sen)
+        # we assume that target_fields are NOT among input fields!
 
         padded_sentence = chain(self.padding, word_objects, self.padding) # !
 
@@ -194,7 +193,7 @@ class EmPreverb:
             # because left[2] can change if it is a preverb!
             processed.append(central)
 
-        return [list(word.__dict__.values()) for word in processed]
+        return [word.as_list() for word in processed]
 
     def prepare_fields(self, field_names):
         """
@@ -208,16 +207,22 @@ class EmPreverb:
         # Ez nagyon fura, és zavaró! Miért kell így? XXX
         # Valszeg, hogy oda-vissza tudjunk vele konvertálni. XXX
         # -> Igen, és ezt nagyon le kell írni az emdummy-ban! XXX
-        column_count = len(field_names) // 2
-        fields = [field_names[i] for i in range(column_count)]
 
-        Word.features = fields
+        field_names = {k: v for k, v in field_names.items() if isinstance(k, str)}
+
+        # XXX hú, ebben már a target field-ek is bennevannak mégiscsak?!
+        # XXX és ha az input field-ek között szerepel target field, akkor összezavarodik!
+        # -> ez nem általános probléma? ha igen: csináljak xtsv issút belőle!
+
+        # set Word.features for the whole script
+        # XXX what is the general solution for this?
+        Word.features = field_names.keys()
+
         fakeword = Word([''] * len(Word.features))
         self.padding = [fakeword] * ENV
 
-        self.compound_exists = 'compound' in fields
+        self.compound_exists = 'compound' in Word.features
 
-        #return fields -- nem is használta fel semmire a process_sentence()-ben! :)
         return field_names
 
     def add_preverb(self, verb, preverb=None):
