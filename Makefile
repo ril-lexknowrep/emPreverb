@@ -144,3 +144,28 @@ __release:
 	@git push
 	@git push --tags
 .PHONY: __release
+
+# ===== emPreverb-specific part
+
+MODULE=emPreverb
+
+FILE=11341_prev
+INFILE=tests/inputs/$(FILE)
+OUTFILE=tests/outputs/$(FILE)
+
+.PHONY: connect_preverbs connect_preverbs_withcompound evaluate
+
+# something like `make test`
+connect_preverbs:
+	cat $(INFILE).in | python3 $(MODULE) > $(OUTFILE).out
+
+# compound field is usually added by `compound` module
+# and this module alters its value;
+# here, for testing,
+# a dummy compound field is added containing "?" value
+connect_preverbs_withcompound:
+	cat $(INFILE)_withcompound.in | python3 $(MODULE) > $(OUTFILE)_withcompound.out
+
+evaluate:
+	cd eval_anon && $(SHELL) evaluate.sh
+
