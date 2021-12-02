@@ -31,7 +31,7 @@ def main():
         'connect preverbs',  # friendly name used in REST form
         (),  # args
         {
-            'source_fields': {'anas', 'xpostag', 'lemma'},
+            'source_fields': {'form', 'anas', 'lemma', 'xpostag'},
             'target_fields': ['separated', 'previd']
         }  # kwargs
     )

@@ -5,6 +5,7 @@ token to which it belong. To be used for Hungarian.
 
 ## Testing by hand
 
+`pip install -r requirements.txt`
 `make connect_preverbs`: if `compound` is present\
 `make connect_preverbs_withcompound`: if `compound` field is _not_ present
 
