@@ -7,10 +7,12 @@ token to which they belong.
 """
 
 import json
-from word import Word
 
 from itertools import chain
 from more_itertools import split_at, windowed
+
+from types import SimpleNamespace
+
 
 ENV = 3 # search for [/Prev] in a -env..env environment of the [/V]
 
@@ -33,7 +35,23 @@ GERUND_MORPHEME = '[_Ger/N]'
 CONTRAST_PARTICLES = ['ám', 'viszont', 'azonban'] # [/Cnj]
 
 
-class Preverb:
+class Word(SimpleNamespace):
+    """
+    Convenience class to access predefined word features as attributes.
+    Set Word.features = ... before using this class!
+    """
+    features = []
+    def __init__(self, vals):
+        if len(vals) != len(self.features):
+            raise RuntimeError(
+                f"{len(self.features)} values expected, {len(vals)} provided")
+        super().__init__(**dict(zip(self.features, vals)))
+
+    def as_list(self): # XXX best practice? can I define list(...) for this class?
+        return self.__dict__.values()
+
+
+class EmPreverb:
     '''Required by xtsv.'''
 
     def __init__(self, *_, source_fields=None, target_fields=None):
@@ -41,12 +59,17 @@ class Preverb:
         Required by xtsv.
         Initialise the module.
         """
-        # Tudom, hogy ezeket elvileg a source_fields és a target_fields
-        # adná át, de nem látom be, hogy miért kellene fájlok között ugrálnom,
-        # hogy megtudjam, mik a használt mezők, ezért csak azért is így
-        # inicializálom őket.
-        self.source_fields = {'anas', 'xpostag', 'lemma'}
-        self.target_fields = ['separated', 'previd']
+
+        # Field names for xtsv (the code below is mandatory for an xtsv module)
+        if source_fields is None:
+            source_fields = set()
+
+        if target_fields is None:
+            target_fields = []
+
+        self.source_fields = source_fields
+        self.target_fields = target_fields
+
         self.prev_id = 0
         self.window_size = 2 * ENV + 1
         self.center = ENV # index of central element in window
@@ -58,7 +81,10 @@ class Preverb:
         :return: sen object augmented with output field values for each token
         """
 
-        word_objects = [Word(tok + ['', '']) for tok in sen]
+        word_objects = (Word(
+            tok + [''] * len(self.target_fields) # add empty target fields
+        ) for tok in sen)
+        # we assume that target_fields are NOT among input fields!
 
         padded_sentence = chain(self.padding, word_objects, self.padding) # !
 
@@ -167,7 +193,7 @@ class Preverb:
             # because left[2] can change if it is a preverb!
             processed.append(central)
 
-        return [str(word).split('\t') for word in processed]
+        return [word.as_list() for word in processed]
 
     def prepare_fields(self, field_names):
         """
@@ -176,15 +202,29 @@ class Preverb:
         :return: the list of the initialised feature classes as required for
                 process_sentence
         """
-        column_count = len(field_names) // 2
-        fields = [field_names[i] for i in range(column_count)]
+        # Ciki ez, hogy oda-vissza megvan benne a hozzárendelés,
+        # azaz 'form': 0 és 0: 'form' is van benne. XXX
+        # Ez nagyon fura, és zavaró! Miért kell így? XXX
+        # Valszeg, hogy oda-vissza tudjunk vele konvertálni. XXX
+        # -> Igen, és ezt nagyon le kell írni az emdummy-ban! XXX
 
-        Word.features = fields
+        field_names = {k: v for k, v in field_names.items() if isinstance(k, str)}
+        # target fields are also present!
+
+        # XXX ha az input field-ek között szerepel target field, akkor összezavarodik!
+        # -> ez nem általános probléma? ha igen: csináljak xtsv issút belőle!
+
+        # set Word.features for the whole script
+        # XXX best practice for this?
+        Word.features = field_names.keys()
+
         fakeword = Word([''] * len(Word.features))
         self.padding = [fakeword] * ENV
 
-        self.compound_exists = 'compound' in fields
-        return fields
+        self.compound_exists = 'compound' in Word.features
+
+        # nothing to return -- all are noted in Word
+        return None
 
     def add_preverb(self, verb, preverb=None):
         """Update *verb* with info from *preverb*."""

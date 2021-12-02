@@ -1,0 +1,6 @@
+# Packaging
+setuptools
+twine
+wheel
+
+more-itertools

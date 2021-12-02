@@ -9,7 +9,7 @@ def main():
     '''Main'''
 
     argparser = parser_skeleton(
-        description='preverb - connect preverb tokens to the verb or ' +
+        description='EmPreverb - connect preverb tokens to the verb or ' +
                     'verb-derivative token from which they were separated')
     opts = argparser.parse_args()
 
@@ -25,9 +25,9 @@ def main():
     used_tools = ['preverb']
     presets = []
 
-    preverb = (
-        'preverb',  # module name
-        'Preverb',  # class
+    em_preverb = (
+        'emPreverb',  # module name
+        'EmPreverb',  # class
         'connect preverbs',  # friendly name used in REST form
         (),  # args
         {
@@ -36,7 +36,7 @@ def main():
         }  # kwargs
     )
     tools = [
-        (preverb,  # config
+        (em_preverb,  # config
             ('preverb', 'emPreverb')  # aliases
         )
     ]
