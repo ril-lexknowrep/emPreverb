@@ -32,7 +32,7 @@ def main():
         (),  # args
         {
             'source_fields': {'form', 'anas', 'lemma', 'xpostag'},
-            'target_fields': ['prev', 'previd']
+            'target_fields': ['prev', 'previd', 'prevpos']
         }  # kwargs
     )
     tools = [

@@ -106,14 +106,14 @@ class EmPreverb:
                 and left[2].xpostag.startswith((ADVERB_POSTAG, ADVERBIAL_PRONOUN_POSTAG, VERB_POSTAG))
                 and left[3].xpostag == PREVERB_POSTAG
                 ):
-                self.add_preverb(central, left[3])
+                self.add_preverb(central, -3, left[3])
 
             elif (central.xpostag.startswith(VERB_POSTAG)
                 and right[1].xpostag.startswith((ADVERB_POSTAG, ADVERBIAL_PRONOUN_POSTAG))
                 and right[2].xpostag.startswith((ADVERB_POSTAG, ADVERBIAL_PRONOUN_POSTAG))
                 and right[3].xpostag == PREVERB_POSTAG
                 ):
-                self.add_preverb(central, right[3])
+                self.add_preverb(central, 3, right[3])
 
             elif (
                 (central.xpostag.startswith(VERB_POSTAG)
@@ -135,17 +135,17 @@ class EmPreverb:
                 # Case 1: already contains a preverb
                 if (PREVERB_POSTAG in central.anas and
                     contains_preverb(central)):
-                        self.add_preverb(central)
+                        self.add_preverb(central, 0)
 
                 # Case 2: "szét" [msd="IGE.*|HA.*"] [msd="IGE.*" & word != "volna"]
                 # szét kell szerelni, szét se szereli
                 elif (left[2].xpostag == PREVERB_POSTAG and
                       left[1].xpostag.startswith((ADVERB_POSTAG, ADVERBIAL_PRONOUN_POSTAG, VERB_POSTAG))):
-                    self.add_preverb(central, left[2])
+                    self.add_preverb(central, -2, left[2])
 
                 # Case 3: [msd="IGE.*" & word != "volna] "szét"
                 elif right[1].xpostag == PREVERB_POSTAG:
-                    self.add_preverb(central, right[1])
+                    self.add_preverb(central, 1, right[1])
 
                 # Case 4: [msd="IGE.*" & word != "volna] [msd="HA.*" | word="volna"] "szét"
                 # rágja is szét, rágta volna szét, tépi hirtelen szét
@@ -157,7 +157,7 @@ class EmPreverb:
                          or right[1].xpostag.startswith((NOUN_POSTAG, DET_PRO_POSTAG, N_PRO_POSTAG))
                          )
                       ):
-                    self.add_preverb(central, right[2])
+                    self.add_preverb(central, 2, right[2])
 
                 elif (left[1].xpostag == PREVERB_POSTAG
                       and not left[3].xpostag.startswith(VERB_POSTAG)
@@ -170,7 +170,7 @@ class EmPreverb:
                       and not right[3].xpostag.startswith(VERB_POSTAG)
                       and not ADVERBIAL_PARTICIPLE_MORPHEME in right[3].anas
                       ):
-                    self.add_preverb(central, left[1])
+                    self.add_preverb(central, -1, left[1])
 
                 # Doesn't have a preverb
                 else:
@@ -187,7 +187,7 @@ class EmPreverb:
                 and left[2].xpostag == PREVERB_POSTAG
                 and left[1].form in ('nem', 'sem', 'se', 'is')):
                     # Kalivoda (2021: 69-73)
-                    self.add_preverb(central, left[2])
+                    self.add_preverb(central, -2, left[2])
 
             # should be collected before printing
             # because left[2] can change if it is a preverb!
@@ -220,7 +220,7 @@ class EmPreverb:
         # nothing to return -- all are noted in Word
         return None
 
-    def add_preverb(self, verb, preverb=None):
+    def add_preverb(self, verb, prevpos, preverb=None):
         """Update *verb* with info from *preverb*."""
         verb.xpostag = PREVERB_POSTAG + verb.xpostag
         if preverb is not None:
@@ -252,6 +252,7 @@ class EmPreverb:
                 preverb.compound = preverb.lemma
             preverb.prev = 'conn'
             preverb.previd = previd
+            verb.prevpos = "{:+0}".format(prevpos)
         else:
             verb.prev = 'pfx'
 
