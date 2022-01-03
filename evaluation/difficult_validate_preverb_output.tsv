@@ -1,4 +1,4 @@
-form	wsafter	testid	anas	lemma	xpostag	separated	previd
+form	wsafter	testid	anas	lemma	xpostag	prev	previd
 Be	" "	p1	[{"lemma": "Be", "tag": "[/N][Nom]", "morphana": "Be[/N|Abbr|ChemSym]=Be+[Nom]=", "readable": "Be[/N|Abbr|ChemSym] + [Nom]", "twolevel": "B:B e:e :[/N|Abbr|ChemSym] :[Nom]"}, {"lemma": "be", "tag": "[/Prev]", "morphana": "be[/Prev]=be", "readable": "be[/Prev]", "twolevel": "b:b e:e :[/Prev]"}]		[/Prev]	conn	1
 fog	" "	.	[{"lemma": "fog", "tag": "[/N][Nom]", "morphana": "fog[/N]=fog+[Nom]=", "readable": "fog[/N] + [Nom]", "twolevel": "f:f o:o g:g :[/N] :[Nom]"}, {"lemma": "fog", "tag": "[/V][Prs.NDef.3Sg]", "morphana": "fog[/V]=fog+[Prs.NDef.3Sg]=", "readable": "fog[/V] + [Prs.NDef.3Sg]", "twolevel": "f:f o:o g:g :[/V] :[Prs.NDef.3Sg]"}]	fog	[/V][Prs.NDef.3Sg]		
 következni	" "	v1	[{"lemma": "következik", "tag": "[/V][Inf]", "morphana": "következik[/V]=következ+ni[Inf]=ni", "readable": "következik[/V]=következ + ni[Inf]", "twolevel": "k:k ö:ö v:v e:e t:t k:k e:e z:z :i :k :[/V] n:n i:i :[Inf]"}]	bekövetkezik	[/Prev][/V][Inf]	sep	1

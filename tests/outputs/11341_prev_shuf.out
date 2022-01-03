@@ -1,4 +1,4 @@
-form	wsafter	lemma	xpostag	anas	separated	previd
+form	wsafter	lemma	xpostag	anas	prev	previd
 GÁRDONYI	" "	gárdonyi	[/Adj][Nom]	[{"lemma": "Gárdonyi", "tag": "[/N][Nom]", "morphana": "Gárdonyi[/N]=Gárdonyi+[Nom]=", "readable": "Gárdonyi[/N] + [Nom]", "twolevel": "G:G á:á r:r d:d o:o n:n y:y i:i :[/N] :[Nom]"}, {"lemma": "gárdonyi", "tag": "[/Adj][Nom]", "morphana": "Gárdony[/N]=gárdony+i[_Adjz:i/Adj]=i+[Nom]=", "readable": "Gárdony[/N]=gárdony + i[_Adjz:i/Adj] + [Nom]", "twolevel": "g:G á:á r:r d:d o:o n:n y:y :[/N] i:i :[_Adjz:i/Adj] :[Nom]"}]		
 GÉZA	" "	Géza	[/N][Nom]	[{"lemma": "Géza", "tag": "[/N][Nom]", "morphana": "Géza[/N]=Géza+[Nom]=", "readable": "Géza[/N] + [Nom]", "twolevel": "G:G é:é z:z a:a :[/N] :[Nom]"}]		
 MUNKÁI	"\n\n"	munka	[/N][Pl.Poss.3Sg][Nom]	[{"lemma": "munka", "tag": "[/N][Pl.Poss.3Sg][Nom]", "morphana": "munka[/N]=munká+i[Pl.Poss.3Sg]=i+[Nom]=", "readable": "munka[/N]=munká + i[Pl.Poss.3Sg] + [Nom]", "twolevel": "m:m u:u n:n k:k á:a :[/N] i:i :[Pl.Poss.3Sg] :[Nom]"}]		

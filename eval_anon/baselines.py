@@ -11,7 +11,7 @@ from more_itertools import split_at, windowed
 EMPTYWORD = ''
 
 CNT_FIELDS = 10
-FORM, WSAFTER, TESTID, ANAS, LEMMA, XPOSTAG, SEPARATED, PREVID, PREVMAX2, PREVNEAREST = list(range(CNT_FIELDS))
+FORM, WSAFTER, TESTID, ANAS, LEMMA, XPOSTAG, PREV, PREVID, PREVMAX2, PREVNEAREST = list(range(CNT_FIELDS))
 
 
 def stream_to_words(stream):
@@ -59,7 +59,7 @@ def main():
 
             central = window[center]
 
-            if central[SEPARATED] == 'pfx':
+            if central[PREV] == 'pfx':
                 continue
 
             if VERB_POSTAG in central[XPOSTAG]:
@@ -81,7 +81,7 @@ def main():
                 while j >= 0:
                     other_token = sentence[j]
                     if (VERB_POSTAG in other_token[XPOSTAG] and
-                        other_token[SEPARATED] != 'pfx'):
+                        other_token[PREV] != 'pfx'):
                             left_closest = j
                             break
                     j -= 1
@@ -90,7 +90,7 @@ def main():
                 while j < len(sentence):
                     other_token = sentence[j]
                     if (VERB_POSTAG in other_token[XPOSTAG] and
-                        other_token[SEPARATED] != 'pfx'):
+                        other_token[PREV] != 'pfx'):
                             right_closest = j
                             break
                     j += 1

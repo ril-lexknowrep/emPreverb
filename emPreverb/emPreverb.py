@@ -202,12 +202,6 @@ class EmPreverb:
         :return: the list of the initialised feature classes as required for
                 process_sentence
         """
-        # Ciki ez, hogy oda-vissza megvan benne a hozzárendelés,
-        # azaz 'form': 0 és 0: 'form' is van benne. XXX
-        # Ez nagyon fura, és zavaró! Miért kell így? XXX
-        # Valszeg, hogy oda-vissza tudjunk vele konvertálni. XXX
-        # -> Igen, és ezt nagyon le kell írni az emdummy-ban! XXX
-
         field_names = {k: v for k, v in field_names.items() if isinstance(k, str)}
         # target fields are also present!
 
@@ -239,7 +233,7 @@ class EmPreverb:
             verb.lemma = preverb.lemma + vlemma
             if self.compound_exists:
                 verb.compound = preverb.lemma + '#' + vlemma
-            verb.separated = 'sep'
+            verb.prev = 'sep'
             verb.previd = previd
 
             # handle preverb
@@ -256,10 +250,10 @@ class EmPreverb:
 
             if self.compound_exists:
                 preverb.compound = preverb.lemma
-            preverb.separated = 'conn'
+            preverb.prev = 'conn'
             preverb.previd = previd
         else:
-            verb.separated = 'pfx'
+            verb.prev = 'pfx'
 
 
 def contains_preverb(verb):
