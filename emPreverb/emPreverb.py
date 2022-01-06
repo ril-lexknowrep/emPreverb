@@ -14,7 +14,7 @@ from more_itertools import split_at, windowed
 from types import SimpleNamespace
 
 
-ENV = 3 # search for [/Prev] in a -env..env environment of the [/V]
+ENV = 4 # search for [/Prev] in a -env..env environment of the [/V]
 
 VERB_POSTAG = '[/V]'
 PREVERB_POSTAG = '[/Prev]'
@@ -22,16 +22,18 @@ ADVERB_POSTAG = '[/Adv]'
 ADVERBIAL_PRONOUN_POSTAG = '[/Adv|Pro]'
 ADJECTIVE_POSTAG = '[/Adj]'
 INFINITIVE_POSTAG = '[/V][Inf'  # nem hiányzik a végéről semmi!
+ARTICLE_POSTAG = '[/Det|Art'
 NOUN_POSTAG = '[/N]'
 QUESTION_PARTICLE_POSTAG = '[/QPtcl]'
 DET_PRO_POSTAG = '[/Det|Pro]'
-N_PRO_POSTAG = '[/N|Pro]'
+N_PRO_POSTAG = '[/N|Pro'
 MODAL_PARTICIPLE_MORPHEME = '[_ModPtcp/Adj]'
 PERFECT_PARTICIPLE_MORPHEME = '[_PerfPtcp/Adj]'
 IMPERFECT_PARTICIPLE_MORPHEME = '[_ImpfPtcp/Adj]'
 ADVERBIAL_PARTICIPLE_MORPHEME = '[_AdvPtcp/Adv]'
 FUTURE_PARTICIPLE_MORPHEME = '[_FutPtcp/Adj]'
 GERUND_MORPHEME = '[_Ger/N]'
+MANNER_MORPHEME = '[_Manner/Adv]'
 CONTRAST_PARTICLES = ['ám', 'viszont', 'azonban'] # [/Cnj]
 
 
@@ -98,34 +100,81 @@ class EmPreverb:
             right = window[self.center:]                    # ..cde
 
             if (central.xpostag.startswith(VERB_POSTAG)
+                and is_eligible_preverb(left[4], 4)
+                and left[3].lemma == "kell"
+                and left[2].form == ","
+                and left[1].form == "hogy"
+                and not contains_preverb(central)
+                ):
+                self.add_preverb(central, -4, left[4])
+
+            elif (central.xpostag.startswith(VERB_POSTAG)
+                and is_eligible_preverb(left[3], 3)
+                and left[2].lemma == "kell"
+                and left[1].form == "hogy"
+                and not contains_preverb(central)
+                ):
+                self.add_preverb(central, -3, left[3])
+
+            elif (
+                ((central.xpostag.startswith(ADJECTIVE_POSTAG)
+                    and MANNER_MORPHEME not in central.xpostag
+                    and (PERFECT_PARTICIPLE_MORPHEME in central.anas
+                         or IMPERFECT_PARTICIPLE_MORPHEME in central.anas
+                         or FUTURE_PARTICIPLE_MORPHEME in central.anas))
+                or
+                (central.xpostag.startswith((NOUN_POSTAG,ADJECTIVE_POSTAG))
+                    and GERUND_MORPHEME in central.anas))
+                and is_eligible_preverb(left[2], 2)
+                and left[1].form in ('nem', 'sem', 'se', 'is')):
+                    # Kalivoda (2021: 69-73)
+                self.add_preverb(central, -2, left[2])
+
+            elif (central.xpostag.startswith(VERB_POSTAG)
                 and (ADVERBIAL_PARTICIPLE_MORPHEME in central.anas
                     or central.xpostag.startswith(INFINITIVE_POSTAG))
-                and (left[1].xpostag.startswith((ADVERB_POSTAG, ADVERBIAL_PRONOUN_POSTAG, VERB_POSTAG))
+                and (left[1].xpostag.startswith((ADVERB_POSTAG,
+                                ADVERBIAL_PRONOUN_POSTAG, VERB_POSTAG))
                      or left[1].form in CONTRAST_PARTICLES
-                     or left[1].xpostag.startswith((DET_PRO_POSTAG, N_PRO_POSTAG)))
-                and left[2].xpostag.startswith((ADVERB_POSTAG, ADVERBIAL_PRONOUN_POSTAG, VERB_POSTAG))
-                and left[3].xpostag == PREVERB_POSTAG
+                     or left[1].xpostag.startswith((DET_PRO_POSTAG,
+                                N_PRO_POSTAG, QUESTION_PARTICLE_POSTAG,
+                                ARTICLE_POSTAG)))
+                and left[2].xpostag.startswith((ADVERB_POSTAG,
+                                ADVERBIAL_PRONOUN_POSTAG, VERB_POSTAG,
+                                ARTICLE_POSTAG))
+                and is_eligible_preverb(left[3], 3)
+                and not contains_preverb(central)
                 ):
                 self.add_preverb(central, -3, left[3])
 
             elif (central.xpostag.startswith(VERB_POSTAG)
-                and right[1].xpostag.startswith((ADVERB_POSTAG, ADVERBIAL_PRONOUN_POSTAG))
-                and right[2].xpostag.startswith((ADVERB_POSTAG, ADVERBIAL_PRONOUN_POSTAG))
-                and right[3].xpostag == PREVERB_POSTAG
+                and (ADVERBIAL_PARTICIPLE_MORPHEME in central.anas
+                    or central.xpostag.startswith(INFINITIVE_POSTAG))
+                and (left[1].xpostag.startswith((ADVERB_POSTAG,
+                                ADVERBIAL_PRONOUN_POSTAG, VERB_POSTAG)))
+                and not right[1].xpostag.startswith(INFINITIVE_POSTAG)
+                and is_eligible_preverb(left[2], 2)
+                and not contains_preverb(central)
                 ):
-                self.add_preverb(central, 3, right[3])
+                self.add_preverb(central, -2, left[2])
 
             elif (
                 (central.xpostag.startswith(VERB_POSTAG)
                     and VERB_POSTAG in central.anas  # is it a verb according to anas?
                     and central.form != "volna"
+                    and central.lemma != "kell"
                     and not (right[1].xpostag.startswith(INFINITIVE_POSTAG)
-                             or ADVERBIAL_PARTICIPLE_MORPHEME in right[1].xpostag
-                             or right[2].xpostag.startswith(INFINITIVE_POSTAG)
-                             or ADVERBIAL_PARTICIPLE_MORPHEME in right[2].xpostag))
+                             and not contains_preverb(right[1])
+                             or right[2].xpostag.startswith(INFINITIVE_POSTAG)))
+                    and not (central.lemma in ("van", "lesz")
+                             and (ADVERBIAL_PARTICIPLE_MORPHEME in right[1].xpostag
+                                  or ADVERBIAL_PARTICIPLE_MORPHEME in right[2].xpostag)
+                             )
                 or
                 (central.xpostag.startswith(ADJECTIVE_POSTAG)
-                    and MODAL_PARTICIPLE_MORPHEME in central.anas)
+                    and MODAL_PARTICIPLE_MORPHEME in central.anas
+                    and MANNER_MORPHEME not in central.xpostag
+                    and PREVERB_POSTAG not in central.anas)
                 or
                 (central.xpostag == ADVERB_POSTAG
                     and (ADVERBIAL_PARTICIPLE_MORPHEME in central.anas   # Kalivoda (2021: 64-6)
@@ -139,27 +188,30 @@ class EmPreverb:
 
                 # Case 2: "szét" [msd="IGE.*|HA.*"] [msd="IGE.*" & word != "volna"]
                 # szét kell szerelni, szét se szereli
-                elif (left[2].xpostag == PREVERB_POSTAG and
-                      left[1].xpostag.startswith((ADVERB_POSTAG, ADVERBIAL_PRONOUN_POSTAG, VERB_POSTAG))):
+                elif (is_eligible_preverb(left[2], 2) and
+                      left[1].xpostag.startswith((ADVERB_POSTAG,
+                                    ADVERBIAL_PRONOUN_POSTAG, VERB_POSTAG))):
                     self.add_preverb(central, -2, left[2])
 
                 # Case 3: [msd="IGE.*" & word != "volna] "szét"
-                elif right[1].xpostag == PREVERB_POSTAG:
+                elif is_eligible_preverb(right[1]):
                     self.add_preverb(central, 1, right[1])
 
                 # Case 4: [msd="IGE.*" & word != "volna] [msd="HA.*" | word="volna"] "szét"
                 # rágja is szét, rágta volna szét, tépi hirtelen szét
-                elif (right[2].xpostag == PREVERB_POSTAG and
-                        (right[1].xpostag.startswith((ADVERB_POSTAG, ADVERBIAL_PRONOUN_POSTAG))
+                elif (is_eligible_preverb(right[2]) and
+                        (right[1].xpostag.startswith((ADVERB_POSTAG,
+                                            ADVERBIAL_PRONOUN_POSTAG))
                          or right[1].xpostag == QUESTION_PARTICLE_POSTAG
                          or right[1].form == 'volna'
                          or right[1].form in CONTRAST_PARTICLES
-                         or right[1].xpostag.startswith((NOUN_POSTAG, DET_PRO_POSTAG, N_PRO_POSTAG))
+                         or right[1].xpostag.startswith((NOUN_POSTAG,
+                                            DET_PRO_POSTAG, N_PRO_POSTAG))
                          )
                       ):
                     self.add_preverb(central, 2, right[2])
 
-                elif (left[1].xpostag == PREVERB_POSTAG
+                elif (is_eligible_preverb(left[1])
                       and not left[3].xpostag.startswith(VERB_POSTAG)
                       and not left[2].xpostag.startswith(VERB_POSTAG)
                       and (right[1].form == 'volna' or
@@ -172,26 +224,53 @@ class EmPreverb:
                       ):
                     self.add_preverb(central, -1, left[1])
 
+                elif (is_eligible_preverb(right[3])
+                    and right[1].xpostag.startswith((ADVERB_POSTAG,
+                                    ADVERBIAL_PRONOUN_POSTAG,
+                                    N_PRO_POSTAG, NOUN_POSTAG, DET_PRO_POSTAG,
+                                    ARTICLE_POSTAG))
+                    and right[2].xpostag.startswith((ADVERB_POSTAG,
+                                    ADVERBIAL_PRONOUN_POSTAG,
+                                    N_PRO_POSTAG, NOUN_POSTAG, DET_PRO_POSTAG))
+                    ):
+                    self.add_preverb(central, 3, right[3])
+
                 # Doesn't have a preverb
                 else:
                     pass
 
-            elif (
-                ((central.xpostag.startswith(ADJECTIVE_POSTAG)
-                    and (PERFECT_PARTICIPLE_MORPHEME in central.anas
-                         or IMPERFECT_PARTICIPLE_MORPHEME in central.anas
-                         or FUTURE_PARTICIPLE_MORPHEME in central.anas))
-                or
-                (central.xpostag.startswith((NOUN_POSTAG,ADJECTIVE_POSTAG))
-                    and GERUND_MORPHEME in central.anas))
-                and left[2].xpostag == PREVERB_POSTAG
-                and left[1].form in ('nem', 'sem', 'se', 'is')):
-                    # Kalivoda (2021: 69-73)
-                    self.add_preverb(central, -2, left[2])
-
-            # should be collected before printing
-            # because left[2] can change if it is a preverb!
+            # needs to be collected and postprocessed before printing
             processed.append(central)
+
+        # Clean up processed:
+        # Remove "sep" annotation from verbs that are "orphaned" because
+        # a better main verb candidate was found for the preverb later in
+        # the sentence.
+        # Set verb and preverb lemmas.
+
+        conn_id_to_lemma = {proc_word.previd: proc_word.lemma
+                            for proc_word in processed
+                            if proc_word.prev == "conn"}
+
+        for proc_word in processed:
+            if proc_word.prev == "conn": # word is a preverb
+                proc_word.lemma = ""
+                proc_word.prevpos = ""
+            elif proc_word.prev == "sep": # word is verb
+                if proc_word.previd in conn_id_to_lemma:
+                    # verb is not orphaned
+                    vlemma = proc_word.lemma.lower()
+                    proc_word.lemma = conn_id_to_lemma[proc_word.previd]\
+                                      + vlemma
+                    if self.compound_exists:
+                        proc_word.compound = conn_id_to_lemma[proc_word.previd]\
+                                             + '#' + vlemma
+                else:
+                    # verb is orphaned
+                    proc_word.prev = ""
+                    proc_word.previd = ""
+                    proc_word.prevpos = ""
+
 
         return [word.as_list() for word in processed]
 
@@ -224,15 +303,14 @@ class EmPreverb:
         """Update *verb* with info from *preverb*."""
         verb.xpostag = PREVERB_POSTAG + verb.xpostag
         if preverb is not None:
-            vlemma = verb.lemma.lower()
-
             self.prev_id += 1
             previd = str(self.prev_id)
 
-            # handle verb
-            verb.lemma = preverb.lemma + vlemma
-            if self.compound_exists:
-                verb.compound = preverb.lemma + '#' + vlemma
+            # handle verb  --> moved to postprocessing
+#            vlemma = verb.lemma.lower()
+#            verb.lemma = preverb.lemma + vlemma
+#            if self.compound_exists:
+#                verb.compound = preverb.lemma + '#' + vlemma
             verb.prev = 'sep'
             verb.previd = previd
 
@@ -246,16 +324,18 @@ class EmPreverb:
 #               preverb.lemma += '[' + vlemma + ']'
 #            else:
                 # empty lemma for connected preverb
-            preverb.lemma = ''
 
-            if self.compound_exists:
-                preverb.compound = preverb.lemma
+##           moved to postprocessing:
+#            preverb.lemma = ''
+
+#            if self.compound_exists:
+#                preverb.compound = preverb.lemma       # ?
             preverb.prev = 'conn'
             preverb.previd = previd
             verb.prevpos = "{:+0}".format(prevpos)
+            preverb.prevpos = str(prevpos)
         else:
             verb.prev = 'pfx'
-
 
 def contains_preverb(verb):
     """
@@ -263,7 +343,21 @@ def contains_preverb(verb):
     the analysis selected by the pos tagger.
     """
     anas_list = json.loads(verb.anas)
+    last_good_ana = None
     for ana in anas_list:
         if ana["lemma"] == verb.lemma and ana["tag"] == verb.xpostag:
             last_good_ana = ana
-    return PREVERB_POSTAG in last_good_ana['readable']
+    if last_good_ana is None:
+        return False
+    else:
+        return PREVERB_POSTAG in last_good_ana.get('readable')
+
+def is_eligible_preverb(word, distance=0):
+    """
+    Check whether the word is annotated as preverb and whether
+    it has already been connected to a verb that is closer to it.
+    """
+    return (
+        word.xpostag == PREVERB_POSTAG
+        and (word.prev != "conn" or int(word.prevpos) >= distance)
+    )
