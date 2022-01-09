@@ -34,6 +34,7 @@ ADVERBIAL_PARTICIPLE_MORPHEME = '[_AdvPtcp/Adv]'
 FUTURE_PARTICIPLE_MORPHEME = '[_FutPtcp/Adj]'
 GERUND_MORPHEME = '[_Ger/N]'
 MANNER_MORPHEME = '[_Manner/Adv]'
+SUPERLATIVE_MORPHEME = '[/Supl]'
 CONTRAST_PARTICLES = ['ám', 'viszont', 'azonban'] # [/Cnj]
 
 
@@ -99,12 +100,19 @@ class EmPreverb:
             central = window[self.center]                   # ..c..
             right = window[self.center:]                    # ..cde
 
-            if (central.xpostag.startswith(VERB_POSTAG)
+            if ((central.xpostag.startswith((VERB_POSTAG, ADJECTIVE_POSTAG,
+                                            SUPERLATIVE_MORPHEME)) and
+                    PREVERB_POSTAG in central.anas and
+                    contains_preverb(central))
+                or (central.xpostag.startswith(NOUN_POSTAG) and
+                    PREVERB_POSTAG in central.anas)):
+                    self.add_preverb(central, 0)
+
+            elif (central.xpostag.startswith(VERB_POSTAG)
                 and is_eligible_preverb(left[4], 4)
                 and left[3].lemma == "kell"
                 and left[2].form == ","
                 and left[1].form == "hogy"
-                and not contains_preverb(central)
                 ):
                 self.add_preverb(central, -4, left[4])
 
@@ -112,7 +120,6 @@ class EmPreverb:
                 and is_eligible_preverb(left[3], 3)
                 and left[2].lemma == "kell"
                 and left[1].form == "hogy"
-                and not contains_preverb(central)
                 ):
                 self.add_preverb(central, -3, left[3])
 
@@ -133,28 +140,26 @@ class EmPreverb:
             elif (central.xpostag.startswith(VERB_POSTAG)
                 and (ADVERBIAL_PARTICIPLE_MORPHEME in central.anas
                     or central.xpostag.startswith(INFINITIVE_POSTAG))
+                and is_eligible_preverb(left[3], 3)
+                and left[2].xpostag.startswith((ADVERB_POSTAG,
+                                ADVERBIAL_PRONOUN_POSTAG, VERB_POSTAG,
+                                ARTICLE_POSTAG))
                 and (left[1].xpostag.startswith((ADVERB_POSTAG,
                                 ADVERBIAL_PRONOUN_POSTAG, VERB_POSTAG))
                      or left[1].form in CONTRAST_PARTICLES
                      or left[1].xpostag.startswith((DET_PRO_POSTAG,
                                 N_PRO_POSTAG, QUESTION_PARTICLE_POSTAG,
                                 ARTICLE_POSTAG)))
-                and left[2].xpostag.startswith((ADVERB_POSTAG,
-                                ADVERBIAL_PRONOUN_POSTAG, VERB_POSTAG,
-                                ARTICLE_POSTAG))
-                and is_eligible_preverb(left[3], 3)
-                and not contains_preverb(central)
                 ):
                 self.add_preverb(central, -3, left[3])
 
             elif (central.xpostag.startswith(VERB_POSTAG)
                 and (ADVERBIAL_PARTICIPLE_MORPHEME in central.anas
                     or central.xpostag.startswith(INFINITIVE_POSTAG))
+                and is_eligible_preverb(left[2], 2)
                 and (left[1].xpostag.startswith((ADVERB_POSTAG,
                                 ADVERBIAL_PRONOUN_POSTAG, VERB_POSTAG)))
                 and not right[1].xpostag.startswith(INFINITIVE_POSTAG)
-                and is_eligible_preverb(left[2], 2)
-                and not contains_preverb(central)
                 ):
                 self.add_preverb(central, -2, left[2])
 
@@ -172,23 +177,18 @@ class EmPreverb:
                              )
                 or
                 (central.xpostag.startswith(ADJECTIVE_POSTAG)
-                    and MODAL_PARTICIPLE_MORPHEME in central.anas
+                    and (MODAL_PARTICIPLE_MORPHEME in central.anas
+                         or FUTURE_PARTICIPLE_MORPHEME in central.anas) # Kalivoda (2021: 68-9)
                     and MANNER_MORPHEME not in central.xpostag
                     and PREVERB_POSTAG not in central.anas)
                 or
                 (central.xpostag == ADVERB_POSTAG
-                    and (ADVERBIAL_PARTICIPLE_MORPHEME in central.anas   # Kalivoda (2021: 64-6)
-                         or FUTURE_PARTICIPLE_MORPHEME in central.anas)) # Kalivoda (2021: 68-9)
+                    and ADVERBIAL_PARTICIPLE_MORPHEME in central.anas)   # Kalivoda (2021: 64-6)
                 ):
-
-                # Case 1: already contains a preverb
-                if (PREVERB_POSTAG in central.anas and
-                    contains_preverb(central)):
-                        self.add_preverb(central, 0)
 
                 # Case 2: "szét" [msd="IGE.*|HA.*"] [msd="IGE.*" & word != "volna"]
                 # szét kell szerelni, szét se szereli
-                elif (is_eligible_preverb(left[2], 2) and
+                if (is_eligible_preverb(left[2], 2) and
                       left[1].xpostag.startswith((ADVERB_POSTAG,
                                     ADVERBIAL_PRONOUN_POSTAG, VERB_POSTAG))):
                     self.add_preverb(central, -2, left[2])
@@ -211,6 +211,17 @@ class EmPreverb:
                       ):
                     self.add_preverb(central, 2, right[2])
 
+                elif (is_eligible_preverb(right[3])
+                    and right[1].xpostag.startswith((ADVERB_POSTAG,
+                                    ADVERBIAL_PRONOUN_POSTAG,
+                                    N_PRO_POSTAG, NOUN_POSTAG, DET_PRO_POSTAG,
+                                    ARTICLE_POSTAG))
+                    and right[2].xpostag.startswith((ADVERB_POSTAG,
+                                    ADVERBIAL_PRONOUN_POSTAG,
+                                    N_PRO_POSTAG, NOUN_POSTAG, DET_PRO_POSTAG))
+                    ):
+                    self.add_preverb(central, 3, right[3])
+
                 elif (is_eligible_preverb(left[1])
                       and not left[3].xpostag.startswith(VERB_POSTAG)
                       and not left[2].xpostag.startswith(VERB_POSTAG)
@@ -223,17 +234,6 @@ class EmPreverb:
                       and not ADVERBIAL_PARTICIPLE_MORPHEME in right[3].anas
                       ):
                     self.add_preverb(central, -1, left[1])
-
-                elif (is_eligible_preverb(right[3])
-                    and right[1].xpostag.startswith((ADVERB_POSTAG,
-                                    ADVERBIAL_PRONOUN_POSTAG,
-                                    N_PRO_POSTAG, NOUN_POSTAG, DET_PRO_POSTAG,
-                                    ARTICLE_POSTAG))
-                    and right[2].xpostag.startswith((ADVERB_POSTAG,
-                                    ADVERBIAL_PRONOUN_POSTAG,
-                                    N_PRO_POSTAG, NOUN_POSTAG, DET_PRO_POSTAG))
-                    ):
-                    self.add_preverb(central, 3, right[3])
 
                 # Doesn't have a preverb
                 else:
