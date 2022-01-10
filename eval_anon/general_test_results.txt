@@ -1,9 +1,9 @@
 Results for emPreverb
-(500, 488, 1, 0, 11)
+(500, 489, 1, 0, 10)
 Precision: 0.9980
-Recall: 0.9780
-F1: 0.9879
-Accuracy: 0.9760
+Recall: 0.9800
+F1: 0.9889
+Accuracy: 0.9780
 
 Results for max2
 (500, 475, 10, 0, 15)

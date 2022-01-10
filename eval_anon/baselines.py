@@ -10,8 +10,8 @@ from more_itertools import split_at, windowed
 
 EMPTYWORD = ''
 
-CNT_FIELDS = 10
-FORM, WSAFTER, TESTID, ANAS, LEMMA, XPOSTAG, PREV, PREVID, PREVMAX2, PREVNEAREST = list(range(CNT_FIELDS))
+CNT_FIELDS = 11
+FORM, WSAFTER, TESTID, ANAS, LEMMA, XPOSTAG, PREV, PREVID, PREVPOS, PREVMAX2, PREVNEAREST = list(range(CNT_FIELDS))
 
 
 def stream_to_words(stream):

@@ -1,9 +1,9 @@
 Results for emPreverb
-(376, 338, 3, 6, 29)
-Precision: 0.9912
-Recall: 0.9210
-F1: 0.9548
-Accuracy: 0.9149
+(376, 346, 3, 6, 21)
+Precision: 0.9914
+Recall: 0.9428
+F1: 0.9665
+Accuracy: 0.9362
 
 Results for max2
 (376, 275, 23, 7, 71)
