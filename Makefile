@@ -166,6 +166,15 @@ connect_preverbs:
 connect_preverbs_withcompound:
 	cat $(INFILE)_withcompound.in | python3 $(MODULE) > $(OUTFILE)_withcompound.out
 
+# ----- evaluation on `hungarian-preverb-corpus`
+
+CORPUSREPO=hungarian-preverb-corpus
+
 evaluate:
-	cd eval_anon && $(SHELL) evaluate.sh
+	rm -rf $(CORPUSREPO)
+	git clone https://github.com/ril-lexknowrep/hungarian-preverb-corpus $(CORPUSREPO)
+	cd $(CORPUSREPO)/eval_anon && $(SHELL) evaluate.sh
+
+clean-evaluate:
+	rm -rf $(CORPUSREPO)
 

@@ -3,6 +3,8 @@
 An emtsv module to __connect a preverb to its verb__ or verb-derivative
 token to which it belong. To be used for Hungarian.
 
+See also: https://github.com/ril-lexknowrep/hungarian-preverb-corpus
+
 ## Testing by hand
 
 `pip install -r requirements.txt`
